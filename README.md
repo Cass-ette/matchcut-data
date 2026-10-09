@@ -80,7 +80,7 @@ npm run validate
 npm run export -- ../matchcut
 ```
 
-导出前会校验整套资料，只更新应用内置的队标、选手照片、地图、LoL 英雄图片与目录快照，并写入 `data/fixtures/media-catalog-version.json` 记录版本。不会写入 `data/media-library.json`、偏好、用户上传或比赛缓存。导出完成后重启 Matchcut，以重新载入进程内的目录缓存；这是本机显式同步，应用暂未后台自动下载 Release。
+导出前会校验整套资料，只更新应用内置的队标、选手照片、地图、LoL 英雄图片与目录快照，并写入 `data/fixtures/media-catalog-version.json` 记录版本。不会写入应用的 `data/matchcut.sqlite`、旧版 `data/media-library.json`、偏好、用户上传或比赛缓存。共享资料保持 JSON 与图片格式；SQLite 用于应用本机的查询索引和个人绑定，不随本仓库发布。导出完成后重启 Matchcut，以重新载入目录并更新素材查询索引；这是本机显式同步，应用暂未后台自动下载 Release。
 
 应用仓库保留一份可离线运行的内置快照；共享资料以本仓库为维护入口，导出后可在应用仓库审阅快照差异。
 
