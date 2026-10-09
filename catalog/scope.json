@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "coverageStatus": "verified-seed",
+  "coverageStatus": "verified-seed-and-event-players",
   "targets": {
     "cs2": {
       "teams": 50,
@@ -13,8 +13,11 @@
       "allTeamsIn": ["LPL", "LCK"],
       "otherWorldsRegionsTopTeams": 5,
       "includeAllWorldsParticipants": true,
-      "season": null,
-      "status": "planned"
+      "season": 2026,
+      "status": "event-players-collected",
+      "events": ["demacia-global-invitational-2026", "worlds-2026"],
+      "rosterPolicy": "event-membership-references-independent-player-ids",
+      "registrationStatus": "final-event-registration-not-verified"
     },
     "dota2": { "status": "on-demand" }
   },

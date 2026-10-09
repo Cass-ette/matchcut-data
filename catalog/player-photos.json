@@ -121,38 +121,1588 @@
   },
   {
     "game": "lol",
+    "playerId": "oe:player:0101bf828e44b2630d500590c4ad461",
+    "name": "Gury",
+    "artwork": "/assets/players/lol-player-1c180b8a4485e63ec46f87a9.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Gury",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769231815740_Gury.png",
+      "fetchedAt": "2026-10-09T12:54:06.695Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:035b9ae578574cdf728d8760483d804",
+    "name": "Effort",
+    "artwork": "/assets/players/lol-player-1e1d80cd1670ec373d825c1b.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Effort",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769085556949_image6-2026-01-22T133848.159.png",
+      "fetchedAt": "2026-10-09T12:54:04.367Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:03daae1844b9ad257324c3eedf41e28",
+    "name": "Kiin",
+    "artwork": "/assets/players/lol-player-757173df6aa24c314e696d66.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Kiin",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=1875",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260316190245/68c6df39c24015b88644061c2a37420f/0",
+      "fetchedAt": "2026-10-09T12:54:04.074Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:043e89cd3b06bc1a0555024d475c9d2",
+    "name": "Hizto",
+    "artwork": "/assets/players/lol-player-a6052c7ae7ac2ec91a07bc29.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Hizto",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775221973791_Hizto.png",
+      "fetchedAt": "2026-10-09T12:54:07.330Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:051ca2e31ba25123961b3df95fdef4c",
+    "name": "Delight",
+    "artwork": "/assets/players/lol-player-fca56d1c078f72e535d4ded1.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Delight",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089417110_LCK_HLE_Delight_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:09.939Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:05fafeaf23dc3285558a4e968970b9f",
+    "name": "CoreJJ",
+    "artwork": "/assets/players/lol-player-808c6b39e2d0ba2b9f71ee90.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "CoreJJ",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150483053_AME_LCS26S1_TL_COREJJ.png",
+      "fetchedAt": "2026-10-09T12:54:07.475Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:0a53c1102dafce61e89decc517b3175",
+    "name": "Loki",
+    "artwork": "/assets/players/lol-player-5f7b41ce4a6d7a5181b83a0e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Loki",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1790204959636_loki.png",
+      "fetchedAt": "2026-10-09T12:54:08.534Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:0d9b0a3b3a93a8f759c9d8ac8eef97c",
+    "name": "Breathe",
+    "artwork": "/assets/players/lol-player-a666507a2c400e17c5c3b694.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Breathe",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225499864_breathe.png",
+      "fetchedAt": "2026-10-09T12:54:13.129Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:0da0eeb199e8fa3ab773cf84f9de9ab",
+    "name": "Tian",
+    "artwork": "/assets/players/lol-player-aeb4e3684839ff13b3b044ad.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Tian",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225951328_tian.png",
+      "fetchedAt": "2026-10-09T12:54:09.787Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:0e2f0d3ded24c190dd6a4b3d6f89f04",
+    "name": "Shanks",
+    "artwork": "/assets/players/lol-player-d157d0aab30264245bc2016f.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Shanks",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768349057032_shanks.png",
+      "fetchedAt": "2026-10-09T12:54:11.437Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:10b86429ce8048aba673d802632e358",
+    "name": "Lucid",
+    "artwork": "/assets/players/lol-player-33ecf67930b4377702a7ac98.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Lucid",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842716183_LCK_DK_Lucid_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:12.204Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:10be1f35d8b5ea6babf916a6e7dd8a4",
+    "name": "Fleshy",
+    "artwork": "/assets/players/lol-player-15e550ca8b5835e2ba272ae8.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Fleshy",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784888597989_Fleshy-01.png",
+      "fetchedAt": "2026-10-09T12:54:12.427Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:1213778b5c6d69dcb26aa89f7d0aaa9",
+    "name": "Rookie",
+    "artwork": "/assets/players/lol-player-64c13d83367f8cfe295d8c59.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Rookie",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225799612_rookie.png",
+      "fetchedAt": "2026-10-09T12:54:13.139Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:1223a0ed2bfab9b714c72d965df8133",
+    "name": "Supa",
+    "artwork": "/assets/players/lol-player-2792665c474e38639cd818dc.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Supa",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774652617630_supa.png",
+      "fetchedAt": "2026-10-09T12:54:14.644Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:145201414ecb853de684fbe7d6bb5b6",
+    "name": "Ackerman",
+    "artwork": "/assets/players/lol-player-e1d2d995e3e883fa54bb5591.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Ackerman",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785139928559_LOS_Ackerman-1copy.png",
+      "fetchedAt": "2026-10-09T12:54:14.439Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:1999dbe32608051613a2d3ed9c1b0d4",
+    "name": "Morttheus",
+    "artwork": "/assets/players/lol-player-d3d7403a57a05ab234d618ac.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Morttheus",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=1000865",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20251014110327/9bd30ab28fe7684c59eed606c7cfa78a/0",
+      "fetchedAt": "2026-10-09T12:54:14.569Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:1b90b5086aa57992143a92a2899b8e0",
+    "name": "Taki",
+    "artwork": "/assets/players/lol-player-64262f1ec88d19cdef00a01d.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Taki",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769231527706_Taki.png",
+      "fetchedAt": "2026-10-09T12:54:15.091Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:1efc4e5732e91520d03385900b903f9",
+    "name": "Thanatos",
+    "artwork": "/assets/players/lol-player-90fa9be2a5a062d6d210f595.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Thanatos",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769149468221_AME_LCS26S1_C9_THANATOS.png",
+      "fetchedAt": "2026-10-09T12:54:22.893Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:1f7d70f56b608b3137df2493949fdd0",
+    "name": "Bie",
+    "artwork": "/assets/players/lol-player-43d5dfb7659fcc95ce5f0725.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Bie",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775221988811_Bie.png",
+      "fetchedAt": "2026-10-09T12:54:16.916Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:26626eb3322fd706f5ca63fca2bb022",
+    "name": "Garden",
+    "artwork": "/assets/players/lol-player-52f4878522bdd9aaa3c599bc.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Garden",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089555344_image6-2026-01-22T144534.879.png",
+      "fetchedAt": "2026-10-09T12:54:17.140Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:28a1925f6c4df972a5ae722c07bb4c4",
+    "name": "Harky",
+    "artwork": "/assets/players/lol-player-ec44b177bc727e02875b5337.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Harky",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775222116165_Harky.png",
+      "fetchedAt": "2026-10-09T12:54:16.717Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:29bef8f5895e5e4fef8ff0945e68567",
+    "name": "PerfecT",
+    "artwork": "/assets/players/lol-player-11f44c1e78da45a0dc2ffd8a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "PerfecT",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769088904650_LCK_KT_PerfecT_F.png",
+      "fetchedAt": "2026-10-09T12:54:19.480Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:2b5fa564a1259b97bc238fbfa719b07",
+    "name": "Teddy",
+    "artwork": "/assets/players/lol-player-d4df039809705fe4c78292a9.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Teddy",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091213345_LCK_BRO_Teddy_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:18.907Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:2cbf592923f34b2e6acc4b747385c8a",
+    "name": "Gryffinn",
+    "artwork": "/assets/players/lol-player-e995b8dadcc2bd0432f94d63.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Gryffinn",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769149987501_AME_LCS26S1_FLY_GRYFFINN.png",
+      "fetchedAt": "2026-10-09T12:54:20.325Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:30361653a485a9609fb2d3aa073282c",
+    "name": "Bdd",
+    "artwork": "/assets/players/lol-player-914c0451f3871b87ffe3753c.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Bdd",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769088894551_LCK_KT_Bdd_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:20.507Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:308e48bf56284c09a1a9aadf55bc80c",
+    "name": "kyeahoo",
+    "artwork": "/assets/players/lol-player-4f9404536497e1bb31728fc2.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "kyeahoo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774652002153_kyeahoo.png",
+      "fetchedAt": "2026-10-09T12:54:21.487Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:31fcee25eb58c4dad5616a879948390",
+    "name": "Wenbo",
+    "artwork": "/assets/players/lol-player-7580a92e55727196b55937c1.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Wenbo",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=10138",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260722111012/446646b00622d1d6e01f1ba7d0531f49/0",
+      "fetchedAt": "2026-10-09T12:54:22.995Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:323b1ce118ee27efaa0f0e2d163d31e",
+    "name": "Manel",
+    "artwork": "/assets/players/lol-player-7b4441fb70253bc3a32cf60f.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Manel",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1717430231339_Manel.png",
+      "fetchedAt": "2026-10-09T13:06:48.949Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:35859191db73609302debbc5c43117c",
+    "name": "Fuuu",
+    "artwork": "/assets/players/lol-player-b5388dadbecec758ecff919b.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Fuuu",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785142378404_RED_Fuuu-1copy.png",
+      "fetchedAt": "2026-10-09T13:06:51.877Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:3648451fd5b8a8ab01e4bedf780c1d6",
+    "name": "Zinie",
+    "artwork": "/assets/players/lol-player-06d2348b698f45d9bbfd589a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Zinie",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769752584631_zinie.png",
+      "fetchedAt": "2026-10-09T12:54:23.426Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:370f639a8b838f1933c7232d8adae72",
+    "name": "Naak Nako",
+    "artwork": "/assets/players/lol-player-227a65edb147bb78d60f089a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Naak Nako",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784888603096_NaakNako-01.png",
+      "fetchedAt": "2026-10-09T12:54:25.331Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:37f20525a39d17ec49fd10294f9c994",
+    "name": "TheShy",
+    "artwork": "/assets/players/lol-player-076e5d5f9bd22ac74c978f47.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "TheShy",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1753279025857_image628.png",
+      "fetchedAt": "2026-10-09T12:54:28.861Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:397fee5de074b10600707b618fb1f29",
+    "name": "SiuLoong",
+    "artwork": "/assets/players/lol-player-4ba18f1a010082d1f77308a2.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "SiuLoong",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775222126505_SiuLoong.png",
+      "fetchedAt": "2026-10-09T12:54:25.130Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:3c93fcbfb525315f6412904e5b9abbd",
+    "name": "Tangyuan",
+    "artwork": "/assets/players/lol-player-bd852a3dbe2b5de4cc070728.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Tangyuan",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768349168321_tangyuan.png",
+      "fetchedAt": "2026-10-09T12:54:25.980Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:3e722c8ede909c83af9342c41805a16",
+    "name": "Busio",
+    "artwork": "/assets/players/lol-player-c419c4748546706b1031dca1.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Busio",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774651329556_busio.png",
+      "fetchedAt": "2026-10-09T12:54:30.249Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:4047b7fecd736a6924aa13b05f42897",
+    "name": "Taeyoon",
+    "artwork": "/assets/players/lol-player-c6350a672d0cfdedbfa8751d.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Taeyoon",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842617008_LCK_BFX_Taeyoon_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:28.262Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:40704dfd2d966862568d29770de57bd",
+    "name": "Isles",
+    "artwork": "/assets/players/lol-player-8f88acbf971ad5900ea6f96a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Isles",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150180651_AME_LCS26S1_LYON_ISLES.png",
+      "fetchedAt": "2026-10-09T12:54:28.443Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:41ad87cfc159526f62529db61162a2a",
+    "name": "Vampire",
+    "artwork": "/assets/players/lol-player-52b80f40d8e98d644919fc60.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Vampire",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=1000314",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121135/b3b3f3c46183c4077af0cd49ec8bf7fa/0",
+      "fetchedAt": "2026-10-09T12:54:29.334Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:41deab55354f57a94135989133f9968",
+    "name": "Kanavi",
+    "artwork": "/assets/players/lol-player-4eed3970ac93ff1bb502c382.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Kanavi",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089425886_LCK_HLE_Kanavi_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:32.051Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:4203fc46c4c6333e9bfa9d0a8618677",
+    "name": "Yike",
+    "artwork": "/assets/players/lol-player-b6d6121e0b03e3f22aea6bf3.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Yike",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768550195190_Yike-01.png",
+      "fetchedAt": "2026-10-09T12:54:30.862Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:460ae5a7af8d68f7831b70307210ab3",
+    "name": "Berserker",
+    "artwork": "/assets/players/lol-player-02b95113c1a0162950cb89e6.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Berserker",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769752644164_berserker.png",
+      "fetchedAt": "2026-10-09T12:54:36.436Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:494fc60dffbb5da1caa2226baef0ec7",
+    "name": "Bvoy",
+    "artwork": "/assets/players/lol-player-ccc33bc43ab7b29ff6575e34.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Bvoy",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150366030_AME_LCS26S1_SR_BVOY.png",
+      "fetchedAt": "2026-10-09T12:54:32.302Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:498246d6c44175256a07ed5f322c817",
+    "name": "Karis",
+    "artwork": "/assets/players/lol-player-c9fd261b6ccbcc31a8680d7b.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Karis",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=4369",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112122007/81eafa402255bc1a521a68291402e732/0",
+      "fetchedAt": "2026-10-09T12:54:32.865Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:4e0619e57cb50c4ab1230c2dd72df1b",
+    "name": "Tactical",
+    "artwork": "/assets/players/lol-player-ec9177ca643b6f57b88cabc3.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Tactical",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1790204905338_tac.png",
+      "fetchedAt": "2026-10-09T12:54:34.401Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:4e0ee55680fa265c49e158f85e26650",
+    "name": "Poby",
+    "artwork": "/assets/players/lol-player-81c38a5a2c6b7be037c8515b.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Poby",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784889410395_Poby-01.png",
+      "fetchedAt": "2026-10-09T12:54:36.040Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:4f27911a3702f671c3d21286356a6df",
+    "name": "Cryogen",
+    "artwork": "/assets/players/lol-player-4a49ea0fe656234c68999fc8.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Cryogen",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769149918320_AME_LCS26S1_FLY_CRYOGEN.png",
+      "fetchedAt": "2026-10-09T12:54:35.163Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:52b4f060a577ff87c99118d97fa75f4",
+    "name": "Josedeodo",
+    "artwork": "/assets/players/lol-player-ce0283f0570e89339fd8e0d2.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Josedeodo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150518581_AME_LCS26S1_TL_JOSEDEODO.png",
+      "fetchedAt": "2026-10-09T12:54:36.485Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:5385f74da3e5deb5b66d9a1ee56cf97",
+    "name": "Dhokla",
+    "artwork": "/assets/players/lol-player-47df06c5b479d27ccc4f5c1b.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Dhokla",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150098659_AME_LCS26S1_LYON_DHOKLA.png",
+      "fetchedAt": "2026-10-09T12:54:37.259Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:542b1268b090a5fc82442efbd8d8165",
+    "name": "Angel",
+    "artwork": "/assets/players/lol-player-49348d40709cf812fb8e654b.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Angel",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=2268",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121021/7f0402ee813af963584baeb2d10fd55f/0",
+      "fetchedAt": "2026-10-09T12:54:36.389Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:55276c10d84e1df7713b441e76e141f",
+    "name": "Rest",
+    "artwork": "/assets/players/lol-player-556a9a11b1b96bc3740bac83.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Rest",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769232185565_Rest.png",
+      "fetchedAt": "2026-10-09T12:54:38.242Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:55dd587cdc4a278be6a5c37f9e539de",
+    "name": "Caps",
+    "artwork": "/assets/players/lol-player-b49208c4b5c427e1ea5febb4.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Caps",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768549998426_Caps-01.png",
+      "fetchedAt": "2026-10-09T12:54:45.261Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:566586ef99b39b57e9c85c59f021da5",
+    "name": "Burdol",
+    "artwork": "/assets/players/lol-player-c5724b9f1cb3cd8c6768b3a0.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Burdol",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225525681_burdol.png",
+      "fetchedAt": "2026-10-09T12:54:38.188Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:57acacc1f182893280e7400073a3dd1",
+    "name": "Doran",
+    "artwork": "/assets/players/lol-player-5c8f2c6d2580eedbe3b69248.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Doran",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769087520664_LCK_T1_Doran_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:38.964Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:5bbc2b92348d930ebd500cb9ce71bb7",
+    "name": "Peyz",
+    "artwork": "/assets/players/lol-player-2770b552c1ec0f6ca15449cf.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Peyz",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769087491906_LCK_T1_Peyz_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:39.847Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:5ee64eb3feb02e60832a2265db54f71",
+    "name": "FIESTA",
+    "artwork": "/assets/players/lol-player-b9ad75c6349a6c6919537fbc.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "FIESTA",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784888585781_Fiesta-01.png",
+      "fetchedAt": "2026-10-09T12:54:40.182Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:5f8ff49cd56eae61d635966b183a451",
+    "name": "ShowMaker",
+    "artwork": "/assets/players/lol-player-407e95c00ba051fc05314f84.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "ShowMaker",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842721951_LCK_DK_Showmaker_F.png",
+      "fetchedAt": "2026-10-09T12:54:40.586Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:605821ebcf6a2e53f03ec6e8e463d1b",
+    "name": "Duro",
+    "artwork": "/assets/players/lol-player-544edd2d8c8c0cd9c25e6512.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Duro",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=4462",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260316190226/9975c1eebc5147092a5f94d0db8d198e/0",
+      "fetchedAt": "2026-10-09T12:54:45.640Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:6059545b206c4b230b97fd3651b473a",
+    "name": "Crisp",
+    "artwork": "/assets/players/lol-player-f060adab611b68d847d60444.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Crisp",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1753285845967_image6216.png",
+      "fetchedAt": "2026-10-09T12:54:42.926Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:60b1614a632775c97a37a57bda799f2",
+    "name": "GIDEON",
+    "artwork": "/assets/players/lol-player-ac7324152dadf805eec3f8d8.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "GIDEON",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091233026_LCK_BRO_GIDEON_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:42.166Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:62922f2b370657a966de4d84f5586bf",
+    "name": "Tarzan",
+    "artwork": "/assets/players/lol-player-41bcd3c6d308f2b09a7f21f4.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Tarzan",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768349186102_tarzan.png",
+      "fetchedAt": "2026-10-09T12:54:44.665Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:637ed20b1e41be1c51bd1a4cb211357",
+    "name": "Raptor",
+    "artwork": "/assets/players/lol-player-b1e4aafeb6f5580ff92491b5.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Raptor",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091440054_LCK_BFX_Raptor_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:44.206Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:63dd174baf11b12006e5dc29c2269a1",
+    "name": "Maynter",
+    "artwork": "/assets/players/lol-player-ca211cca49e4ee73255b1ccb.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Maynter",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784889399078_Maynter-01.png",
+      "fetchedAt": "2026-10-09T12:54:45.927Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:6625d682ed10ef5e0e7c6c9e4dd2fc1",
+    "name": "Tatu",
+    "artwork": "/assets/players/lol-player-2b741136e9e348e45888f80e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Tatu",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785137528696_FUR_Tatu-1copy.png",
+      "fetchedAt": "2026-10-09T12:54:46.269Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:6644a7352d32c9c4443017798130b61",
+    "name": "Pun",
+    "artwork": "/assets/players/lol-player-c407f851220f72019ca0218e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Pun",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775221968161_Pun.png",
+      "fetchedAt": "2026-10-09T12:54:51.063Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:6841f2d68619d53bdd1cdbf30b5be2c",
+    "name": "Zeyzal",
+    "artwork": "/assets/players/lol-player-d2002aac357cdb90a6454dff.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Zeyzal",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1790204939755_zeyzal.png",
+      "fetchedAt": "2026-10-09T12:54:55.735Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:686e3385a39e937956485d742b689e5",
+    "name": "Jaehyuk",
+    "artwork": "/assets/players/lol-player-41672a89dc9ad7711d5a6b0a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Jaehyuk",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089631457_image6-2026-01-22T144643.456.png",
+      "fetchedAt": "2026-10-09T12:54:47.357Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:6d734e1e86b978852d95cfd63d6a643",
+    "name": "Shaoye",
+    "artwork": "/assets/players/lol-player-0e9692ddc23365b72d1199c8.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Shaoye",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1772232629920_shaoye.png",
+      "fetchedAt": "2026-10-09T12:54:48.828Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:6e7908512cb309a43388bb464a312a2",
+    "name": "Creme",
+    "artwork": "/assets/players/lol-player-7d020a7b2e74f044d486a4c9.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Creme",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768347880178_creme.png",
+      "fetchedAt": "2026-10-09T12:54:48.642Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:73e08f7701a4316284cbe884b5d7e56",
+    "name": "Kiaya",
+    "artwork": "/assets/players/lol-player-651f78f8f3f6f4a11050bffd.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Kiaya",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769231292377_Kiaya.png",
+      "fetchedAt": "2026-10-09T12:54:50.340Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:75019a36fdf85666fbd9396ae4fc7ec",
+    "name": "Kratos",
+    "artwork": "/assets/players/lol-player-07020d2ce27843afb38f1edf.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Kratos",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769231608754_Kratos.png",
+      "fetchedAt": "2026-10-09T12:54:50.463Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:7577c239c73fa5f3011cd7b5503e75e",
+    "name": "Canna",
+    "artwork": "/assets/players/lol-player-b9bdae43dbfd84f9c7bc6d68.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Canna",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774651372836_canna.png",
+      "fetchedAt": "2026-10-09T12:54:52.078Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:778c6c3733d919a3b64885912be15a9",
+    "name": "Aegis",
+    "artwork": "/assets/players/lol-player-4becc96b73009850297f10a5.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Aegis",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=3848",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20220509175058/cc03e68e7770d23aa5cb251b174b2d28/0",
+      "fetchedAt": "2026-10-09T12:54:52.743Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:786b5bbf7bbfb7b79379e8589a865c1",
+    "name": "Zest",
+    "artwork": "/assets/players/lol-player-ebfc283f6d8c6c757d45a381.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Zest",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785139905307_LOS_Zest-1copy.png",
+      "fetchedAt": "2026-10-09T12:54:52.655Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:7cf68f44e5dc31827b1d3f0a3b4a28e",
+    "name": "Hope",
+    "artwork": "/assets/players/lol-player-abca11c4cb50bd15eb888898.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Hope",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348315588_hope.png",
+      "fetchedAt": "2026-10-09T12:54:53.842Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:8007ba25dee37ac1e4445a6e9f8d252",
+    "name": "Xiaoxu",
+    "artwork": "/assets/players/lol-player-81185cbff086a00b20df0563.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Xiaoxu",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=3046",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121005/38c40c52bbe33a65d2de820dd9b0292f/0",
+      "fetchedAt": "2026-10-09T12:54:55.225Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:81acc6bcde5c927c78e0990e9887f84",
+    "name": "Vulcan",
+    "artwork": "/assets/players/lol-player-efefb25489efa8f29211ac5c.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Vulcan",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769149513772_AME_LCS26S1_C9_VULCAN.png",
+      "fetchedAt": "2026-10-09T12:54:54.909Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:83eb62484689106807fcf5ad55b5479",
+    "name": "Jojopyun",
+    "artwork": "/assets/players/lol-player-0bbf8304b29674609ab0c985.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Jojopyun",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774651666226_jojopyun.png",
+      "fetchedAt": "2026-10-09T12:54:55.580Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:84bff3a326833c7c9181c698f676878",
+    "name": "BrokenBlade",
+    "artwork": "/assets/players/lol-player-173e862cd90e80b442ef22b1.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "BrokenBlade",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768550002850_BrokenBlade-01.png",
+      "fetchedAt": "2026-10-09T12:54:57.169Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:863519e5df81ff9b308c90f6a59495b",
+    "name": "xiaofang",
+    "artwork": "/assets/players/lol-player-37df4dc453822be39c6c2818.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "xiaofang",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=3621",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260811181004/17618e181e6a921e1ab6eab630ebeec9/0",
+      "fetchedAt": "2026-10-09T12:54:55.869Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:8643b56ba8000250b81fdaca1d7f06e",
+    "name": "Jiwoo",
+    "artwork": "/assets/players/lol-player-ce432db4267db0635f56e944.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Jiwoo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842819812_LCK_DRX_Jiwoo_F.PNG",
+      "fetchedAt": "2026-10-09T12:54:57.804Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:867e8957fae1cb59f0808dbcc3aada2",
+    "name": "GALA",
+    "artwork": "/assets/players/lol-player-18425089128f0a19963ea29a.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "GALA",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=2357",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121036/897623acf2a385c98616ade043be04d9/0",
+      "fetchedAt": "2026-10-09T12:54:56.387Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:86a59ad7ba2334ad7505f303d3f2ab6",
+    "name": "Casting",
+    "artwork": "/assets/players/lol-player-5efd01e8a994faf5c5b53eac.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Casting",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091238011_LCK_BRO_Casting_F.png",
+      "fetchedAt": "2026-10-09T12:55:00.595Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:886e8205ac1b091dbf67dbae83b1544",
+    "name": "Tutsz",
+    "artwork": "/assets/players/lol-player-80cec40b5f1524854e48d977.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Tutsz",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785137538274_FUR_Tutsz-1copy.png",
+      "fetchedAt": "2026-10-09T12:55:02.046Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:8a5dbe19794784cfd0553556844f045",
+    "name": "Contractz",
+    "artwork": "/assets/players/lol-player-d81e110af52ad091db620dba.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Contractz",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150425299_AME_LCS26S1_SR_CONTRACTZ.png",
+      "fetchedAt": "2026-10-09T12:54:59.698Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:8a8f18e4b7d0f30c19c5fb99a526951",
+    "name": "Elyoya",
+    "artwork": "/assets/players/lol-player-f56558298c70bd15bfca7d80.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Elyoya",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774651428253_elyoya.png",
+      "fetchedAt": "2026-10-09T12:54:59.340Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:8f7f4c1ce7a4f933663d10543562b09",
+    "name": "About",
+    "artwork": "/assets/players/lol-player-0dd37264ac0b49a6c552e29e.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "About",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=10010",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121127/52f48a42c8e08617123c76124b18d802/0",
+      "fetchedAt": "2026-10-09T12:55:00.689Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:8f8eaac8e99c203ee76e57c5c81c91f",
+    "name": "Quid",
+    "artwork": "/assets/players/lol-player-31fd0e49aa4e04ef457b5ee0.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Quid",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150548420_AME_LCS26S1_TL_QUID.png",
+      "fetchedAt": "2026-10-09T12:55:01.552Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:90651ebea9a35ec4e018c8157492e17",
+    "name": "ON",
+    "artwork": "/assets/players/lol-player-bc189a2fbe8ee21d13c640fb.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "ON",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348897219_on.png",
+      "fetchedAt": "2026-10-09T12:55:02.558Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:92544d7a994bd6841cccd9f6e42e3de",
+    "name": "Canyon",
+    "artwork": "/assets/players/lol-player-6012cf1a4d515917da90e673.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Canyon",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=2831",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260316190144/3a400f57491ce4924bb5c25718858a6c/0",
+      "fetchedAt": "2026-10-09T12:55:01.397Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:92f0831b560a15d8be3be25275adb08",
+    "name": "Heng",
+    "artwork": "/assets/players/lol-player-a1adbd74637f0791af3a4a30.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Heng",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348231639_heng.png",
+      "fetchedAt": "2026-10-09T12:55:03.976Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:95082306f78780da5686f118c993366",
+    "name": "Doggo",
+    "artwork": "/assets/players/lol-player-681edc33955057b5f7285dce.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Doggo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769232306480_Doggo.png",
+      "fetchedAt": "2026-10-09T12:55:02.760Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:9573154ad8bc9459b4c0d940315054f",
+    "name": "Viper",
+    "artwork": "/assets/players/lol-player-6445eaf64a9b16c16373f961.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Viper",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768349250531_viper.png",
+      "fetchedAt": "2026-10-09T12:55:08.610Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:97703d326201ee5bfa4694c7a73a2b4",
+    "name": "Gloryy",
+    "artwork": "/assets/players/lol-player-684863a117548ff82b16c1ee.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Gloryy",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=1000247",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20231009202624/5498ac18ced01a863597684159103cc8/0",
+      "fetchedAt": "2026-10-09T12:55:04.181Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:978c38ad839a85b4bdc8d3cd5e2c560",
+    "name": "zynts",
+    "artwork": "/assets/players/lol-player-290fe41e8177131014b6207c.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "zynts",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785142349477_RED_Zynts-1copy.png",
+      "fetchedAt": "2026-10-09T13:06:51.483Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:97cae9bbdbfe09bafe83c5a7bda0727",
+    "name": "Namgung",
+    "artwork": "/assets/players/lol-player-ccdd9833e795ccb6e87538b5.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Namgung",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091222686_LCK_BRO_Namgung_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:05.740Z"
+    }
+  },
+  {
+    "game": "lol",
     "playerId": "oe:player:98dd15c330fb5abb4508347265a7f76",
     "name": "Zeus",
     "artwork": "/assets/players/lol-player-720b40a0997adb1f861d22da.png",
     "source": {
+      "provider": "Riot LoL Esports",
       "name": "Zeus",
-      "provider": "ProSettings",
-      "pageUrl": "https://prosettings.net/players/zeus/",
-      "imageUrl": "https://prosettings.net/wp-content/uploads/zeus.png"
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089435131_LCK_HLE_Zeus_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:05.764Z"
     }
   },
   {
     "game": "lol",
-    "playerId": "oe:player:f8b68f268106124fc4bc1c946adc9b0",
-    "name": "Oner",
-    "artwork": "/assets/players/lol-player-5216d7166d6dbd0fcf74df3b.png",
+    "playerId": "oe:player:99e732def3601275db892c84fb85a0c",
+    "name": "Career",
+    "artwork": "/assets/players/lol-player-f368b87b25d8162ccf59fa3f.png",
     "source": {
-      "name": "Oner",
-      "provider": "ProSettings",
-      "pageUrl": "https://prosettings.net/players/oner/",
-      "imageUrl": "https://prosettings.net/wp-content/uploads/oner.png"
+      "provider": "Riot LoL Esports",
+      "name": "Career",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842708132_LCK_DK_Career_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:07.237Z"
     }
   },
   {
     "game": "lol",
-    "playerId": "oe:player:e1edfc5cea461399a63cb813cf795cc",
-    "name": "Faker",
-    "artwork": "/assets/players/lol-player-ab91de7435da148b8898a170.png",
+    "playerId": "oe:player:9c51ed760409db6fa2a02fe8046f110",
+    "name": "Curse",
+    "artwork": "/assets/players/lol-player-688a7f05405264819ee95dec.png",
     "source": {
-      "name": "Faker",
-      "provider": "ProSettings",
-      "pageUrl": "https://prosettings.net/players/faker/",
-      "imageUrl": "https://prosettings.net/wp-content/uploads/faker.png"
+      "provider": "Riot LoL Esports",
+      "name": "Curse",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785139911386_LOS_Curse-1copy.png",
+      "fetchedAt": "2026-10-09T12:55:08.157Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:9d2474b953a3a0be93880409ccceb4e",
+    "name": "Artemis",
+    "artwork": "/assets/players/lol-player-700a0039a1befbcf57b44fd6.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Artemis",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769231486961_Artemis.png",
+      "fetchedAt": "2026-10-09T12:55:07.336Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:a179853ac2a0832657b9de8b9ba0020",
+    "name": "HongQ",
+    "artwork": "/assets/players/lol-player-b22918a7a05bdfab26e316a3.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "HongQ",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=10164",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112122012/208840749a65e810d2cb67641e250547/0",
+      "fetchedAt": "2026-10-09T12:55:07.564Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:a22a6d1fe8786cf83675e2d932fbffe",
+    "name": "JunJia",
+    "artwork": "/assets/players/lol-player-8dfb7299ef9627fb6cf54a2a.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "JunJia",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=2998",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121014/24545f265e602794b6841fcef3ec234a/0",
+      "fetchedAt": "2026-10-09T12:55:08.585Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:a23b45071ea855f85e43db4b5a1683d",
+    "name": "Monki",
+    "artwork": "/assets/players/lol-player-afbabb4aa832f21008c7fe29.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Monki",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=3691",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121102/7d6e909629c4ab5ac7c4447dc25c8333/0",
+      "fetchedAt": "2026-10-09T12:55:07.893Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:a7128975a782c11d8c34525be8e1b6c",
+    "name": "Erha",
+    "artwork": "/assets/players/lol-player-e17367757f0098c707d1f1b4.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Erha",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=3695",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260402160012/c791f439d7a69c3d6ac29fe5caca241d/0",
+      "fetchedAt": "2026-10-09T12:55:10.472Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:a8307167f3a1c933295bb9e3d43700e",
+    "name": "Inspired",
+    "artwork": "/assets/players/lol-player-19281661a8fd2a1cddaaa8a8.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Inspired",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150137024_AME_LCS26S1_LYON_INSPIRED.png",
+      "fetchedAt": "2026-10-09T12:55:09.991Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:a9cfbc13e22eefdd22af7b346ce2af4",
+    "name": "Parus",
+    "artwork": "/assets/players/lol-player-d724c1b14babeed78a874628.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Parus",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784889393953_Parus-01.png",
+      "fetchedAt": "2026-10-09T12:55:10.495Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:aad3806ef26a116c73b11efa07e9bd8",
+    "name": "Flandre",
+    "artwork": "/assets/players/lol-player-c058e863ad893d6969424d3f.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Flandre",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348080942_flandre.png",
+      "fetchedAt": "2026-10-09T12:55:10.473Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ab15060e5225b51592cd04b3aed1e09",
+    "name": "SkewMond",
+    "artwork": "/assets/players/lol-player-c005ef48d2c1b1fba902cfcf.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "SkewMond",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768549980779_Skewmond-01.png",
+      "fetchedAt": "2026-10-09T12:55:12.299Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:acb3a05894b7c57412b2d7e911e17dd",
+    "name": "Kino",
+    "artwork": "/assets/players/lol-player-cc320a8db839546d5bbcb495.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Kino",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785926061333_Kino.png",
+      "fetchedAt": "2026-10-09T12:55:13.536Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:b0ec3df39d61f953e7af0afd8eb8c4a",
+    "name": "Kellin",
+    "artwork": "/assets/players/lol-player-c8b958c6459e02f7c5aa7850.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Kellin",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091436066_LCK_BFX_Kellin_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:15.832Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:b4179fdeda1242fcd94b82a5710dd3e",
+    "name": "Duduhh",
+    "artwork": "/assets/players/lol-player-ce7848ba9a9f32519db59249.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Duduhh",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785139922550_LOS_Duduhh-1copy.png",
+      "fetchedAt": "2026-10-09T12:55:12.257Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:b61e517b1a6027160aafaf56e9867c0",
+    "name": "Wei",
+    "artwork": "/assets/players/lol-player-4cee0d0122398a1dd5aabce9.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Wei",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225991291_wei.png",
+      "fetchedAt": "2026-10-09T12:55:14.235Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:b6603b64c5cabad210826735469838b",
+    "name": "Cube",
+    "artwork": "/assets/players/lol-player-9c22f4a3619aa99d7faabfbe.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Cube",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=2346",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260112121029/4d9bb206c2ace74dc0d70b52978b9bd1/0",
+      "fetchedAt": "2026-10-09T12:55:13.228Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:b7a3b6176406a92dd089fe2f82a1d3f",
+    "name": "Dire",
+    "artwork": "/assets/players/lol-player-da25caa7463b2a9562caf155.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Dire",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775221979037_Dire.png",
+      "fetchedAt": "2026-10-09T12:55:14.855Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:bb6ac5763c6576e104a7a2f59eb4ddf",
+    "name": "Labrov",
+    "artwork": "/assets/players/lol-player-18a90ba0eb28a5b3adff4d76.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Labrov",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768549989298_Labrov-01.png",
+      "fetchedAt": "2026-10-09T12:55:15.831Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:bbd0c34fcf8166e45f1161815fefccf",
+    "name": "Wayne",
+    "artwork": "/assets/players/lol-player-849e7abff5f83e41af409a9e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Wayne",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089494861_image6-2026-01-22T144431.139.png",
+      "fetchedAt": "2026-10-09T12:55:15.836Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:bc4f68ea698f26bb1e2f6d34f900f57",
+    "name": "SamD",
+    "artwork": "/assets/players/lol-player-1e79554691ffc4a8a6320a80.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "SamD",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784889404139_SamD-01.png",
+      "fetchedAt": "2026-10-09T12:55:16.743Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:bda7cc061d7a1576f1dcad33dd505cd",
+    "name": "Meiko",
+    "artwork": "/assets/players/lol-player-929f9cf5c10c1703c95ec729.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Meiko",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225723214_meiko.png",
+      "fetchedAt": "2026-10-09T12:55:18.971Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:c145139d26813639b8fe6f4d0b28228",
+    "name": "Massu",
+    "artwork": "/assets/players/lol-player-024f8e2e271a0b17b0d9a9a4.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Massu",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150023296_AME_LCS26S1_FLY_MASSU.png",
+      "fetchedAt": "2026-10-09T12:55:27.850Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:c332dc879e14f1feb266190c7f396fd",
+    "name": "Shad0w",
+    "artwork": "/assets/players/lol-player-abc4dfbf96e9277774275456.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Shad0w",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769232218550_Shad0w.png",
+      "fetchedAt": "2026-10-09T12:55:20.509Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:c4d64ae9f01ee43ec2367d28eeadbea",
+    "name": "Chika",
+    "artwork": "/assets/players/lol-player-6e9692524e58e61285f69f19.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Chika",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775222135365_Chika.png",
+      "fetchedAt": "2026-10-09T12:55:19.366Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:c54e1090ef1faa736b12493051c4855",
+    "name": "JackeyLove",
+    "artwork": "/assets/players/lol-player-dcfbd2cdb2af7eedac551e85.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "JackeyLove",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348354504_jackeylove.png",
+      "fetchedAt": "2026-10-09T12:55:21.330Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:c62a5235ad6bc113a1e64eb0e9aa8c8",
+    "name": "Hans Sama",
+    "artwork": "/assets/players/lol-player-fc074aa98660d09144a41f68.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Hans Sama",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768549994123_HansSama-01.png",
+      "fetchedAt": "2026-10-09T12:55:20.988Z"
     }
   },
   {
@@ -161,10 +1711,193 @@
     "name": "Gumayusi",
     "artwork": "/assets/players/lol-player-b14cddea16981e38ca641710.png",
     "source": {
+      "provider": "Riot LoL Esports",
       "name": "Gumayusi",
-      "provider": "ProSettings",
-      "pageUrl": "https://prosettings.net/players/gumayusi/",
-      "imageUrl": "https://prosettings.net/wp-content/uploads/gumayusi.png"
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089421483_LCK_HLE_Gumayusi_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:22.182Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ca187ee49dd3e9ed20eaacbbf484fdf",
+    "name": "Pout",
+    "artwork": "/assets/players/lol-player-d056b2b90f649a1556ea8e72.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "POUT",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785926070523_POUT.png",
+      "fetchedAt": "2026-10-09T12:55:23.153Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ca9701f085966dfca32e31b1b1e9d55",
+    "name": "Lyncas",
+    "artwork": "/assets/players/lol-player-42c1af2c27aafa07220d55db.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Lyncas",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784888592230_Lyncas-01.png",
+      "fetchedAt": "2026-10-09T12:55:24.080Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:cb4cd2fd258d5961d2f1c4815b04123",
+    "name": "JoJo",
+    "artwork": "/assets/players/lol-player-fd02d9e226d9ccec9733eb57.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "JoJo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785137522978_FUR_Jojo-1copy.png",
+      "fetchedAt": "2026-10-09T12:55:23.898Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:cbe20c64274a87a21e5bdac1ccc3e77",
+    "name": "Rhilech",
+    "artwork": "/assets/players/lol-player-ee50d54b15b2c558cf7f09df.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Rhilech",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784889387768_Rhilech-01.png",
+      "fetchedAt": "2026-10-09T12:55:25.621Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d1ae0e2f9f3ac1e0e0cdcb86504ca77",
+    "name": "Feisty",
+    "artwork": "/assets/players/lol-player-9d2d5d16ec6e2559d670b018.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Feisty",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785139916710_LOS_Feisty-5copy.png",
+      "fetchedAt": "2026-10-09T12:55:26.306Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d24f38ec30ce6f7577066f80e43e4bf",
+    "name": "Kael",
+    "artwork": "/assets/players/lol-player-918f36751164dd4eb678559a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Kael",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348497910_kael.png",
+      "fetchedAt": "2026-10-09T12:55:26.118Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d617210b92fa03e78554883250d432c",
+    "name": "Gakgos",
+    "artwork": "/assets/players/lol-player-d100aff1a0093bf945be8d2f.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Gakgos",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769149952615_AME_LCS26S1_FLY_GAKGOS.png",
+      "fetchedAt": "2026-10-09T12:55:27.247Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d61d8a0b25028f787123bfff542d305",
+    "name": "Guigo",
+    "artwork": "/assets/players/lol-player-d11612b5c6c25a8295f505cc.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Guigo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785137517154_FUR_Guigo-1copy.png",
+      "fetchedAt": "2026-10-09T12:55:30.312Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d709285b163a94af9d819e568c592ba",
+    "name": "VicLa",
+    "artwork": "/assets/players/lol-player-e87e4304780f0d2861817b8a.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "VicLa",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091444387_LCK_BFX_VicLa_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:29.757Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d7a904873d10637ef44afa9c1de83b3",
+    "name": "Ayu",
+    "artwork": "/assets/players/lol-player-a958c65bdd3a79945e8603b3.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Ayu",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1785137510622_FUR_Ayu-1copy.png",
+      "fetchedAt": "2026-10-09T12:55:28.881Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d87853a5c1c5463889d70a62cdbcffc",
+    "name": "Clear",
+    "artwork": "/assets/players/lol-player-dd9da43956707d88f821d5eb.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Clear",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091426725_LCK_BFX_Clear_F.png",
+      "fetchedAt": "2026-10-09T12:55:34.333Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:d971df9441d60af93a87545e6a8f884",
+    "name": "JiaQi",
+    "artwork": "/assets/players/lol-player-54fe32a83f34a6f33f56edcf.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "JiaQi",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775225631369_jiaqi.png",
+      "fetchedAt": "2026-10-09T12:55:30.511Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:da3299cd46f1ad8a86bbadeb6b8a320",
+    "name": "Assum",
+    "artwork": "/assets/players/lol-player-caad505648ff2d0335fe5e18.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Assum",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768347811166_assum.png",
+      "fetchedAt": "2026-10-09T12:55:32.693Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:da9f969a7ab3819b9e528072aa4d5e6",
+    "name": "Siwoo",
+    "artwork": "/assets/players/lol-player-6bca846b3e35d65f2295f52e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Siwoo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842731846_LCK_DK_Siwoo_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:32.056Z"
     }
   },
   {
@@ -173,10 +1906,336 @@
     "name": "Keria",
     "artwork": "/assets/players/lol-player-8efcfd087ca88f543948deb6.png",
     "source": {
+      "provider": "Riot LoL Esports",
       "name": "Keria",
-      "provider": "ProSettings",
-      "pageUrl": "https://prosettings.net/players/keria/",
-      "imageUrl": "https://prosettings.net/wp-content/uploads/keria.png"
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769087515444_LCK_T1_Keria_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:34.264Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e1edfc5cea461399a63cb813cf795cc",
+    "name": "Faker",
+    "artwork": "/assets/players/lol-player-ab91de7435da148b8898a170.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Faker",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769087499078_LCK_T1_Faker_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:33.737Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e2af2b779499aa25ab9a9c10c9a5ffd",
+    "name": "Caliste",
+    "artwork": "/assets/players/lol-player-a1adb688015f133632d2710b.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Caliste",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774651348279_caliste.png",
+      "fetchedAt": "2026-10-09T12:55:34.007Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e5f6c83e6e97c74fc9e9760fc8972ae",
+    "name": "Eddie",
+    "artwork": "/assets/players/lol-player-ad47089f2c05875c7b31bfc6.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Eddie",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775221984176_Eddie.png",
+      "fetchedAt": "2026-10-09T12:55:35.604Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e78da55d6db43d982f841204a8e51ac",
+    "name": "Zhuo",
+    "artwork": "/assets/players/lol-player-49b6ad508ead604a45631b61.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Zhuo",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768349462733_zhuo.png",
+      "fetchedAt": "2026-10-09T12:55:36.287Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e9017664588010860a92ceb5f8fcb82",
+    "name": "Quad",
+    "artwork": "/assets/players/lol-player-dff7b62565da55f79717358c.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Quad",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150064862_AME_LCS26S1_FLY_QUAD.png",
+      "fetchedAt": "2026-10-09T12:55:36.011Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e9741b3a238723ea6380ef2113fae63",
+    "name": "Loopy",
+    "artwork": "/assets/players/lol-player-702e2d40696a002805d6017f.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Loopy",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089723144_image6-2026-01-22T144756.107.png",
+      "fetchedAt": "2026-10-09T12:55:39.326Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ea58943d300b14d684bb05b3975fe15",
+    "name": "Roamer",
+    "artwork": "/assets/players/lol-player-b2648cae2485d7afabc6791d.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Roamer",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769091227250_LCK_BRO_Roamer_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:37.959Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:eada4723af6f51cf2391d85b5fde49b",
+    "name": "Ruler",
+    "artwork": "/assets/players/lol-player-226a15bb728d86aeae461bdc.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Ruler",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=643",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260316190306/5b0c4812b2762e810143dc565b5c6878/0",
+      "fetchedAt": "2026-10-09T12:55:40.556Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:eaebb7118d7bd83eabac513053e1f6c",
+    "name": "Smash",
+    "artwork": "/assets/players/lol-player-d796d37700bc6b74a7d69983.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Smash",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1778842749985_LCK_DK_Smash_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:38.249Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ec0c2b8d7630efba391c288765d4d7e",
+    "name": "Carzzy",
+    "artwork": "/assets/players/lol-player-fc203791a910f5abe585f14e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Carzzy",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1784888608730_Carzzy-01.png",
+      "fetchedAt": "2026-10-09T12:55:39.610Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ed29043422e3c515e1cb292464b990b",
+    "name": "Knight",
+    "artwork": "/assets/players/lol-player-79ee4e110e41aaa663ca3143.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Knight",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768348559860_knight.png",
+      "fetchedAt": "2026-10-09T12:55:40.624Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ed455f823b6586e9e3621dfb5aeb42e",
+    "name": "Blaber",
+    "artwork": "/assets/players/lol-player-efecaf3c1bfb532b2a004b9c.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Blaber",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769149391904_AME_LCS26S1_C9_BLABER.png",
+      "fetchedAt": "2026-10-09T12:55:41.423Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:ede24d5e0911d7a4f6ec514a67802ff",
+    "name": "Myrwn",
+    "artwork": "/assets/players/lol-player-22d0893b4429f969c493590d.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Myrwn",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774652336923_myrwn.png",
+      "fetchedAt": "2026-10-09T12:55:41.486Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f02f1c8275084050765b4b6414bdfda",
+    "name": "Fudge",
+    "artwork": "/assets/players/lol-player-a0206863e4ea7930fa7ab5dc.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Fudge",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150456468_AME_LCS26S1_SR_FUDGE.png",
+      "fetchedAt": "2026-10-09T12:55:48.991Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f45792335d83b10581da2f0cbdd6e8e",
+    "name": "Saint",
+    "artwork": "/assets/players/lol-player-0f5abe0ed2e391f8efd308ab.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Saint",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150214608_AME_LCS26S1_LYON_SAINT.png",
+      "fetchedAt": "2026-10-09T12:55:42.545Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f52533de1cc92487ab58b973cd2490e",
+    "name": "ZUIAN",
+    "artwork": "/assets/players/lol-player-f3f19f10f44ec4517c25da9e.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "ZUIAN",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1775226028458_zuian.png",
+      "fetchedAt": "2026-10-09T12:55:42.997Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f5bf9bd732b85e4dcab5121e4769ae4",
+    "name": "Alvaro",
+    "artwork": "/assets/players/lol-player-f01c2727ae7f6dc00dcb6c95.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Alvaro",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1774651304778_alvaro.png",
+      "fetchedAt": "2026-10-09T12:55:43.527Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f6b8af05a5af22004a67a78f3046b92",
+    "name": "Yeon",
+    "artwork": "/assets/players/lol-player-619fdf9c53f26540a02d87ba.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Yeon",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769150607307_AME_LCS26S1_TL_YEON.png",
+      "fetchedAt": "2026-10-09T12:55:45.033Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f73dde2d8c7879ae8d1fcdc03c4ffeb",
+    "name": "Morgan",
+    "artwork": "/assets/players/lol-player-edf1ca516c6fe38c39cfa80d.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Morgan",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769752562927_morgan.png",
+      "fetchedAt": "2026-10-09T12:55:44.546Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f8b68f268106124fc4bc1c946adc9b0",
+    "name": "Oner",
+    "artwork": "/assets/players/lol-player-5216d7166d6dbd0fcf74df3b.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Oner",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769087509929_LCK_T1_Oner_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:45.147Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f9cd2ef9afea5cda0eb3263a025cec1",
+    "name": "Zeka",
+    "artwork": "/assets/players/lol-player-aca25eb2cfd70fd15dbbbf6f.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Zeka",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769089430303_LCK_HLE_Zeka_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:46.476Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f9fe6d28d5b67bf9ac673b2cc8edf15",
+    "name": "Cuzz",
+    "artwork": "/assets/players/lol-player-3c01cd9554ad931d6c29a5f2.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Cuzz",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1769088880566_LCK_KT_Cuzz_F.PNG",
+      "fetchedAt": "2026-10-09T12:55:46.640Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:fb66ef5885b4be9323905b821dc3a42",
+    "name": "Bin",
+    "artwork": "/assets/players/lol-player-17a4e8b9f07623e0695e8157.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Bin",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768347827679_bin.png",
+      "fetchedAt": "2026-10-09T12:55:47.195Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:fb6e61b8acb05df17b7e5ad4ae7c800",
+    "name": "Chovy",
+    "artwork": "/assets/players/lol-player-0f9980732ce4089c70537491.png",
+    "source": {
+      "provider": "LPL official",
+      "name": "Chovy",
+      "pageUrl": "https://lpl.qq.com/es/player_detail.shtml?mbid=2216",
+      "imageUrl": "https://img.crawler.qq.com/lolwebvideo/20260316190202/eef3428d4af65528d3ff18e64ec55877/0",
+      "fetchedAt": "2026-10-09T12:55:48.647Z"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:fbdc4428b2d095c83aebeed5da4e4b2",
+    "name": "Xun",
+    "artwork": "/assets/players/lol-player-e14cf6faf5e2bbb0d774e3a4.png",
+    "source": {
+      "provider": "Riot LoL Esports",
+      "name": "Xun",
+      "pageUrl": "https://lolesports.com/en-US/",
+      "imageUrl": "https://static.lolesports.com/players/1768349380095_xun.png",
+      "fetchedAt": "2026-10-09T12:55:48.174Z"
     }
   }
 ]

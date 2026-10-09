@@ -1,0 +1,1604 @@
+{
+  "schemaVersion": 1,
+  "events": [
+    {
+      "id": "demacia-global-invitational-2026",
+      "name": "2026 德玛西亚杯全球邀请赛",
+      "asOf": "2026-10-09",
+      "participantSource": "https://oracleselixir.com/tools/downloads",
+      "rosterStatus": "observed-lineups",
+      "teams": [
+        {
+          "name": "BNK FEARX",
+          "teamId": "oe:team:5c2e7e9ea8dfcba0150d9a5619baecf",
+          "players": [
+            {
+              "playerId": "oe:player:d87853a5c1c5463889d70a62cdbcffc",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_473844",
+                "league": "DCGI",
+                "date": "2026-10-04 08:47:16"
+              }
+            },
+            {
+              "playerId": "oe:player:637ed20b1e41be1c51bd1a4cb211357",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_473844",
+                "league": "DCGI",
+                "date": "2026-10-04 08:47:16"
+              }
+            },
+            {
+              "playerId": "oe:player:d709285b163a94af9d819e568c592ba",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_473844",
+                "league": "DCGI",
+                "date": "2026-10-04 08:47:16"
+              }
+            },
+            {
+              "playerId": "oe:player:4047b7fecd736a6924aa13b05f42897",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_473844",
+                "league": "DCGI",
+                "date": "2026-10-04 08:47:16"
+              }
+            },
+            {
+              "playerId": "oe:player:b0ec3df39d61f953e7af0afd8eb8c4a",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_473844",
+                "league": "DCGI",
+                "date": "2026-10-04 08:47:16"
+              }
+            }
+          ]
+        },
+        {
+          "name": "FlyQuest",
+          "teamId": "oe:team:2e66da41dc460dd378e3bcc57042d31",
+          "players": [
+            {
+              "playerId": "oe:player:d617210b92fa03e78554883250d432c",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:2cbf592923f34b2e6acc4b747385c8a",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:e9017664588010860a92ceb5f8fcb82",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:c145139d26813639b8fe6f4d0b28228",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:4f27911a3702f671c3d21286356a6df",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            }
+          ]
+        },
+        {
+          "name": "GAM Esports",
+          "teamId": "oe:team:9cae7677cd0dbcc1cd86653870b73c2",
+          "players": [
+            {
+              "playerId": "oe:player:73e08f7701a4316284cbe884b5d7e56",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_474103",
+                "league": "DCGI",
+                "date": "2026-10-07 09:20:28"
+              }
+            },
+            {
+              "playerId": "oe:player:00f5171ac6dc80c3e5a485d90f9532a",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_474103",
+                "league": "DCGI",
+                "date": "2026-10-07 09:20:28"
+              }
+            },
+            {
+              "playerId": "oe:player:97703d326201ee5bfa4694c7a73a2b4",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_474103",
+                "league": "DCGI",
+                "date": "2026-10-07 09:20:28"
+              }
+            },
+            {
+              "playerId": "oe:player:9d2474b953a3a0be93880409ccceb4e",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_474103",
+                "league": "DCGI",
+                "date": "2026-10-07 09:20:28"
+              }
+            },
+            {
+              "playerId": "oe:player:1b90b5086aa57992143a92a2899b8e0",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_474103",
+                "league": "DCGI",
+                "date": "2026-10-07 09:20:28"
+              }
+            }
+          ]
+        },
+        {
+          "name": "HANJIN BRION",
+          "teamId": "oe:team:b77b3f6068e20a2b3edc0ecd3dc70d4",
+          "players": [
+            {
+              "playerId": "oe:player:86a59ad7ba2334ad7505f303d3f2ab6",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_474017",
+                "league": "DCGI",
+                "date": "2026-10-06 08:58:31"
+              }
+            },
+            {
+              "playerId": "oe:player:60b1614a632775c97a37a57bda799f2",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_474017",
+                "league": "DCGI",
+                "date": "2026-10-06 08:58:31"
+              }
+            },
+            {
+              "playerId": "oe:player:ea58943d300b14d684bb05b3975fe15",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_474017",
+                "league": "DCGI",
+                "date": "2026-10-06 08:58:31"
+              }
+            },
+            {
+              "playerId": "oe:player:2b5fa564a1259b97bc238fbfa719b07",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_474017",
+                "league": "DCGI",
+                "date": "2026-10-06 08:58:31"
+              }
+            },
+            {
+              "playerId": "oe:player:97cae9bbdbfe09bafe83c5a7bda0727",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_474017",
+                "league": "DCGI",
+                "date": "2026-10-06 08:58:31"
+              }
+            }
+          ]
+        },
+        {
+          "name": "JD Gaming",
+          "teamId": "oe:team:b42d0f31f2727621b963042276817c4",
+          "players": [
+            {
+              "playerId": "oe:player:8007ba25dee37ac1e4445a6e9f8d252",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:863519e5df81ff9b308c90f6a59495b",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:542b1268b090a5fc82442efbd8d8165",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:867e8957fae1cb59f0808dbcc3aada2",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:41ad87cfc159526f62529db61162a2a",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            }
+          ]
+        },
+        {
+          "name": "KT Rolster",
+          "teamId": "oe:team:d723992568441c6bafa2658129eade7",
+          "players": [
+            {
+              "playerId": "oe:player:29bef8f5895e5e4fef8ff0945e68567",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_472874",
+                "league": "DCGI",
+                "date": "2026-10-04 10:30:04"
+              }
+            },
+            {
+              "playerId": "oe:player:f9fe6d28d5b67bf9ac673b2cc8edf15",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_472874",
+                "league": "DCGI",
+                "date": "2026-10-04 10:30:04"
+              }
+            },
+            {
+              "playerId": "oe:player:30361653a485a9609fb2d3aa073282c",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_472874",
+                "league": "DCGI",
+                "date": "2026-10-04 10:30:04"
+              }
+            },
+            {
+              "playerId": "oe:player:8643b56ba8000250b81fdaca1d7f06e",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_472874",
+                "league": "DCGI",
+                "date": "2026-10-04 10:30:04"
+              }
+            },
+            {
+              "playerId": "oe:player:035b9ae578574cdf728d8760483d804",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_472874",
+                "league": "DCGI",
+                "date": "2026-10-04 10:30:04"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LGD Gaming",
+          "teamId": "oe:team:5f401785b6b78326f9a46b3c6b206ed",
+          "players": [
+            {
+              "playerId": "oe:player:566586ef99b39b57e9c85c59f021da5",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_475019",
+                "league": "DCGI",
+                "date": "2026-10-06 12:07:12"
+              }
+            },
+            {
+              "playerId": "oe:player:92f0831b560a15d8be3be25275adb08",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_475019",
+                "league": "DCGI",
+                "date": "2026-10-06 12:07:12"
+              }
+            },
+            {
+              "playerId": "oe:player:3c93fcbfb525315f6412904e5b9abbd",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_475019",
+                "league": "DCGI",
+                "date": "2026-10-06 12:07:12"
+              }
+            },
+            {
+              "playerId": "oe:player:6d734e1e86b978852d95cfd63d6a643",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_475019",
+                "league": "DCGI",
+                "date": "2026-10-06 12:07:12"
+              }
+            },
+            {
+              "playerId": "oe:player:6059545b206c4b230b97fd3651b473a",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_475019",
+                "league": "DCGI",
+                "date": "2026-10-06 12:07:12"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Natus Vincere",
+          "teamId": "oe:team:d2ba9f92d85cff67d60aaad88e61048",
+          "players": [
+            {
+              "playerId": "oe:player:63dd174baf11b12006e5dc29c2269a1",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:cbe20c64274a87a21e5bdac1ccc3e77",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:4e0ee55680fa265c49e158f85e26650",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:bc4f68ea698f26bb1e2f6d34f900f57",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            },
+            {
+              "playerId": "oe:player:a9cfbc13e22eefdd22af7b346ce2af4",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_474178",
+                "league": "DCGI",
+                "date": "2026-10-08 12:51:20"
+              }
+            }
+          ]
+        },
+        {
+          "name": "RED Canids",
+          "teamId": "oe:team:67169969ecc058b307edfa9c6b7a3c0",
+          "players": [
+            {
+              "playerId": "oe:player:978c38ad839a85b4bdc8d3cd5e2c560",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:778c6c3733d919a3b64885912be15a9",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:35859191db73609302debbc5c43117c",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:1999dbe32608051613a2d3ed9c1b0d4",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            },
+            {
+              "playerId": "oe:player:323b1ce118ee27efaa0f0e2d163d31e",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_474151",
+                "league": "DCGI",
+                "date": "2026-10-08 10:07:49"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Shopify Rebellion",
+          "teamId": "oe:team:b360f1d729b0a8e0f29a5243c4200fa",
+          "players": [
+            {
+              "playerId": "oe:player:f02f1c8275084050765b4b6414bdfda",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_475107",
+                "league": "DCGI",
+                "date": "2026-10-07 11:58:15"
+              }
+            },
+            {
+              "playerId": "oe:player:8a5dbe19794784cfd0553556844f045",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_475107",
+                "league": "DCGI",
+                "date": "2026-10-07 11:58:15"
+              }
+            },
+            {
+              "playerId": "oe:player:3648451fd5b8a8ab01e4bedf780c1d6",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_475107",
+                "league": "DCGI",
+                "date": "2026-10-07 11:58:15"
+              }
+            },
+            {
+              "playerId": "oe:player:494fc60dffbb5da1caa2226baef0ec7",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_475107",
+                "league": "DCGI",
+                "date": "2026-10-07 11:58:15"
+              }
+            },
+            {
+              "playerId": "oe:player:6841f2d68619d53bdd1cdbf30b5be2c",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_475107",
+                "league": "DCGI",
+                "date": "2026-10-07 11:58:15"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team Vitality",
+          "teamId": "oe:team:e8d8ae992fe72acb7adc7bfcee31dbb",
+          "players": [
+            {
+              "playerId": "oe:player:370f639a8b838f1933c7232d8adae72",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_475004",
+                "league": "DCGI",
+                "date": "2026-10-06 10:34:24"
+              }
+            },
+            {
+              "playerId": "oe:player:ca9701f085966dfca32e31b1b1e9d55",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_475004",
+                "league": "DCGI",
+                "date": "2026-10-06 10:34:24"
+              }
+            },
+            {
+              "playerId": "oe:player:5ee64eb3feb02e60832a2265db54f71",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_475004",
+                "league": "DCGI",
+                "date": "2026-10-06 10:34:24"
+              }
+            },
+            {
+              "playerId": "oe:player:ec0c2b8d7630efba391c288765d4d7e",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_475004",
+                "league": "DCGI",
+                "date": "2026-10-06 10:34:24"
+              }
+            },
+            {
+              "playerId": "oe:player:10be1f35d8b5ea6babf916a6e7dd8a4",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_475004",
+                "league": "DCGI",
+                "date": "2026-10-06 10:34:24"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team WE",
+          "teamId": "oe:team:62c1cd9465dc63824593ee5046f5aa8",
+          "players": [
+            {
+              "playerId": "oe:player:b6603b64c5cabad210826735469838b",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_472889",
+                "league": "DCGI",
+                "date": "2026-10-04 12:52:46"
+              }
+            },
+            {
+              "playerId": "oe:player:a23b45071ea855f85e43db4b5a1683d",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_472889",
+                "league": "DCGI",
+                "date": "2026-10-04 12:52:46"
+              }
+            },
+            {
+              "playerId": "oe:player:498246d6c44175256a07ed5f322c817",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_472889",
+                "league": "DCGI",
+                "date": "2026-10-04 12:52:46"
+              }
+            },
+            {
+              "playerId": "oe:player:8f7f4c1ce7a4f933663d10543562b09",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_472889",
+                "league": "DCGI",
+                "date": "2026-10-04 12:52:46"
+              }
+            },
+            {
+              "playerId": "oe:player:a7128975a782c11d8c34525be8e1b6c",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_472889",
+                "league": "DCGI",
+                "date": "2026-10-04 12:52:46"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "worlds-2026",
+      "name": "2026 全球总决赛",
+      "asOf": "2026-10-09",
+      "participantSource": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "rosterStatus": "pre-event-lineups-registration-unverified",
+      "teams": [
+        {
+          "name": "Anyone's Legend",
+          "teamId": "oe:team:ed28f87f0cfdba0a2a8f183cebae73a",
+          "players": [
+            {
+              "playerId": "oe:player:0d9b0a3b3a93a8f759c9d8ac8eef97c",
+              "role": "top",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:62922f2b370657a966de4d84f5586bf",
+              "role": "jng",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:0e2f0d3ded24c190dd6a4b3d6f89f04",
+              "role": "mid",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:7cf68f44e5dc31827b1d3f0a3b4a28e",
+              "role": "bot",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:d24f38ec30ce6f7577066f80e43e4bf",
+              "role": "sup",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Bilibili Gaming",
+          "teamId": "oe:team:d356a144644879dabb5f34cd99c886d",
+          "players": [
+            {
+              "playerId": "oe:player:fb66ef5885b4be9323905b821dc3a42",
+              "role": "top",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:fbdc4428b2d095c83aebeed5da4e4b2",
+              "role": "jng",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:ed29043422e3c515e1cb292464b990b",
+              "role": "mid",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:9573154ad8bc9459b4c0d940315054f",
+              "role": "bot",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            },
+            {
+              "playerId": "oe:player:90651ebea9a35ec4e018c8157492e17",
+              "role": "sup",
+              "evidence": {
+                "gameId": "13505-13505_game_4",
+                "league": "LPL",
+                "date": "2026-09-13 12:03:56"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Top Esports",
+          "teamId": "oe:team:fcec508e780bbd1ad493852640f5b36",
+          "players": [
+            {
+              "playerId": "oe:player:f52533de1cc92487ab58b973cd2490e",
+              "role": "top",
+              "evidence": {
+                "gameId": "13506-13506_game_4",
+                "league": "WLDs",
+                "date": "2026-09-17 12:10:40"
+              }
+            },
+            {
+              "playerId": "oe:player:0da0eeb199e8fa3ab773cf84f9de9ab",
+              "role": "jng",
+              "evidence": {
+                "gameId": "13506-13506_game_4",
+                "league": "WLDs",
+                "date": "2026-09-17 12:10:40"
+              }
+            },
+            {
+              "playerId": "oe:player:6e7908512cb309a43388bb464a312a2",
+              "role": "mid",
+              "evidence": {
+                "gameId": "13506-13506_game_4",
+                "league": "WLDs",
+                "date": "2026-09-17 12:10:40"
+              }
+            },
+            {
+              "playerId": "oe:player:c54e1090ef1faa736b12493051c4855",
+              "role": "bot",
+              "evidence": {
+                "gameId": "13506-13506_game_4",
+                "league": "WLDs",
+                "date": "2026-09-17 12:10:40"
+              }
+            },
+            {
+              "playerId": "oe:player:e78da55d6db43d982f841204a8e51ac",
+              "role": "sup",
+              "evidence": {
+                "gameId": "13506-13506_game_4",
+                "league": "WLDs",
+                "date": "2026-09-17 12:10:40"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Invictus Gaming",
+          "teamId": "oe:team:53a258f289c26d94431c0496a54e151",
+          "players": [
+            {
+              "playerId": "oe:player:37f20525a39d17ec49fd10294f9c994",
+              "role": "top",
+              "evidence": {
+                "gameId": "13508-13508_game_4",
+                "league": "WLDs",
+                "date": "2026-09-19 12:09:59"
+              }
+            },
+            {
+              "playerId": "oe:player:b61e517b1a6027160aafaf56e9867c0",
+              "role": "jng",
+              "evidence": {
+                "gameId": "13508-13508_game_4",
+                "league": "WLDs",
+                "date": "2026-09-19 12:09:59"
+              }
+            },
+            {
+              "playerId": "oe:player:1213778b5c6d69dcb26aa89f7d0aaa9",
+              "role": "mid",
+              "evidence": {
+                "gameId": "13508-13508_game_4",
+                "league": "WLDs",
+                "date": "2026-09-19 12:09:59"
+              }
+            },
+            {
+              "playerId": "oe:player:d971df9441d60af93a87545e6a8f884",
+              "role": "bot",
+              "evidence": {
+                "gameId": "13508-13508_game_4",
+                "league": "WLDs",
+                "date": "2026-09-19 12:09:59"
+              }
+            },
+            {
+              "playerId": "oe:player:bda7cc061d7a1576f1dcad33dd505cd",
+              "role": "sup",
+              "evidence": {
+                "gameId": "13508-13508_game_4",
+                "league": "WLDs",
+                "date": "2026-09-19 12:09:59"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Gen.G",
+          "teamId": "oe:team:50f58982d91a36557ec8aec52ab014f",
+          "players": [
+            {
+              "playerId": "oe:player:03daae1844b9ad257324c3eedf41e28",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:92544d7a994bd6841cccd9f6e42e3de",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:fb6e61b8acb05df17b7e5ad4ae7c800",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:eada4723af6f51cf2391d85b5fde49b",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:605821ebcf6a2e53f03ec6e8e463d1b",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Hanwha Life Esports",
+          "teamId": "oe:team:3a1d18f46bcb3716ebcfcf4ef068934",
+          "players": [
+            {
+              "playerId": "oe:player:98dd15c330fb5abb4508347265a7f76",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:41deab55354f57a94135989133f9968",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:f9cd2ef9afea5cda0eb3263a025cec1",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:c7319736816efe935787b4381c6f321",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            },
+            {
+              "playerId": "oe:player:051ca2e31ba25123961b3df95fdef4c",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_463374",
+                "league": "LCK",
+                "date": "2026-09-13 08:19:05"
+              }
+            }
+          ]
+        },
+        {
+          "name": "T1",
+          "teamId": "oe:team:ce499dea30cfce118f4fe85da0227e8",
+          "players": [
+            {
+              "playerId": "oe:player:57acacc1f182893280e7400073a3dd1",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_462538",
+                "league": "LCK",
+                "date": "2026-09-12 08:21:21"
+              }
+            },
+            {
+              "playerId": "oe:player:f8b68f268106124fc4bc1c946adc9b0",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_462538",
+                "league": "LCK",
+                "date": "2026-09-12 08:21:21"
+              }
+            },
+            {
+              "playerId": "oe:player:e1edfc5cea461399a63cb813cf795cc",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_462538",
+                "league": "LCK",
+                "date": "2026-09-12 08:21:21"
+              }
+            },
+            {
+              "playerId": "oe:player:5bbc2b92348d930ebd500cb9ce71bb7",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_462538",
+                "league": "LCK",
+                "date": "2026-09-12 08:21:21"
+              }
+            },
+            {
+              "playerId": "oe:player:db79ce6ad35451c938fbe2995dabd37",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_462538",
+                "league": "LCK",
+                "date": "2026-09-12 08:21:21"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Dplus Kia",
+          "teamId": "oe:team:ef69efa6acebe94107f0cf1ba716806",
+          "players": [
+            {
+              "playerId": "oe:player:da9f969a7ab3819b9e528072aa4d5e6",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_463053",
+                "league": "LCK",
+                "date": "2026-09-06 11:11:44"
+              }
+            },
+            {
+              "playerId": "oe:player:10b86429ce8048aba673d802632e358",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_463053",
+                "league": "LCK",
+                "date": "2026-09-06 11:11:44"
+              }
+            },
+            {
+              "playerId": "oe:player:5f8ff49cd56eae61d635966b183a451",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_463053",
+                "league": "LCK",
+                "date": "2026-09-06 11:11:44"
+              }
+            },
+            {
+              "playerId": "oe:player:eaebb7118d7bd83eabac513053e1f6c",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_463053",
+                "league": "LCK",
+                "date": "2026-09-06 11:11:44"
+              }
+            },
+            {
+              "playerId": "oe:player:99e732def3601275db892c84fb85a0c",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_463053",
+                "league": "LCK",
+                "date": "2026-09-06 11:11:44"
+              }
+            }
+          ]
+        },
+        {
+          "name": "G2 Esports",
+          "teamId": "oe:team:7d6673d3a9d00363c6bebc1a630da6e",
+          "players": [
+            {
+              "playerId": "oe:player:84bff3a326833c7c9181c698f676878",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:ab15060e5225b51592cd04b3aed1e09",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:55dd587cdc4a278be6a5c37f9e539de",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:c62a5235ad6bc113a1e64eb0e9aa8c8",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:bb6ac5763c6576e104a7a2f59eb4ddf",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Movistar KOI",
+          "teamId": "oe:team:4acc40654379b4da680be1bd3129dfa",
+          "players": [
+            {
+              "playerId": "oe:player:ede24d5e0911d7a4f6ec514a67802ff",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:8a8f18e4b7d0f30c19c5fb99a526951",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:83eb62484689106807fcf5ad55b5479",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:1223a0ed2bfab9b714c72d965df8133",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            },
+            {
+              "playerId": "oe:player:f5bf9bd732b85e4dcab5121e4769ae4",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT04_190202",
+                "league": "LEC",
+                "date": "2026-09-20 17:13:10"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Karmine Corp",
+          "teamId": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+          "players": [
+            {
+              "playerId": "oe:player:7577c239c73fa5f3011cd7b5503e75e",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT04_190160",
+                "league": "LEC",
+                "date": "2026-09-19 17:16:53"
+              }
+            },
+            {
+              "playerId": "oe:player:4203fc46c4c6333e9bfa9d0a8618677",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT04_190160",
+                "league": "LEC",
+                "date": "2026-09-19 17:16:53"
+              }
+            },
+            {
+              "playerId": "oe:player:308e48bf56284c09a1a9aadf55bc80c",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT04_190160",
+                "league": "LEC",
+                "date": "2026-09-19 17:16:53"
+              }
+            },
+            {
+              "playerId": "oe:player:e2af2b779499aa25ab9a9c10c9a5ffd",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT04_190160",
+                "league": "LEC",
+                "date": "2026-09-19 17:16:53"
+              }
+            },
+            {
+              "playerId": "oe:player:3e722c8ede909c83af9342c41805a16",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT04_190160",
+                "league": "LEC",
+                "date": "2026-09-19 17:16:53"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team Liquid",
+          "teamId": "oe:team:8eb884e168f28402ce685bedebb5250",
+          "players": [
+            {
+              "playerId": "oe:player:f73dde2d8c7879ae8d1fcdc03c4ffeb",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:52b4f060a577ff87c99118d97fa75f4",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:8f8eaac8e99c203ee76e57c5c81c91f",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:f6b8af05a5af22004a67a78f3046b92",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:05fafeaf23dc3285558a4e968970b9f",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LYON",
+          "teamId": "oe:team:da1143bf9a245b78a8dc86417de85b3",
+          "players": [
+            {
+              "playerId": "oe:player:5385f74da3e5deb5b66d9a1ee56cf97",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:a8307167f3a1c933295bb9e3d43700e",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:f45792335d83b10581da2f0cbdd6e8e",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:460ae5a7af8d68f7831b70307210ab3",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            },
+            {
+              "playerId": "oe:player:40704dfd2d966862568d29770de57bd",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT01_469879",
+                "league": "LCS",
+                "date": "2026-10-04 23:31:20"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Cloud9",
+          "teamId": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+          "players": [
+            {
+              "playerId": "oe:player:1efc4e5732e91520d03385900b903f9",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT01_470734",
+                "league": "LCS",
+                "date": "2026-10-03 23:06:42"
+              }
+            },
+            {
+              "playerId": "oe:player:ed455f823b6586e9e3621dfb5aeb42e",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT01_470734",
+                "league": "LCS",
+                "date": "2026-10-03 23:06:42"
+              }
+            },
+            {
+              "playerId": "oe:player:0a53c1102dafce61e89decc517b3175",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT01_470734",
+                "league": "LCS",
+                "date": "2026-10-03 23:06:42"
+              }
+            },
+            {
+              "playerId": "oe:player:4e0619e57cb50c4ab1230c2dd72df1b",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT01_470734",
+                "league": "LCS",
+                "date": "2026-10-03 23:06:42"
+              }
+            },
+            {
+              "playerId": "oe:player:81acc6bcde5c927c78e0990e9887f84",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT01_470734",
+                "league": "LCS",
+                "date": "2026-10-03 23:06:42"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Team Secret Whales",
+          "teamId": "oe:team:740de582f50775c516c77ed7b923fd5",
+          "players": [
+            {
+              "playerId": "oe:player:6644a7352d32c9c4443017798130b61",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:043e89cd3b06bc1a0555024d475c9d2",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:b7a3b6176406a92dd089fe2f82a1d3f",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:e5f6c83e6e97c74fc9e9760fc8972ae",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:1f7d70f56b608b3137df2493949fdd0",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            }
+          ]
+        },
+        {
+          "name": "CTBC Flying Oyster",
+          "teamId": "oe:team:0916b3c324c8577b0c6344f3e067f62",
+          "players": [
+            {
+              "playerId": "oe:player:55276c10d84e1df7713b441e76e141f",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:c332dc879e14f1feb266190c7f396fd",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:ca187ee49dd3e9ed20eaacbbf484fdf",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:95082306f78780da5686f118c993366",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            },
+            {
+              "playerId": "oe:player:acb3a05894b7c57412b2d7e911e17dd",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_461432",
+                "league": "LCP",
+                "date": "2026-08-30 10:26:53"
+              }
+            }
+          ]
+        },
+        {
+          "name": "MVK Esports",
+          "teamId": "oe:team:bc3824b0bbb8139d16109178faa4822",
+          "players": [
+            {
+              "playerId": "oe:player:75019a36fdf85666fbd9396ae4fc7ec",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT02_460290",
+                "league": "LCP",
+                "date": "2026-08-29 10:44:32"
+              }
+            },
+            {
+              "playerId": "oe:player:0101bf828e44b2630d500590c4ad461",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT02_460290",
+                "league": "LCP",
+                "date": "2026-08-29 10:44:32"
+              }
+            },
+            {
+              "playerId": "oe:player:c4d64ae9f01ee43ec2367d28eeadbea",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT02_460290",
+                "league": "LCP",
+                "date": "2026-08-29 10:44:32"
+              }
+            },
+            {
+              "playerId": "oe:player:28a1925f6c4df972a5ae722c07bb4c4",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT02_460290",
+                "league": "LCP",
+                "date": "2026-08-29 10:44:32"
+              }
+            },
+            {
+              "playerId": "oe:player:397fee5de074b10600707b618fb1f29",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT02_460290",
+                "league": "LCP",
+                "date": "2026-08-29 10:44:32"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LØS",
+          "teamId": "oe:team:ea65e6cc48a9be50fc5334369a5fca5",
+          "players": [
+            {
+              "playerId": "oe:player:786b5bbf7bbfb7b79379e8589a865c1",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT01_469273",
+                "league": "CBLOL",
+                "date": "2026-10-01 22:55:23"
+              }
+            },
+            {
+              "playerId": "oe:player:9c51ed760409db6fa2a02fe8046f110",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT01_469273",
+                "league": "CBLOL",
+                "date": "2026-10-01 22:55:23"
+              }
+            },
+            {
+              "playerId": "oe:player:d1ae0e2f9f3ac1e0e0cdcb86504ca77",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT01_469273",
+                "league": "CBLOL",
+                "date": "2026-10-01 22:55:23"
+              }
+            },
+            {
+              "playerId": "oe:player:b4179fdeda1242fcd94b82a5710dd3e",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT01_469273",
+                "league": "CBLOL",
+                "date": "2026-10-01 22:55:23"
+              }
+            },
+            {
+              "playerId": "oe:player:145201414ecb853de684fbe7d6bb5b6",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT01_469273",
+                "league": "CBLOL",
+                "date": "2026-10-01 22:55:23"
+              }
+            }
+          ]
+        },
+        {
+          "name": "FURIA",
+          "teamId": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+          "players": [
+            {
+              "playerId": "oe:player:d61d8a0b25028f787123bfff542d305",
+              "role": "top",
+              "evidence": {
+                "gameId": "LOLTMNT01_469728",
+                "league": "CBLOL",
+                "date": "2026-10-03 17:46:10"
+              }
+            },
+            {
+              "playerId": "oe:player:6625d682ed10ef5e0e7c6c9e4dd2fc1",
+              "role": "jng",
+              "evidence": {
+                "gameId": "LOLTMNT01_469728",
+                "league": "CBLOL",
+                "date": "2026-10-03 17:46:10"
+              }
+            },
+            {
+              "playerId": "oe:player:886e8205ac1b091dbf67dbae83b1544",
+              "role": "mid",
+              "evidence": {
+                "gameId": "LOLTMNT01_469728",
+                "league": "CBLOL",
+                "date": "2026-10-03 17:46:10"
+              }
+            },
+            {
+              "playerId": "oe:player:d7a904873d10637ef44afa9c1de83b3",
+              "role": "bot",
+              "evidence": {
+                "gameId": "LOLTMNT01_469728",
+                "league": "CBLOL",
+                "date": "2026-10-03 17:46:10"
+              }
+            },
+            {
+              "playerId": "oe:player:cb4cd2fd258d5961d2f1c4815b04123",
+              "role": "sup",
+              "evidence": {
+                "gameId": "LOLTMNT01_469728",
+                "league": "CBLOL",
+                "date": "2026-10-03 17:46:10"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

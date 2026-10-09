@@ -2,7 +2,11 @@
 
 [Matchcut](https://github.com/Cass-ette/matchcut) 的独立资料库，维护选手身份、战队别名、队标、选手照片、地图图标、LoL 英雄图片与素材出处。
 
-初始版本收录 **17 支战队的本地队标、15 名选手的身份与照片、10 张 CS 地图徽标**，另含可搜索的上游队标目录快照。选手照片是 CS 示例十人和 LoL 示例 T1 五人；照片队服不代表历史比赛当时的所属战队。当前数据不包含完整的现役阵容、排名或转会历史，不能把示例选手视为当前阵容。
+当前收录 **17 支战队的本地队标、173 名选手的照片（LoL 163、CS 10）、10 张 CS 地图徽标**，另含可搜索的上游队标目录快照。LoL 有 164 份独立身份档案，GAM 的 tiphat 暂缺照片：Riot / LPL 来源均为默认剪影，已标记缺图并排除占位图片。照片队服不代表历史比赛当时的所属战队。
+
+v0.3.0 补充 2026 德玛西亚杯全球邀请赛（DCGI）12 支已出场队伍的 60 名选手，以及 Riot 公布的 2026 S 赛 19 支参赛队赛前最近阵容的 95 名选手，另收录 9 名核实过的本赛季选手。**赛事最终报名表和完整替补名单尚未核实**；赛前出场阵容不能当作正式报名名单。数据截至 2026-10-09，S 赛参赛队来源为 [Riot 官方赛事指南](https://lolesports.com/en-US/news/worlds-2026-primer)。
+
+选手是独立档案，以稳定个人 ID 关联照片；赛事名单、战队和带日期的出场证据单独记录。转会不会创建新的选手或让照片失效。Riot / LPL ID 与 Oracle’s Elixir ID 的映射经过姓名、阵容、日期等交叉核对，不按昵称直接绑定；例如 LOS 的打野 Curse 不会误配成曾用名 Curse 的中国上单。
 
 v0.2.0 新增 Riot Data Dragon **16.20.1 的全部 173 个 LoL 英雄**，每个都有头像 PNG 和默认皮肤加载立绘 JPG，共 346 张图片。英雄目录与素材一同导出，离线也能使用。立绘接口不区分补丁，记录获取时间和 SHA256，不宣称对应历史比赛当时的美术。
 
@@ -25,6 +29,8 @@ v0.2.0 新增 Riot Data Dragon **16.20.1 的全部 173 个 LoL 英雄**，每个
 | `catalog/logo-catalog.json` | 上游队标搜索目录，图片按需获取 |
 | `catalog/maps.json` | CS 地图标识、图片及来源 |
 | `catalog/lol-champions.json` | Riot 版本、完整英雄 ID 与名称、图片来源模板与获取时间 |
+| `catalog/lol-players.json` | 独立选手档案、别名、跨提供方 ID、照片状态与身份核对证据 |
+| `catalog/lol-events.json` | 赛事参赛队、个人 ID 引用、出场证据及报名核实状态 |
 | `catalog/scope.json` | 计划覆盖范围与人工确认规则 |
 | `assets/` | 已核实的初始素材与出处说明 |
 | `manifest.json` | 数据版本、收录数量、各文件大小与 SHA256 |
@@ -35,7 +41,7 @@ CS `playerId` 为完整 SteamID 字符串，LoL 为 Oracle’s Elixir 的 `playe
 
 ## 校验与发布
 
-需要 Node.js 22 或更新版本，无额外 npm 依赖。
+需要 Node.js 22 或更新版本。首次执行 `npm ci`；Sharp 用于缩放、解码与压缩照片，构建和验证不访问网络。
 
 ```sh
 npm run validate
@@ -56,6 +62,8 @@ npm run validate
 ```
 
 同步从 Riot 官方版本目录发现英雄，使用四个并发请求下载完整头像与立绘，有限重试；全部下载并校验后才覆盖旧目录与图片。下载失败会保留原资料。校验要求每个英雄两张图片齐全，缺图或文件截断不能进入发布包。
+
+更新选手照片：先核实 `catalog/lol-players.json` 中的个人 ID 映射和来源，再执行 `npm run sync:players`。该命令只下载已核实的来源，不会根据选手当前战队或同名自动创建关联；四个并发请求，失败重试，全部成功后才写入默认照片目录。图片保持透明背景、等比缩到最长边 900 像素。`npm run sync:players -- --reuse` 可复用来源未变化的本地图片进行压缩。完整报名名单发布后，应单独更新赛事成员引用。
 
 修改资料后：
 
@@ -78,6 +86,6 @@ npm run export -- ../matchcut
 
 ## 来源
 
-队标来自 [esport-team-logos](https://github.com/lootmarket/esport-team-logos) 及样例 OpenDota 的 Steam 队标地址；选手照片来自 [ProSettings](https://prosettings.net/)；地图来自 [csgo-map-icons](https://github.com/vgalisson/csgo-map-icons)。逐项链接保存在目录 JSON 与 `assets/**/SOURCES.md`。
+队标来自 [esport-team-logos](https://github.com/lootmarket/esport-team-logos) 及样例 OpenDota 的 Steam 队标地址；选手照片来自 [Riot LoL Esports](https://lolesports.com/)、[LPL](https://lpl.qq.com/) 与 [ProSettings](https://prosettings.net/)；地图来自 [csgo-map-icons](https://github.com/vgalisson/csgo-map-icons)。逐项链接保存在目录 JSON 与 `assets/**/SOURCES.md`。
 
 游戏美术、照片和战队商标的权利属于各自权利人。本仓库的收录不代表获得这些素材的著作权或商标授权。

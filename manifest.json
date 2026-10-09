@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.0",
-  "coverageStatus": "verified-seed",
+  "version": "0.3.0",
+  "coverageStatus": "verified-seed-and-event-players",
   "counts": {
     "teams": 17,
-    "players": 15,
+    "players": 173,
     "maps": 10,
     "logoCatalog": 2105,
-    "lolChampions": 173
+    "lolChampions": 173,
+    "lolPlayers": 164,
+    "lolEvents": 2
   },
   "files": [
     {
@@ -1802,8 +1804,8 @@
     },
     {
       "path": "assets/players/SOURCES.md",
-      "bytes": 810,
-      "sha256": "df4c6217dc1f87fcc53ea55fec723b6b91d47b41ba24b8293e8f83d627fb3c34"
+      "bytes": 1556,
+      "sha256": "469d00b66aceab80f7ce6fe49f16b19d8a64d4a1cb80a3613f938e614bc5fcda"
     },
     {
       "path": "assets/players/cs2-player-76561197963504595.png",
@@ -1856,29 +1858,819 @@
       "sha256": "85dd098269399b1f1e58a383c57a3a72f99d9564df3277b254ee3aa7448160fa"
     },
     {
+      "path": "assets/players/lol-player-024f8e2e271a0b17b0d9a9a4.png",
+      "bytes": 137984,
+      "sha256": "8d1e0c2c326ac007bc333a614c7e8c8bc9d0570afc2b13ea6cd9f521d4de3f6d"
+    },
+    {
+      "path": "assets/players/lol-player-02b95113c1a0162950cb89e6.png",
+      "bytes": 93159,
+      "sha256": "9a31a5a1bd50a9e2443b55a7f1151038a7cd2635f3412cfe9ff9615d0877d74d"
+    },
+    {
+      "path": "assets/players/lol-player-06d2348b698f45d9bbfd589a.png",
+      "bytes": 100048,
+      "sha256": "f4157c52fd1a97c8dd4998cbfc81a8096e18cf22bbbe507627aad01eeac4cfa2"
+    },
+    {
+      "path": "assets/players/lol-player-07020d2ce27843afb38f1edf.png",
+      "bytes": 114666,
+      "sha256": "f6b511c5ce36e8e3d6d45014d5b3c22e4bd8e4d87932e937e802f4e0ea440071"
+    },
+    {
+      "path": "assets/players/lol-player-076e5d5f9bd22ac74c978f47.png",
+      "bytes": 87454,
+      "sha256": "bb0a5fee4e1f4c74e4f0aa622b730ba6fa2c2f7735223a836eca473dab05e716"
+    },
+    {
+      "path": "assets/players/lol-player-0bbf8304b29674609ab0c985.png",
+      "bytes": 121083,
+      "sha256": "81eb6b3fa14a0125b5b7fe987fba4fd186bc8a6b39e994e9002e38e56fc0704a"
+    },
+    {
+      "path": "assets/players/lol-player-0dd37264ac0b49a6c552e29e.png",
+      "bytes": 16677,
+      "sha256": "2330b03022a98fb7fe95f84aa84a1eac40beee8b35f65a10c8ad643a700b1ab5"
+    },
+    {
+      "path": "assets/players/lol-player-0e9692ddc23365b72d1199c8.png",
+      "bytes": 118725,
+      "sha256": "8d02c856383cd881b06a3569a15f8755a18aa248e2523228350bce67138f08fd"
+    },
+    {
+      "path": "assets/players/lol-player-0f5abe0ed2e391f8efd308ab.png",
+      "bytes": 129496,
+      "sha256": "28167e6b6214b2744b134e6cb66f58858ac87547ab71a67b76a56d29d10fe7a9"
+    },
+    {
+      "path": "assets/players/lol-player-0f9980732ce4089c70537491.png",
+      "bytes": 23920,
+      "sha256": "02f5ae98dc93d1c07891b1950ee8edaa63b98f870515e7689117a03330fc455a"
+    },
+    {
+      "path": "assets/players/lol-player-11f44c1e78da45a0dc2ffd8a.png",
+      "bytes": 84327,
+      "sha256": "f9b88589b32d222c5d340ad0d9591ee17542ba9a92b8fc67066bec89f9c01951"
+    },
+    {
+      "path": "assets/players/lol-player-15e550ca8b5835e2ba272ae8.png",
+      "bytes": 128718,
+      "sha256": "26092fea38b62553d0b3175b233af7e65be55c7f01246683532ae32575afd0fa"
+    },
+    {
+      "path": "assets/players/lol-player-173e862cd90e80b442ef22b1.png",
+      "bytes": 132612,
+      "sha256": "0c5d0bb1e9e7b3e89648f59b62fdafd53ae549d28a8133cd8d9c07ea6791da5c"
+    },
+    {
+      "path": "assets/players/lol-player-17a4e8b9f07623e0695e8157.png",
+      "bytes": 118769,
+      "sha256": "2e100f68f67e87ced0e3cb8b2df4c76ce7b4253bdd58e40113b87039557317ae"
+    },
+    {
+      "path": "assets/players/lol-player-18425089128f0a19963ea29a.png",
+      "bytes": 18436,
+      "sha256": "310cb46aa396516232d38488d9a97b9c0f62acef328b60ccfe49c8e6e4a73529"
+    },
+    {
+      "path": "assets/players/lol-player-18a90ba0eb28a5b3adff4d76.png",
+      "bytes": 129382,
+      "sha256": "68ec998ea64aa372b489caeaaa3a1382b5ae4ff47908690d44e72b89c2e9bc2a"
+    },
+    {
+      "path": "assets/players/lol-player-19281661a8fd2a1cddaaa8a8.png",
+      "bytes": 150147,
+      "sha256": "fa5e972f0a798ee068e3576ef909143fa98286faf54a543136b7dca16559b065"
+    },
+    {
+      "path": "assets/players/lol-player-1c180b8a4485e63ec46f87a9.png",
+      "bytes": 120387,
+      "sha256": "2e4726076f884f6afec47c338356a6467fbabe68bf140478da85adf591d17689"
+    },
+    {
+      "path": "assets/players/lol-player-1e1d80cd1670ec373d825c1b.png",
+      "bytes": 79160,
+      "sha256": "03466904e5c20cf0ebe3566e8f790241901993ac189578cbba7624e028c9582e"
+    },
+    {
+      "path": "assets/players/lol-player-1e79554691ffc4a8a6320a80.png",
+      "bytes": 137861,
+      "sha256": "35f70a67a609398d5ed5875bce11e08cd231b7adf516ebf8030f6fbd65a2e03f"
+    },
+    {
+      "path": "assets/players/lol-player-226a15bb728d86aeae461bdc.png",
+      "bytes": 23137,
+      "sha256": "b880bb830d5add10614574c9f988f28363c0d102c2bb94fdf4b6f08bdd57a4fd"
+    },
+    {
+      "path": "assets/players/lol-player-227a65edb147bb78d60f089a.png",
+      "bytes": 126163,
+      "sha256": "4761cac85df372afd44f965ede5cb546e521a286758ad450cecde1e75b13894a"
+    },
+    {
+      "path": "assets/players/lol-player-22d0893b4429f969c493590d.png",
+      "bytes": 123173,
+      "sha256": "b8b50d6ba67e68c1c031d75870a286f3b461f9903bee477f3df56fc6523e4935"
+    },
+    {
+      "path": "assets/players/lol-player-2770b552c1ec0f6ca15449cf.png",
+      "bytes": 87615,
+      "sha256": "aff6f79a086d828deec2e6e5d0f69418561fa564c9f75650cf093ec403c75ff1"
+    },
+    {
+      "path": "assets/players/lol-player-2792665c474e38639cd818dc.png",
+      "bytes": 102579,
+      "sha256": "f0ba2c62d1db185a2244b0acd67dce80f3d0111c6a2aea40c29b10b71bf64538"
+    },
+    {
+      "path": "assets/players/lol-player-290fe41e8177131014b6207c.png",
+      "bytes": 131451,
+      "sha256": "8a76f7c1bae508250c1f8747febe54c0b20f8523d5c00647f431cb0beaf0190a"
+    },
+    {
+      "path": "assets/players/lol-player-2b741136e9e348e45888f80e.png",
+      "bytes": 116693,
+      "sha256": "7054a818bbf4b013afda038dd14527a24ce2368c20c66c5d87468fa7d98ed8ba"
+    },
+    {
+      "path": "assets/players/lol-player-31fd0e49aa4e04ef457b5ee0.png",
+      "bytes": 127613,
+      "sha256": "e89574cbc3a37ef79872dab4d3941b1ca6645be9adfd25119a56df53e8ff1940"
+    },
+    {
+      "path": "assets/players/lol-player-33ecf67930b4377702a7ac98.png",
+      "bytes": 86155,
+      "sha256": "a9acc9f31c0b5fa31ce644d6d0d0dcfa9b0d203092e774c6bf35ff366536b38c"
+    },
+    {
+      "path": "assets/players/lol-player-37df4dc453822be39c6c2818.png",
+      "bytes": 19894,
+      "sha256": "99cb79cb1492f3b53670709d98738827aa612e37f463f4fa0286f8cbd5f59fb3"
+    },
+    {
+      "path": "assets/players/lol-player-3c01cd9554ad931d6c29a5f2.png",
+      "bytes": 94210,
+      "sha256": "f479c12b2961d6a7c5160f6b299a1eb2228fbd7b2e6357c631d28e99c3087fb1"
+    },
+    {
+      "path": "assets/players/lol-player-407e95c00ba051fc05314f84.png",
+      "bytes": 93081,
+      "sha256": "baea9f3ee06acd942497e9cead70c1d82b6e3b4ebf12ae4f36a4129d811ee34f"
+    },
+    {
+      "path": "assets/players/lol-player-41672a89dc9ad7711d5a6b0a.png",
+      "bytes": 99922,
+      "sha256": "dea98dbe1050a171faaf4133b4f691510bc4f016aa9cbbebdea27fd1eb0a9335"
+    },
+    {
+      "path": "assets/players/lol-player-41bcd3c6d308f2b09a7f21f4.png",
+      "bytes": 110293,
+      "sha256": "9be6dcc594d25ebf61a1069440962cd383bb1f9a316c82e28e1db696f1e67ec4"
+    },
+    {
+      "path": "assets/players/lol-player-42c1af2c27aafa07220d55db.png",
+      "bytes": 129676,
+      "sha256": "3992f15ce65107220e189e7070ee487fbe5efef6823766efe1147edd7e9e13a6"
+    },
+    {
+      "path": "assets/players/lol-player-43d5dfb7659fcc95ce5f0725.png",
+      "bytes": 102110,
+      "sha256": "85ccd088ddba5952fbcfcf78c049c5ef9410fec4e8e1dffe43f21f76ad0389a3"
+    },
+    {
+      "path": "assets/players/lol-player-47df06c5b479d27ccc4f5c1b.png",
+      "bytes": 153122,
+      "sha256": "1db2fc0260a86fa5a9277427ec56ca1e7c831d19f5f0ff335e2912f404c55353"
+    },
+    {
+      "path": "assets/players/lol-player-49348d40709cf812fb8e654b.png",
+      "bytes": 17817,
+      "sha256": "05578dcf22ab19c7d0711024f2be552ca3ce207a3c6367a7e3374a138965d8ae"
+    },
+    {
+      "path": "assets/players/lol-player-49b6ad508ead604a45631b61.png",
+      "bytes": 124374,
+      "sha256": "2cd498ce02d09f5f9e230f32404ae761afaa5000c6d214dbd6eb9c5ef61dbc0f"
+    },
+    {
+      "path": "assets/players/lol-player-4a49ea0fe656234c68999fc8.png",
+      "bytes": 137831,
+      "sha256": "e3654e1638e781c9a32804cd57b44a523098c76e4b8b4306159cefa702221ec2"
+    },
+    {
+      "path": "assets/players/lol-player-4ba18f1a010082d1f77308a2.png",
+      "bytes": 106567,
+      "sha256": "b15d0d6022bf9e96093600add184bbd0588c898b6f853e0dce7f05dd31e77f90"
+    },
+    {
+      "path": "assets/players/lol-player-4becc96b73009850297f10a5.png",
+      "bytes": 26883,
+      "sha256": "7527178cd352ab935fb553e126b51b55f6a421e173557a740b35f8ae08e23be1"
+    },
+    {
+      "path": "assets/players/lol-player-4cee0d0122398a1dd5aabce9.png",
+      "bytes": 92315,
+      "sha256": "3c3bd80d99045d49ef4a58016fc2d018dc87fa28d0a67d3d82b79dd34665e670"
+    },
+    {
+      "path": "assets/players/lol-player-4eed3970ac93ff1bb502c382.png",
+      "bytes": 114131,
+      "sha256": "459a3ffa06f46a31bb8cb38bdefcb2d27b6753f21d97f3ab73ceadddd47e6eb5"
+    },
+    {
+      "path": "assets/players/lol-player-4f9404536497e1bb31728fc2.png",
+      "bytes": 127482,
+      "sha256": "642fdfca2ec67bdc7154ac8c745441f9935bd8fea513199a140abe7d38bb0bbd"
+    },
+    {
       "path": "assets/players/lol-player-5216d7166d6dbd0fcf74df3b.png",
-      "bytes": 207435,
-      "sha256": "c62d709b72e759a68c9e78e917595a992a989e0c7157af990c5357a4735a20ed"
+      "bytes": 93455,
+      "sha256": "6bfed240d1b4c9b5fd9ed31816b73f05dd6d852e3f2f37a2f3e5432a4e76fdf0"
+    },
+    {
+      "path": "assets/players/lol-player-52b80f40d8e98d644919fc60.png",
+      "bytes": 18542,
+      "sha256": "0233a180a27624ad66ee0a584e40bd6fad726815916db3011675e61b60ba1d95"
+    },
+    {
+      "path": "assets/players/lol-player-52f4878522bdd9aaa3c599bc.png",
+      "bytes": 97333,
+      "sha256": "f0f795afc57eeabe035afda0cf90f55813b8cdce0fb96cb484b44bb109fa6894"
+    },
+    {
+      "path": "assets/players/lol-player-544edd2d8c8c0cd9c25e6512.png",
+      "bytes": 22575,
+      "sha256": "376d1a26be40bcb1d8bc4384818dab8b82176ac1b22174ac2564d8c969fb1be2"
+    },
+    {
+      "path": "assets/players/lol-player-54fe32a83f34a6f33f56edcf.png",
+      "bytes": 104455,
+      "sha256": "18a14d41e357b2d35a50b7def55738adfae3fd33023750d6ebeb97fbfb13a157"
+    },
+    {
+      "path": "assets/players/lol-player-556a9a11b1b96bc3740bac83.png",
+      "bytes": 112576,
+      "sha256": "b4c5ee24a65dfd18f3abcfa771bc7133e576a385a33eba48dfd693d257be4c80"
+    },
+    {
+      "path": "assets/players/lol-player-5c8f2c6d2580eedbe3b69248.png",
+      "bytes": 85027,
+      "sha256": "7ca4cef858204b2c150d76ca89758d9f0fcf201f54b294b018e856b87df7bad3"
+    },
+    {
+      "path": "assets/players/lol-player-5efd01e8a994faf5c5b53eac.png",
+      "bytes": 118765,
+      "sha256": "3f58eb7b5b0aa7061cd15c821253a8bc0da76cb1a68243bcdcfae0075977cda8"
+    },
+    {
+      "path": "assets/players/lol-player-5f7b41ce4a6d7a5181b83a0e.png",
+      "bytes": 105964,
+      "sha256": "750659e88afd70a83e7755e637b1afca76e3dd8647ee41b9d37839f6a1f7fd33"
+    },
+    {
+      "path": "assets/players/lol-player-6012cf1a4d515917da90e673.png",
+      "bytes": 26064,
+      "sha256": "69e5f770039b5260e7b4a2bcab63b9d64547188883b84a4ed0795a7c455fa905"
+    },
+    {
+      "path": "assets/players/lol-player-619fdf9c53f26540a02d87ba.png",
+      "bytes": 142925,
+      "sha256": "968879b97830cff87f1881f2c239983c26b14682d9f13ccdfc0d4f5b4380631a"
+    },
+    {
+      "path": "assets/players/lol-player-64262f1ec88d19cdef00a01d.png",
+      "bytes": 117757,
+      "sha256": "4bcf25ea764186426d13f28591354a1f77b3b59454edb9e2d42c62c746c53bb5"
+    },
+    {
+      "path": "assets/players/lol-player-6445eaf64a9b16c16373f961.png",
+      "bytes": 119192,
+      "sha256": "1928b1712518967f02114cea5457b365fcfd7574953b248c6b55819d60f86ead"
+    },
+    {
+      "path": "assets/players/lol-player-64c13d83367f8cfe295d8c59.png",
+      "bytes": 102634,
+      "sha256": "1c2cc01c463d3858ade38606f0b47722c72e5e6ab866fd3be75aafbb0a362bd5"
+    },
+    {
+      "path": "assets/players/lol-player-651f78f8f3f6f4a11050bffd.png",
+      "bytes": 103960,
+      "sha256": "f2fee8db998dd4080c5fac6fdb0d01106c0ad541511ff7c2e870b36d41973367"
+    },
+    {
+      "path": "assets/players/lol-player-681edc33955057b5f7285dce.png",
+      "bytes": 100159,
+      "sha256": "8ef183f080e52ea72dc4941008e511e541cc83cb79d590c8769ebef380805342"
+    },
+    {
+      "path": "assets/players/lol-player-684863a117548ff82b16c1ee.png",
+      "bytes": 20045,
+      "sha256": "a2c2335b3d50810949dccf5e66404cf336b3503911ea250c16cf3499b2c1d8a9"
+    },
+    {
+      "path": "assets/players/lol-player-688a7f05405264819ee95dec.png",
+      "bytes": 103080,
+      "sha256": "5041f2369fed732bc1d5591b0a5089a66f1d525fda4f452ae704b5a7c1abba75"
+    },
+    {
+      "path": "assets/players/lol-player-6bca846b3e35d65f2295f52e.png",
+      "bytes": 90038,
+      "sha256": "c977b69688a76dd80eebe05df513935dd135cf65a1e29ef075233292c6084f47"
+    },
+    {
+      "path": "assets/players/lol-player-6e9692524e58e61285f69f19.png",
+      "bytes": 115885,
+      "sha256": "632f63cab678149709e3493f6faae2f6f6ed9c0906d7bdc50be56b760729ed24"
+    },
+    {
+      "path": "assets/players/lol-player-700a0039a1befbcf57b44fd6.png",
+      "bytes": 108848,
+      "sha256": "2cf4b0dedf8fc04deed85b787b02938ac255359f80c76e0b9ab2a28b62f4a1c4"
+    },
+    {
+      "path": "assets/players/lol-player-702e2d40696a002805d6017f.png",
+      "bytes": 97892,
+      "sha256": "adf79d9a6708585a25d81bc2ccc5eb9424007f05594a996b81e40415ea25d894"
     },
     {
       "path": "assets/players/lol-player-720b40a0997adb1f861d22da.png",
-      "bytes": 154374,
-      "sha256": "4b9ce3c360cb0b216a9ea933e96f77461ae866c3847df978a80ac2176a586825"
+      "bytes": 120662,
+      "sha256": "6ecf8928598eae22a92bee36381627d0336b2648b879dd419b3beac235a05697"
+    },
+    {
+      "path": "assets/players/lol-player-757173df6aa24c314e696d66.png",
+      "bytes": 24241,
+      "sha256": "c36b5b61461d6e27306229925652793b98f06c9cb40d77e77b9aa9d59a1d44c4"
+    },
+    {
+      "path": "assets/players/lol-player-7580a92e55727196b55937c1.png",
+      "bytes": 15163,
+      "sha256": "b81c486f80ba6ef07d1af7b05710e35ece8751c8ea6fad66f4c5dcb0db752983"
+    },
+    {
+      "path": "assets/players/lol-player-79ee4e110e41aaa663ca3143.png",
+      "bytes": 113374,
+      "sha256": "08c42ec35afd1ccfd05571f1d56e40b82df1cfe9078cca2f2744100296e5a7fa"
+    },
+    {
+      "path": "assets/players/lol-player-7b4441fb70253bc3a32cf60f.png",
+      "bytes": 49202,
+      "sha256": "193bf45462cf5fc115ea64998621464f704e994e53e55064a2ced0f6cb0bb15a"
+    },
+    {
+      "path": "assets/players/lol-player-7d020a7b2e74f044d486a4c9.png",
+      "bytes": 116501,
+      "sha256": "439cb22d1bf9c8ab2ae09b240ac593d34184b4defb1ec1f57422bcfc669ba95f"
+    },
+    {
+      "path": "assets/players/lol-player-808c6b39e2d0ba2b9f71ee90.png",
+      "bytes": 114981,
+      "sha256": "9066d91f49c89b878fbdc65da9019d5f23b0ec90fcf4e37809b568d97ed2f86a"
+    },
+    {
+      "path": "assets/players/lol-player-80cec40b5f1524854e48d977.png",
+      "bytes": 104972,
+      "sha256": "9cb70c0f3d1f3a7654c99ab0422edcc22fd9e17639fe1e790414a9c13aafec06"
+    },
+    {
+      "path": "assets/players/lol-player-81185cbff086a00b20df0563.png",
+      "bytes": 16866,
+      "sha256": "befcc0ca6fba6829ec49f13457d102d55bdc186462d0fb2b37933bea1435291e"
+    },
+    {
+      "path": "assets/players/lol-player-81c38a5a2c6b7be037c8515b.png",
+      "bytes": 123995,
+      "sha256": "2a7efdc0fa1920d6b33ad583729e5e36664c269c2da0af3d5310e5a800f2eb2d"
+    },
+    {
+      "path": "assets/players/lol-player-849e7abff5f83e41af409a9e.png",
+      "bytes": 92500,
+      "sha256": "0705d2a24a48085b9dc356a0b8a4101daa5ab8fc16ba960ab988c7f4f9a24f77"
+    },
+    {
+      "path": "assets/players/lol-player-8dfb7299ef9627fb6cf54a2a.png",
+      "bytes": 17786,
+      "sha256": "16d75dd7e1c65f570178f0aa82291dbfd26589fc1eacb660a5554610d74549c5"
     },
     {
       "path": "assets/players/lol-player-8efcfd087ca88f543948deb6.png",
-      "bytes": 211689,
-      "sha256": "059aaa89873c57770796fea1814e524ba7115178b62a7d84b95efbc4c98a0c82"
+      "bytes": 86151,
+      "sha256": "1cba7e153ae534f7f22eafd3cc16ee1602734828a4c18c30a6a629ad01605452"
+    },
+    {
+      "path": "assets/players/lol-player-8f88acbf971ad5900ea6f96a.png",
+      "bytes": 141774,
+      "sha256": "f770fa0ec7b10bd6c9896da88011b27e13c07790c552c525b6ae4e38f32ac3c7"
+    },
+    {
+      "path": "assets/players/lol-player-90fa9be2a5a062d6d210f595.png",
+      "bytes": 129243,
+      "sha256": "81f5816351ca797acccdd1ef7ae0a5002bc2f9f06f33340a5afb407fff464f65"
+    },
+    {
+      "path": "assets/players/lol-player-914c0451f3871b87ffe3753c.png",
+      "bytes": 98444,
+      "sha256": "070cc2ce16bac1d6eb3df1f956f35c9c4f724bab0b60fa92292c0430982f6f0d"
+    },
+    {
+      "path": "assets/players/lol-player-918f36751164dd4eb678559a.png",
+      "bytes": 110970,
+      "sha256": "590e0b4a7efa2153f969ed78e61cf46241ffe0ea21939313adc80960c2e4caa7"
+    },
+    {
+      "path": "assets/players/lol-player-929f9cf5c10c1703c95ec729.png",
+      "bytes": 102935,
+      "sha256": "0de89f0f3580195ec7f9247fd51e38efe8afbe6b9cf2f35d05eddae096255e47"
+    },
+    {
+      "path": "assets/players/lol-player-9c22f4a3619aa99d7faabfbe.png",
+      "bytes": 19283,
+      "sha256": "79b9e3dff35fa34bfadafc634fc62e30af74ff3b23f97ff2be77685f80a611a4"
+    },
+    {
+      "path": "assets/players/lol-player-9d2d5d16ec6e2559d670b018.png",
+      "bytes": 117283,
+      "sha256": "7809b0d5eae0d070d261fc1ca00b6bdd618b8b3cad7771387f64bba5157fe16c"
+    },
+    {
+      "path": "assets/players/lol-player-a0206863e4ea7930fa7ab5dc.png",
+      "bytes": 132101,
+      "sha256": "11644c8776055fa2e71d7a9c0a7f031caea8eb3a364fa1cd2be9d24c913491b9"
+    },
+    {
+      "path": "assets/players/lol-player-a1adb688015f133632d2710b.png",
+      "bytes": 120767,
+      "sha256": "5e563306ab740e4c961656f4cd246035bd3cdb0e3e75169305f309f8d15ac089"
+    },
+    {
+      "path": "assets/players/lol-player-a1adbd74637f0791af3a4a30.png",
+      "bytes": 120706,
+      "sha256": "fbb8d7f98ccf54a98265a10277b12dfb71010dd4788ab288ec14f710c46e6461"
+    },
+    {
+      "path": "assets/players/lol-player-a6052c7ae7ac2ec91a07bc29.png",
+      "bytes": 97129,
+      "sha256": "0caf5ea7918b413f2b39ebd5ac4ec41fa65564a979d8794ce39833d126773b7a"
+    },
+    {
+      "path": "assets/players/lol-player-a666507a2c400e17c5c3b694.png",
+      "bytes": 109730,
+      "sha256": "128f451f6ebc114ea7c62076a4eba366a9459f81c44174791405a74ca8810ffd"
+    },
+    {
+      "path": "assets/players/lol-player-a958c65bdd3a79945e8603b3.png",
+      "bytes": 117116,
+      "sha256": "2f28b9b835ccdf497e406f4385a45d8bfbd0de16008f6f30c9b0718d72e920ee"
     },
     {
       "path": "assets/players/lol-player-ab91de7435da148b8898a170.png",
-      "bytes": 200362,
-      "sha256": "dd2bc90f899d15b2f481b6c9103de741d298bc14ad60273a4b04f23118a88911"
+      "bytes": 83739,
+      "sha256": "33802070f4928bb8742fac416d064ebb0356c8c8b68959c4a26e6a4a162a1439"
+    },
+    {
+      "path": "assets/players/lol-player-abc4dfbf96e9277774275456.png",
+      "bytes": 105163,
+      "sha256": "e023b798cd7ef8c24f882636b34216166dfd1d147abc5aae7923087470ecb118"
+    },
+    {
+      "path": "assets/players/lol-player-abca11c4cb50bd15eb888898.png",
+      "bytes": 114953,
+      "sha256": "11f9a7ff060ceebfe2d729677fa4b30caa6a4174c936806e9f4c99e92c53be09"
+    },
+    {
+      "path": "assets/players/lol-player-ac7324152dadf805eec3f8d8.png",
+      "bytes": 113075,
+      "sha256": "9560ecc1cdc1e1e04b0b1f53ccf60e4f3c8ce35b6eb1e28a0bba02eb4a747d34"
+    },
+    {
+      "path": "assets/players/lol-player-aca25eb2cfd70fd15dbbbf6f.png",
+      "bytes": 113502,
+      "sha256": "016b3a63f7df8847dc1c750450712ad4de25f6de49ec05b972af197e7219aa7d"
+    },
+    {
+      "path": "assets/players/lol-player-ad47089f2c05875c7b31bfc6.png",
+      "bytes": 98120,
+      "sha256": "452a26ed1d3b8d77618696821eae3a113b338ff5cac7753d415afe29b57bf3c0"
+    },
+    {
+      "path": "assets/players/lol-player-aeb4e3684839ff13b3b044ad.png",
+      "bytes": 96137,
+      "sha256": "ae75cacebfb74a03ebe946a8fbed7642f8786948bfede8e860793c06fc340c0b"
+    },
+    {
+      "path": "assets/players/lol-player-afbabb4aa832f21008c7fe29.png",
+      "bytes": 17919,
+      "sha256": "0a2c74fe92a3d2ccadfd624811e87915ec68bf5fcf7bd15d08816d8e728cc6e5"
     },
     {
       "path": "assets/players/lol-player-b14cddea16981e38ca641710.png",
-      "bytes": 183132,
-      "sha256": "fc01c88083fe6b6b9616408895735f3fd81f62e551391f71f7d0a563a2a8e57c"
+      "bytes": 122299,
+      "sha256": "aca87681c86045682b288d7461b740ed4d1aa0a39be9b7b5ab45c7cfd08ced91"
+    },
+    {
+      "path": "assets/players/lol-player-b1e4aafeb6f5580ff92491b5.png",
+      "bytes": 113625,
+      "sha256": "fb6714da1af3e14eab70ae8afc8df479705b164cab4dbf6822251c32abe604f1"
+    },
+    {
+      "path": "assets/players/lol-player-b22918a7a05bdfab26e316a3.png",
+      "bytes": 17558,
+      "sha256": "e6f078113be2099ead753610fb9cefb5a7967da962ed9911cd5824015e5957f1"
+    },
+    {
+      "path": "assets/players/lol-player-b2648cae2485d7afabc6791d.png",
+      "bytes": 116889,
+      "sha256": "ff263fff3ce537344305b755c33d21221964a0c318390f54e9d66c83249e5e1a"
+    },
+    {
+      "path": "assets/players/lol-player-b49208c4b5c427e1ea5febb4.png",
+      "bytes": 146794,
+      "sha256": "3c38adb23402448af8f71776b1483c01572c6b6a97025d84d0353e214938d04d"
+    },
+    {
+      "path": "assets/players/lol-player-b5388dadbecec758ecff919b.png",
+      "bytes": 105340,
+      "sha256": "0592ff568322cd8cbc59b75f9e81ff4e3a5e1a5bbeb1682e6e93f214f5088c01"
+    },
+    {
+      "path": "assets/players/lol-player-b6d6121e0b03e3f22aea6bf3.png",
+      "bytes": 137063,
+      "sha256": "d38714376bef63d0d77d3d7c70e94bd2b7895f1b2467903c8a0341a0839236de"
+    },
+    {
+      "path": "assets/players/lol-player-b9ad75c6349a6c6919537fbc.png",
+      "bytes": 121120,
+      "sha256": "997bcdf01ff3d82c478eb887ed722ae327968a21862b74ce807337383d3ffabf"
+    },
+    {
+      "path": "assets/players/lol-player-b9bdae43dbfd84f9c7bc6d68.png",
+      "bytes": 116169,
+      "sha256": "85cca8187ac6068c6a47920b18a972c724b82aba938fa7f2a28022f7cab2a46a"
+    },
+    {
+      "path": "assets/players/lol-player-bc189a2fbe8ee21d13c640fb.png",
+      "bytes": 108071,
+      "sha256": "5019ca07e280bcf0f8f06eb3e95edb8a98cc982f7d9b4f12f4e8915432b84f3b"
+    },
+    {
+      "path": "assets/players/lol-player-bd852a3dbe2b5de4cc070728.png",
+      "bytes": 120917,
+      "sha256": "8876594285ec1c70fbb0778b49eaba516a47fd3d0e0fab843e990d2a4465b4f6"
+    },
+    {
+      "path": "assets/players/lol-player-c005ef48d2c1b1fba902cfcf.png",
+      "bytes": 133014,
+      "sha256": "d451e7bf6198425b0f42a103bcdcfd9969185e013f4645f10e525fbe2f5e1142"
+    },
+    {
+      "path": "assets/players/lol-player-c058e863ad893d6969424d3f.png",
+      "bytes": 118325,
+      "sha256": "76c1398ed7cb3f9f6ebfc2fe80324a6138738f2f808bae3c73a80a34734eb84e"
+    },
+    {
+      "path": "assets/players/lol-player-c407f851220f72019ca0218e.png",
+      "bytes": 105594,
+      "sha256": "9af7a1f8a736c9f619470a0ba567c91400964803f09069e53d252fcce8393d13"
+    },
+    {
+      "path": "assets/players/lol-player-c419c4748546706b1031dca1.png",
+      "bytes": 124102,
+      "sha256": "b3d1c00d7dd54eeee89b2c58e899f49939cd04bd93db3f17b9fa59d0f737cc65"
+    },
+    {
+      "path": "assets/players/lol-player-c5724b9f1cb3cd8c6768b3a0.png",
+      "bytes": 105655,
+      "sha256": "32b576038bdadc4f70620bd872cac39f8be5416a7d2e03aab832dabf3a74f9e8"
+    },
+    {
+      "path": "assets/players/lol-player-c6350a672d0cfdedbfa8751d.png",
+      "bytes": 117991,
+      "sha256": "db5f14264f7504f51c6303f1f9881e71c4077e345f3493ee1b3645b7e554fc89"
+    },
+    {
+      "path": "assets/players/lol-player-c8b958c6459e02f7c5aa7850.png",
+      "bytes": 127267,
+      "sha256": "b58c903aa144337b349de418993d86076d75789e629af1d1e28d6852bd5ce522"
+    },
+    {
+      "path": "assets/players/lol-player-c9fd261b6ccbcc31a8680d7b.png",
+      "bytes": 18290,
+      "sha256": "4f33c2e634a841fdf50335731a7eb71c4fb0feea940004ade2496cdf2aec7fe7"
+    },
+    {
+      "path": "assets/players/lol-player-ca211cca49e4ee73255b1ccb.png",
+      "bytes": 127284,
+      "sha256": "b3818476e74e2873a5366dcb4b4d30f0809380020eee7452cdc23010aa086eb1"
+    },
+    {
+      "path": "assets/players/lol-player-caad505648ff2d0335fe5e18.png",
+      "bytes": 112568,
+      "sha256": "18668c3018aca974dfcfd1d7f1e283c3a25cb4e7c40bdebd58e8895ed0bd07da"
+    },
+    {
+      "path": "assets/players/lol-player-cc320a8db839546d5bbcb495.png",
+      "bytes": 116320,
+      "sha256": "c740994b60e7eb770398d5728afd464fa089fb538c30288a090336a75fcf68aa"
+    },
+    {
+      "path": "assets/players/lol-player-ccc33bc43ab7b29ff6575e34.png",
+      "bytes": 121844,
+      "sha256": "7bea612283b46a44764116047198d4fefacc14772d7b8251b7c31b1a2d522413"
+    },
+    {
+      "path": "assets/players/lol-player-ccdd9833e795ccb6e87538b5.png",
+      "bytes": 116171,
+      "sha256": "f401c39283c6d76651734e0cb14f38a8d16cd16ac190a3312a46441d49614454"
+    },
+    {
+      "path": "assets/players/lol-player-ce0283f0570e89339fd8e0d2.png",
+      "bytes": 135248,
+      "sha256": "c059d8b1cd1dbbf1490d40c382b5562953c828ad6e12fa7479ff3ac6fc87528a"
+    },
+    {
+      "path": "assets/players/lol-player-ce432db4267db0635f56e944.png",
+      "bytes": 86764,
+      "sha256": "a84820e47a0aa865c5be7650b51dd6b5f98bce780168b4c60108372cf2429d61"
+    },
+    {
+      "path": "assets/players/lol-player-ce7848ba9a9f32519db59249.png",
+      "bytes": 129250,
+      "sha256": "6e3be59534c3d2f8ea51d32656cb52c0cef93f454ed5ea1deb27519ad9a6e3d2"
+    },
+    {
+      "path": "assets/players/lol-player-d056b2b90f649a1556ea8e72.png",
+      "bytes": 116731,
+      "sha256": "b974fcf370bfa81deeacea22f8eb252b32a3ea53f24bbd6397d431f0547313ad"
+    },
+    {
+      "path": "assets/players/lol-player-d100aff1a0093bf945be8d2f.png",
+      "bytes": 124764,
+      "sha256": "7f7d09a4896fcbbe01925298566c550da17bd259327054e76fdffb2a7adc3c49"
+    },
+    {
+      "path": "assets/players/lol-player-d11612b5c6c25a8295f505cc.png",
+      "bytes": 118242,
+      "sha256": "9722c91efa2f1bc2bb48f09494e9e66492cccc6ebc337722e372979fde2d2559"
+    },
+    {
+      "path": "assets/players/lol-player-d157d0aab30264245bc2016f.png",
+      "bytes": 119742,
+      "sha256": "88d94dcad474ed1cb0e5827fb2f6ae567ae41ded791b2548bf88a75cbc3352d9"
+    },
+    {
+      "path": "assets/players/lol-player-d2002aac357cdb90a6454dff.png",
+      "bytes": 169797,
+      "sha256": "b8eefe87bb47a24cab5b1a6789c8f6b6abbd4dbeca16a990c1559cb2a6a9b8ef"
+    },
+    {
+      "path": "assets/players/lol-player-d3d7403a57a05ab234d618ac.png",
+      "bytes": 22841,
+      "sha256": "327c6337399f1ae92a4863850e0f544ba077b7b8505ec8e1f9793de21c663af1"
+    },
+    {
+      "path": "assets/players/lol-player-d4df039809705fe4c78292a9.png",
+      "bytes": 120983,
+      "sha256": "981741733d81c9f01d9705b7f36d73891d96c7531e23d078e1c8eac2510952b2"
+    },
+    {
+      "path": "assets/players/lol-player-d724c1b14babeed78a874628.png",
+      "bytes": 118347,
+      "sha256": "ea91c6f0764e5af49f6f10ac4698c2115f2f0c5233c6655df3bb9a0bd10bdc56"
+    },
+    {
+      "path": "assets/players/lol-player-d796d37700bc6b74a7d69983.png",
+      "bytes": 92473,
+      "sha256": "7e9bf93f64b5204400702d1b0cd9e153498c71e707105e81bbb3d18d93026e48"
+    },
+    {
+      "path": "assets/players/lol-player-d81e110af52ad091db620dba.png",
+      "bytes": 123842,
+      "sha256": "4193f891d6cfaf3c12d0e0c122406a566583eca1a92fadc759320a2159df686c"
+    },
+    {
+      "path": "assets/players/lol-player-da25caa7463b2a9562caf155.png",
+      "bytes": 98664,
+      "sha256": "3ffd44b2f04c574278fefc84c2fa86b6a32a7db3f93d5c8e6c615b0cc06c8ab0"
+    },
+    {
+      "path": "assets/players/lol-player-dcfbd2cdb2af7eedac551e85.png",
+      "bytes": 110345,
+      "sha256": "09b979c24e5313da57a23e76649994c438cbf791e65149790c900469e8ac9095"
+    },
+    {
+      "path": "assets/players/lol-player-dd9da43956707d88f821d5eb.png",
+      "bytes": 123078,
+      "sha256": "831823e6bd44d2eade06e90cc8ab78712c266413042acfaeb5488bc5614c1d55"
+    },
+    {
+      "path": "assets/players/lol-player-dff7b62565da55f79717358c.png",
+      "bytes": 135731,
+      "sha256": "de8986981eabab13858a42f34a022a7daa23a02b28fdeb66d3203d18c3f9d8a1"
+    },
+    {
+      "path": "assets/players/lol-player-e14cf6faf5e2bbb0d774e3a4.png",
+      "bytes": 113790,
+      "sha256": "530d6228b93523d3834d1a65981610f57065a7627c566a3493d19ff89c1ba17b"
+    },
+    {
+      "path": "assets/players/lol-player-e17367757f0098c707d1f1b4.png",
+      "bytes": 20161,
+      "sha256": "60572cd7c72bb528849630c7c3c2ea20b3ef51d83b28e9cf888d3b15e8b45a94"
+    },
+    {
+      "path": "assets/players/lol-player-e1d2d995e3e883fa54bb5591.png",
+      "bytes": 119656,
+      "sha256": "11e7cb2f3f7f89f6eb57352348863ef14f291443562e54f809d1f5a213065e70"
+    },
+    {
+      "path": "assets/players/lol-player-e87e4304780f0d2861817b8a.png",
+      "bytes": 121077,
+      "sha256": "c980f4a865485b12b74c4e83220d7d6679ac2b3593b4fef85cabdd0eb75d6d41"
+    },
+    {
+      "path": "assets/players/lol-player-e995b8dadcc2bd0432f94d63.png",
+      "bytes": 159096,
+      "sha256": "fe6965bb237ef38f30db815fd98c99c3004168b515529310c77c8e15cd4460cb"
+    },
+    {
+      "path": "assets/players/lol-player-ebfc283f6d8c6c757d45a381.png",
+      "bytes": 130023,
+      "sha256": "a39ca90d83766ac6bab061d094c42d1a9b63cc46c8bc09baa4824f0a5afe0bb2"
+    },
+    {
+      "path": "assets/players/lol-player-ec44b177bc727e02875b5337.png",
+      "bytes": 114145,
+      "sha256": "0188d126351de0432554c9eb7116d859718edf6b9a713df9b0561f19df45e24f"
+    },
+    {
+      "path": "assets/players/lol-player-ec9177ca643b6f57b88cabc3.png",
+      "bytes": 108098,
+      "sha256": "a4955c34c73dbbe7d5bf0039158c145a7ff2ae8d253793a104a6408797899138"
+    },
+    {
+      "path": "assets/players/lol-player-edf1ca516c6fe38c39cfa80d.png",
+      "bytes": 94848,
+      "sha256": "415ea51da072a3a71f20361c4ab05037f59dad6ea4f8040924f9184f8b8f7ca2"
+    },
+    {
+      "path": "assets/players/lol-player-ee50d54b15b2c558cf7f09df.png",
+      "bytes": 123715,
+      "sha256": "c12285c4a141e73bba9d2cb96f18cc39a4e060699b81b9273e251830a7f6848e"
+    },
+    {
+      "path": "assets/players/lol-player-efecaf3c1bfb532b2a004b9c.png",
+      "bytes": 116832,
+      "sha256": "c25d03783c67f6a8595937141a834d40348d4046c381c91f55ba0748bb27c36f"
+    },
+    {
+      "path": "assets/players/lol-player-efefb25489efa8f29211ac5c.png",
+      "bytes": 116169,
+      "sha256": "a06f73f324a1666d08a82453165e7a83867cf33bde963401d77f0c4949df7c60"
+    },
+    {
+      "path": "assets/players/lol-player-f01c2727ae7f6dc00dcb6c95.png",
+      "bytes": 109628,
+      "sha256": "1766955ea578598baa7a8d64b64366f8e8b3ef46e81496c0edc4a4c44dd2a6d5"
+    },
+    {
+      "path": "assets/players/lol-player-f060adab611b68d847d60444.png",
+      "bytes": 76866,
+      "sha256": "1da3b83858a4f59fd1457a943d4ba59f4bab87586e1cb39283262d2eff629f77"
+    },
+    {
+      "path": "assets/players/lol-player-f368b87b25d8162ccf59fa3f.png",
+      "bytes": 92083,
+      "sha256": "21b6560b57f1ed3da70dfacdea07e1899fc406f3ee41084649ee795a9cfa5a34"
+    },
+    {
+      "path": "assets/players/lol-player-f3f19f10f44ec4517c25da9e.png",
+      "bytes": 84054,
+      "sha256": "49487075959b741825e68f83326de1271bc7c65e63f26e03a2d7dbca02556dd6"
+    },
+    {
+      "path": "assets/players/lol-player-f56558298c70bd15bfca7d80.png",
+      "bytes": 110950,
+      "sha256": "a1b16d0715798d7e21da4371cd855cb3fa1c0c44cf3efbae8d564ec806538e38"
+    },
+    {
+      "path": "assets/players/lol-player-fc074aa98660d09144a41f68.png",
+      "bytes": 129203,
+      "sha256": "a00bc5eb8ff0af6345e8e9c0e63e3cdcd5ad40f1c3e91b2d12fb5b127a4eefc7"
+    },
+    {
+      "path": "assets/players/lol-player-fc203791a910f5abe585f14e.png",
+      "bytes": 159248,
+      "sha256": "16b82c43ee210dba7a4c1f0734d0ee24e6af998f9fde0531f207c8ffe6b91225"
+    },
+    {
+      "path": "assets/players/lol-player-fca56d1c078f72e535d4ded1.png",
+      "bytes": 124095,
+      "sha256": "93c4a23b1114d7f50dd95fbd78911a38250c3f8311ff1209a4102a28c5e7ed42"
+    },
+    {
+      "path": "assets/players/lol-player-fd02d9e226d9ccec9733eb57.png",
+      "bytes": 110001,
+      "sha256": "8fc1d9a205471efb5d4111b7359755da95ca3c21273a52bd67d9578d659977f7"
     },
     {
       "path": "assets/teams/SOURCES.md",
@@ -1981,19 +2773,29 @@
       "sha256": "69b6f0723bdb3e07495f376f08bb38d7351c59330149ce5e1818a13dab862699"
     },
     {
+      "path": "catalog/lol-events.json",
+      "bytes": 51594,
+      "sha256": "2e4a37c2abd8e110488770e991fb5f9b8cce1b2e346e6813b8db57bb5da11e62"
+    },
+    {
+      "path": "catalog/lol-players.json",
+      "bytes": 231010,
+      "sha256": "bf4655ec45f4eaf78ed31098b384d9b841b62b4fc0bdd85059ccd80065840b70"
+    },
+    {
       "path": "catalog/maps.json",
       "bytes": 2253,
       "sha256": "afb83eae53b6151ca1c5b373c4fe8e9489ad065def23785f311643c83a3b3b92"
     },
     {
       "path": "catalog/player-photos.json",
-      "bytes": 5600,
-      "sha256": "2d0478edf672352287a9d89a4c58269dcf02283e31b47a670030f07a65eae578"
+      "bytes": 78386,
+      "sha256": "c2565c9bea1c8b9a06010af012bacafb879bc4c7754a91f71e110cb57c846582"
     },
     {
       "path": "catalog/scope.json",
-      "bytes": 693,
-      "sha256": "791849bbac7d92dc209b1b512b78ea3b54169e81ae825cc791021059d5078aa1"
+      "bytes": 941,
+      "sha256": "d640f042e3b6f6e88db9dee8b6e7ac5ad093180f7e8ab151774c6d2399424882"
     },
     {
       "path": "catalog/team-logos.json",

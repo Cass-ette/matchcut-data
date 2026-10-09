@@ -92,6 +92,14 @@ test("exports compatible defaults while preserving user media, preferences and c
   const champions = JSON.parse(
     await readFile(path.join(app, "data/fixtures/lol/champions.json")),
   );
+  for (const name of ["players", "events"]) {
+    assert.deepEqual(
+      JSON.parse(
+        await readFile(path.join(app, `data/fixtures/lol/${name}.json`)),
+      ),
+      JSON.parse(await readFile(path.join(dir, `catalog/lol-${name}.json`))),
+    );
+  }
   assert.deepEqual(
     champions,
     JSON.parse(await readFile(path.join(dir, "catalog/lol-champions.json"))),
@@ -149,4 +157,24 @@ test("incomplete hero libraries cannot become valid manifests or exports", async
   await assert.rejects(run("manifest"), /JPEG 文件不完整/);
   await rm(file);
   await assert.rejects(run("manifest"), /英雄素材缺失/);
+});
+
+test("event rosters cannot reference unknown people or publish a missing photo as available", async (t) => {
+  const { dir, run } = await fixture(t);
+  const eventFile = path.join(dir, "catalog/lol-events.json");
+  const events = JSON.parse(await readFile(eventFile));
+  const member = events.events[0].teams[0].players[0];
+  const saved = member.playerId;
+  member.playerId = "oe:unknown";
+  await writeFile(eventFile, JSON.stringify(events));
+  await assert.rejects(run("manifest"), /赛事引用未知选手/);
+  member.playerId = saved;
+  await writeFile(eventFile, JSON.stringify(events));
+  const file = path.join(dir, "catalog/player-photos.json");
+  const photos = JSON.parse(await readFile(file));
+  await writeFile(
+    file,
+    JSON.stringify(photos.filter((p) => p.playerId !== saved)),
+  );
+  await assert.rejects(run("manifest"), /选手照片缺失/);
 });

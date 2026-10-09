@@ -69,6 +69,8 @@ async function inspect() {
   const logos = await readJson("catalog/logo-catalog.json");
   const maps = await readJson("catalog/maps.json");
   const champions = await readJson("catalog/lol-champions.json");
+  const profiles = await readJson("catalog/lol-players.json");
+  const events = await readJson("catalog/lol-events.json");
   const scope = await readJson("catalog/scope.json");
   assert.equal(scope.schemaVersion, 1);
   assert.ok(text(scope.coverageStatus));
@@ -104,6 +106,7 @@ async function inspect() {
     await png(assetPath(team.logo, "teams"));
   }
   unique(players, (p) => `${p.game}:${p.playerId}`);
+  const photoHashes = new Map();
   for (const player of players) {
     assert.ok(
       games.includes(player.game) && text(player.playerId) && text(player.name),
@@ -113,6 +116,63 @@ async function inspect() {
     httpsUrl(player.source.pageUrl);
     httpsUrl(player.source.imageUrl);
     await png(assetPath(player.artwork, "players"));
+    if (player.game === "lol") {
+      const hash = digest(
+        await readFile(path.join(root, player.artwork.slice(1))),
+      );
+      assert.ok(
+        !photoHashes.has(hash),
+        `不同选手共用同一照片，请排查占位图: ${photoHashes.get(hash)} / ${player.name}`,
+      );
+      photoHashes.set(hash, player.name);
+    }
+  }
+  assert.equal(profiles.schemaVersion, 1);
+  unique(profiles.players, (p) => p.playerId);
+  for (const provider of ["lpl", "riot"]) {
+    const linked = profiles.players.filter((p) => p.providerIds[provider]);
+    if (linked.length) unique(linked, (p) => p.providerIds[provider]);
+  }
+  const people = new Map(profiles.players.map((p) => [p.playerId, p]));
+  for (const person of profiles.players) {
+    assert.ok(text(person.name) && text(person.playerId));
+    assert.ok(
+      !("teamId" in person) && !("team" in person),
+      "选手档案不能绑定固定战队",
+    );
+    assert.equal(person.providerIds.oraclesElixir, person.playerId);
+    assert.ok(Array.isArray(person.aliases) && person.aliases.every(text));
+    assert.ok(
+      ["available", "missing", "ambiguous"].includes(person.photoStatus),
+    );
+    const photo = players.find(
+      (p) => p.game === "lol" && p.playerId === person.playerId,
+    );
+    if (person.photoStatus === "available") {
+      assert.ok(photo, `选手照片缺失: ${person.name}`);
+      assert.equal(photo.source.imageUrl, person.photo.imageUrl);
+      assert.ok(
+        person.identityEvidence.length >= 2,
+        `选手身份缺少交叉来源: ${person.name}`,
+      );
+    } else assert.ok(!photo, `待核实选手不能自动绑定照片: ${person.name}`);
+  }
+  assert.equal(events.schemaVersion, 1);
+  unique(events.events, (event) => event.id);
+  for (const event of events.events) {
+    httpsUrl(event.participantSource);
+    assert.ok(text(event.rosterStatus));
+    unique(event.teams, (team) => team.teamId);
+    for (const team of event.teams) {
+      unique(team.players, (p) => p.playerId);
+      for (const player of team.players) {
+        assert.ok(
+          people.has(player.playerId),
+          `赛事引用未知选手: ${player.playerId}`,
+        );
+        assert.ok(text(player.evidence.gameId) && text(player.evidence.date));
+      }
+    }
   }
   unique(maps, (m) => `${m.game}:${m.id}`);
   for (const map of maps) {
@@ -181,6 +241,8 @@ async function inspect() {
       maps: maps.length,
       logoCatalog: logos.logos.length,
       lolChampions: championCount,
+      lolPlayers: profiles.players.length,
+      lolEvents: events.events.length,
     },
     files: entries,
   };
@@ -206,6 +268,8 @@ async function copyInto(destination, manifest) {
     ["catalog/player-photos.json", "data/fixtures/player-photos.json"],
     ["catalog/logo-catalog.json", "data/fixtures/logo-catalog.json"],
     ["catalog/lol-champions.json", "data/fixtures/lol/champions.json"],
+    ["catalog/lol-players.json", "data/fixtures/lol/players.json"],
+    ["catalog/lol-events.json", "data/fixtures/lol/events.json"],
     ["manifest.json", "data/fixtures/media-catalog-version.json"],
     ...manifest.files
       .filter((entry) => entry.path.startsWith("assets/"))
