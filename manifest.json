@@ -1803,6 +1803,16 @@
       "sha256": "9993a6caf52f955ad41077e56b56f2472c07c1a589fb4d1c66097ddf775feda4"
     },
     {
+      "path": "assets/placeholders/SOURCES.md",
+      "bytes": 847,
+      "sha256": "8a039777cfa09472030dc7afbab0f3e98bf64de62f6853944802e34437705e5a"
+    },
+    {
+      "path": "assets/placeholders/player.png",
+      "bytes": 6890,
+      "sha256": "86c2b1d46b2b7686029d0e171c212c56f6d884213c58ab89e0dd9e95003caa01"
+    },
+    {
       "path": "assets/players/SOURCES.md",
       "bytes": 1556,
       "sha256": "469d00b66aceab80f7ce6fe49f16b19d8a64d4a1cb80a3613f938e614bc5fcda"

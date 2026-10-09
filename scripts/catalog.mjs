@@ -221,6 +221,7 @@ async function inspect() {
         ),
     );
   }
+  await png("assets/placeholders/player.png");
   for (const file of assets)
     assert.ok(
       expected.has(file) || /\/SOURCES\.md$/.test(file),
