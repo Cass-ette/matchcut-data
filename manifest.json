@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "coverageStatus": "verified-seed",
   "counts": {
     "teams": 17,
     "players": 15,
     "maps": 10,
-    "logoCatalog": 2105
+    "logoCatalog": 2105,
+    "lolChampions": 173
   },
   "files": [
     {
@@ -63,6 +64,1741 @@
       "path": "assets/cs/maps/vertigo.png",
       "bytes": 29506,
       "sha256": "8f2b4e07dfa1e8723d73c261e7dd87f64d3656c8fb463b41d5e270eed62befa5"
+    },
+    {
+      "path": "assets/lol/Aatrox.jpg",
+      "bytes": 39635,
+      "sha256": "8777b36cd0d189f7ca91ea16d3804238533de4b3ea2aec34234ead87dd35d738"
+    },
+    {
+      "path": "assets/lol/Aatrox.png",
+      "bytes": 25644,
+      "sha256": "852d739fb696684549064266851df91ecd03729e06b1a192dc14af01549b7f3f"
+    },
+    {
+      "path": "assets/lol/Ahri.jpg",
+      "bytes": 57774,
+      "sha256": "e5934d486f45e7a0cdefdd16aec31ff52ba6172996b3d316229986b0c7c4595a"
+    },
+    {
+      "path": "assets/lol/Ahri.png",
+      "bytes": 28511,
+      "sha256": "8e93368d97e3d302463c4e83ac5980d1f0a3a0aaf92ac44435730fecbd55b565"
+    },
+    {
+      "path": "assets/lol/Akali.jpg",
+      "bytes": 44259,
+      "sha256": "12e7a7a18a6cecf4948ea66398973a30feb7a831757a34938357510b44282568"
+    },
+    {
+      "path": "assets/lol/Akali.png",
+      "bytes": 27191,
+      "sha256": "a62acc32c454b5cc39cebd0769f940b34f3d39ddaf157b95acb176027f81e17a"
+    },
+    {
+      "path": "assets/lol/Akshan.jpg",
+      "bytes": 51122,
+      "sha256": "614f6cfa06ba3d275e1b0b969b89797f53a05d6c51d9225c05822e383e907acc"
+    },
+    {
+      "path": "assets/lol/Akshan.png",
+      "bytes": 25518,
+      "sha256": "da9a6cec8d8085b85e35b7ef0f4fb0ef368992b86760ea72a6539095482e5043"
+    },
+    {
+      "path": "assets/lol/Alistar.jpg",
+      "bytes": 41001,
+      "sha256": "2bc65386c3187636db4c9abd81d997b1853c1b7e7301fab1a5940d4bc93c2884"
+    },
+    {
+      "path": "assets/lol/Alistar.png",
+      "bytes": 28116,
+      "sha256": "a1b9e0dc85d186fea8b7eccb91b7dc770ea6d3c5d5b53d9698cdf33524879259"
+    },
+    {
+      "path": "assets/lol/Ambessa.jpg",
+      "bytes": 41931,
+      "sha256": "9b0b5886a532b216b504451b3dcf3037789c37c1db8c26ea9d2f2a7ceb5d5345"
+    },
+    {
+      "path": "assets/lol/Ambessa.png",
+      "bytes": 20689,
+      "sha256": "ce2bf0adfc1cb9e46430f318e73ec1c0bf257e5afe84b584acb88f15bfdb3646"
+    },
+    {
+      "path": "assets/lol/Amumu.jpg",
+      "bytes": 45600,
+      "sha256": "fa424b9b1cb552f3487b9f8a5e2c7cc059911fa55eb3da72a43845543ebf46c9"
+    },
+    {
+      "path": "assets/lol/Amumu.png",
+      "bytes": 24683,
+      "sha256": "bb20e52d6f4808d3c3cb5038397fdbff174544ee7c9cf9271deee9240a4b1204"
+    },
+    {
+      "path": "assets/lol/Anivia.jpg",
+      "bytes": 60945,
+      "sha256": "32fdf35455c9688cce3415e28eae16e80ccd8ccca24881ece47c9acc382b7cbf"
+    },
+    {
+      "path": "assets/lol/Anivia.png",
+      "bytes": 27008,
+      "sha256": "f10e316692a616d9f27ff5548a52aa128e794ce736b8daa3e1a2b86217a406d5"
+    },
+    {
+      "path": "assets/lol/Annie.jpg",
+      "bytes": 51418,
+      "sha256": "f692e68b165a8ea5247e48d806206e8501704ec1d27dcec3986988f642d271cf"
+    },
+    {
+      "path": "assets/lol/Annie.png",
+      "bytes": 30267,
+      "sha256": "97720fcc698033b18382e7475800d4aac6c436712d997d99df4a0ae99f6829e2"
+    },
+    {
+      "path": "assets/lol/Aphelios.jpg",
+      "bytes": 40976,
+      "sha256": "3e7c894343f6860b799fa43dc30f386000d87b56ba77c87ffdb9bb18474176a5"
+    },
+    {
+      "path": "assets/lol/Aphelios.png",
+      "bytes": 25225,
+      "sha256": "1db20831bdc7a01918adac84c3afffe3ce4ea8e2f2bee54d70dec220bd1ea6fc"
+    },
+    {
+      "path": "assets/lol/Ashe.jpg",
+      "bytes": 48832,
+      "sha256": "7f0be0da23b83f5034abac325b4281eddbe26de2aa54d07dff23776668736268"
+    },
+    {
+      "path": "assets/lol/Ashe.png",
+      "bytes": 32121,
+      "sha256": "423666bdb0685355be4576f78eb6406fd49469b4f6e9f780f1c5eb4349fed91f"
+    },
+    {
+      "path": "assets/lol/AurelionSol.jpg",
+      "bytes": 50237,
+      "sha256": "e44f18ba0a7822cc74ee8fe81b5e98b6f1d0098a7b78b09f69ddf012f0fdf814"
+    },
+    {
+      "path": "assets/lol/AurelionSol.png",
+      "bytes": 26953,
+      "sha256": "a8888510b555c75b35f291a1474e28f46875a543eafcbf4d3595a71654856d7c"
+    },
+    {
+      "path": "assets/lol/Aurora.jpg",
+      "bytes": 52187,
+      "sha256": "a478223220be861aa1ea72824bb62740863c07ec751ddaeb6fdf401d62c69064"
+    },
+    {
+      "path": "assets/lol/Aurora.png",
+      "bytes": 31037,
+      "sha256": "cb291047d565205ffe91bbbd3fc34592452b2f55b7706430a31c8ac188d99a33"
+    },
+    {
+      "path": "assets/lol/Azir.jpg",
+      "bytes": 52036,
+      "sha256": "bb8e56775651991278fc2cb67e9f45bba729262d80852c802a0e8c8fbf7a1f3e"
+    },
+    {
+      "path": "assets/lol/Azir.png",
+      "bytes": 25934,
+      "sha256": "fa90e249ef38adeabd757f24fc4069db8caccdf64353868d9683a5a9c4c81a35"
+    },
+    {
+      "path": "assets/lol/Bard.jpg",
+      "bytes": 41008,
+      "sha256": "7d3250e1d5bf1408ad35a137dbff14baef0ea8ba446f6280828988f3145052f2"
+    },
+    {
+      "path": "assets/lol/Bard.png",
+      "bytes": 31628,
+      "sha256": "18ee517f6453831c0730d73cbf1628001e53a5acced928d4d78e34a28051094d"
+    },
+    {
+      "path": "assets/lol/Belveth.jpg",
+      "bytes": 43471,
+      "sha256": "58e2eea3bd6a4865190e91ca575fcd0ab2222a6a8c8e18fb821a5f98d5cd3f73"
+    },
+    {
+      "path": "assets/lol/Belveth.png",
+      "bytes": 25348,
+      "sha256": "9959345f8316af4ff29d9bf68ab6c8450c85a3742ba4f3e6952ab19d4d0057f1"
+    },
+    {
+      "path": "assets/lol/Blitzcrank.jpg",
+      "bytes": 61254,
+      "sha256": "d5eb355291cdb4b9bc78c001f820d61358b567c5c44f851a493a12a41ecf3e36"
+    },
+    {
+      "path": "assets/lol/Blitzcrank.png",
+      "bytes": 29858,
+      "sha256": "753db19576c52ab7af43bd5ec2631023654567ecb2e0d83389d016927610d74c"
+    },
+    {
+      "path": "assets/lol/Brand.jpg",
+      "bytes": 52468,
+      "sha256": "d321b2568f5b059636505b90e1eac1c8546b514b2a097f24c0df621503bc567c"
+    },
+    {
+      "path": "assets/lol/Brand.png",
+      "bytes": 30626,
+      "sha256": "c50bbafb3ed2beea470479b28cd9b2e233a9f88760e61a76cd413d68bafbac52"
+    },
+    {
+      "path": "assets/lol/Braum.jpg",
+      "bytes": 43050,
+      "sha256": "3d8b7440b1b598c01c3e5ebdf3b02aad3a473cf4b7cac0c5b4d7d623060c5c1a"
+    },
+    {
+      "path": "assets/lol/Braum.png",
+      "bytes": 23674,
+      "sha256": "1ada9222fe928d32cca4b91fc374fb41cacb6157f0122a390ca611c3e2c29daa"
+    },
+    {
+      "path": "assets/lol/Briar.jpg",
+      "bytes": 49980,
+      "sha256": "0061b9bdbba0964e6f97c4d10c8d55db3efb9129b37d463d3f5d606ff7a72418"
+    },
+    {
+      "path": "assets/lol/Briar.png",
+      "bytes": 31369,
+      "sha256": "dbecebf6559e79383b208ea340c1cffeea0867b757dff0b8525dd0e0a751ff1c"
+    },
+    {
+      "path": "assets/lol/Caitlyn.jpg",
+      "bytes": 45606,
+      "sha256": "1a3843dfae66072378c8e1592043d52304b6e47464fa005103ec3b80f1d0443a"
+    },
+    {
+      "path": "assets/lol/Caitlyn.png",
+      "bytes": 25976,
+      "sha256": "f7a515360f30f33dfe5ab4e8886ce59a70c2d333f924252f48f5f9a2fbc6edf4"
+    },
+    {
+      "path": "assets/lol/Camille.jpg",
+      "bytes": 32744,
+      "sha256": "ec9f2926fa2c18edcfe303c7eac625f8467134d19ede7868c56adaa6808b0bce"
+    },
+    {
+      "path": "assets/lol/Camille.png",
+      "bytes": 26879,
+      "sha256": "54bfa2dc66fc3885279d4546a4d9651f3a16bd4e4474ceaf2e319bf7f673138a"
+    },
+    {
+      "path": "assets/lol/Cassiopeia.jpg",
+      "bytes": 38105,
+      "sha256": "8997329ada1303aa3e58c8bb07c6637371dedc1b878dbdb5f80f0d367d2d5078"
+    },
+    {
+      "path": "assets/lol/Cassiopeia.png",
+      "bytes": 26205,
+      "sha256": "da2ad096fc5237e31a1e9d9ebb9b6db6de65e2cab126c9a607c3fa7a36bc8e54"
+    },
+    {
+      "path": "assets/lol/Chogath.jpg",
+      "bytes": 45477,
+      "sha256": "13329f49dbb3d7703d2a933b1538b300d6a6bdc5387c446dbffe22c14b8b189f"
+    },
+    {
+      "path": "assets/lol/Chogath.png",
+      "bytes": 32006,
+      "sha256": "f5381fea0255a8a903381728fec79862dc5c426e25774c5e18def583fb3b1dfb"
+    },
+    {
+      "path": "assets/lol/Corki.jpg",
+      "bytes": 50258,
+      "sha256": "42b06edafdece7167266b75302b189485222ecc05d4dc5c5bc98c9fa11802d1f"
+    },
+    {
+      "path": "assets/lol/Corki.png",
+      "bytes": 28457,
+      "sha256": "db997e48b9a4cda57b6e934c131d4718aca559f2b5bdaacc8e81a19d3c2953bb"
+    },
+    {
+      "path": "assets/lol/Darius.jpg",
+      "bytes": 42720,
+      "sha256": "129c3bf5bdc794bd80ceb93ddee87e8924e05d470508ddb3ad5b9ecde034db71"
+    },
+    {
+      "path": "assets/lol/Darius.png",
+      "bytes": 27666,
+      "sha256": "4c73167413335e00b3ece58fadaa495a0c3fe05184b246b0f8b9af923a0d3d81"
+    },
+    {
+      "path": "assets/lol/Diana.jpg",
+      "bytes": 38773,
+      "sha256": "4a8ed63cee4de5ab2a4964d812b7573f413f27528854313bcff9ff73647e1fd0"
+    },
+    {
+      "path": "assets/lol/Diana.png",
+      "bytes": 24762,
+      "sha256": "d967ef71d043a49c60dce6f19725fd17d8e8362ea3c059f9ba38906688905d93"
+    },
+    {
+      "path": "assets/lol/DrMundo.jpg",
+      "bytes": 38095,
+      "sha256": "2c066d6430c292cce5214641496355910add68038e4820a337020b938f0023ee"
+    },
+    {
+      "path": "assets/lol/DrMundo.png",
+      "bytes": 30630,
+      "sha256": "496b97ef027d5f90b583329269714623701ad12d013c610ee4c7465916ecb8e0"
+    },
+    {
+      "path": "assets/lol/Draven.jpg",
+      "bytes": 40963,
+      "sha256": "9aca677bb5403fbfb730a2009ac386770608752c3e1670745703ee3c6af336f6"
+    },
+    {
+      "path": "assets/lol/Draven.png",
+      "bytes": 26400,
+      "sha256": "9b62ecd81173ff55d83a7a9e42d7f9553288856e8365cc3bcbbf4ce3bf4091a6"
+    },
+    {
+      "path": "assets/lol/Ekko.jpg",
+      "bytes": 47916,
+      "sha256": "e2c2688da334c79999780720def4723a3520a08a9a9d5d49957cb75e56b6625e"
+    },
+    {
+      "path": "assets/lol/Ekko.png",
+      "bytes": 26511,
+      "sha256": "6b2219dd6a3888d5572a2b2f2f522c3eeac490578f82f58171adfdf8e647b093"
+    },
+    {
+      "path": "assets/lol/Elise.jpg",
+      "bytes": 34453,
+      "sha256": "6149cf4ea1818a09c4e0e76cfbdf2a3781652a156989e756f72e50ee460bfcc1"
+    },
+    {
+      "path": "assets/lol/Elise.png",
+      "bytes": 27566,
+      "sha256": "cb7e3ec0658c4e8cf86f2829b12203af68cfc9ab95b98579957427134d00c6e0"
+    },
+    {
+      "path": "assets/lol/Evelynn.jpg",
+      "bytes": 45469,
+      "sha256": "907b5db163a7244e3e74d35c0db084cb8eca94da1fa398a400c3332f864416fb"
+    },
+    {
+      "path": "assets/lol/Evelynn.png",
+      "bytes": 27174,
+      "sha256": "7b09f45c7350fe57217f6833fb97427ea6cc8312b902f7fb8bbbf2a6d5c2f506"
+    },
+    {
+      "path": "assets/lol/Ezreal.jpg",
+      "bytes": 50869,
+      "sha256": "73655310f04047882dd9e145af065ef3994d14525c05d5d4cf2ff45f3c0ea77c"
+    },
+    {
+      "path": "assets/lol/Ezreal.png",
+      "bytes": 31064,
+      "sha256": "676467c4362b8745a27db93a44619179820add83be95583d7b2adcfcb4eb7e35"
+    },
+    {
+      "path": "assets/lol/Fiddlesticks.jpg",
+      "bytes": 107114,
+      "sha256": "e30cc8a334d32f154888bf7582e6890c33e2f64869c0e0ca64d3a91d0580f32e"
+    },
+    {
+      "path": "assets/lol/Fiddlesticks.png",
+      "bytes": 27884,
+      "sha256": "681544df2412f89a96052e835abe3327cfdd73801868aad20d07576a8157cc32"
+    },
+    {
+      "path": "assets/lol/Fiora.jpg",
+      "bytes": 46460,
+      "sha256": "d12cfcd68be7f8515b385b60219d1fc87d8ee8a2e7cd76fa0cb341f960def968"
+    },
+    {
+      "path": "assets/lol/Fiora.png",
+      "bytes": 28094,
+      "sha256": "b76387ea62f007ece3e06e589ac15bc9bf5452472b70a0d847d096b06f6785b7"
+    },
+    {
+      "path": "assets/lol/Fizz.jpg",
+      "bytes": 46706,
+      "sha256": "ff6474f8efceb365d7e7d7c22ba73bd90438856e6a1a97937ccbe9ceea977b53"
+    },
+    {
+      "path": "assets/lol/Fizz.png",
+      "bytes": 27947,
+      "sha256": "447fa01c18cc5bdcd0e014825f7825a93f05d32bde8226bb69fdf58fd6412999"
+    },
+    {
+      "path": "assets/lol/Galio.jpg",
+      "bytes": 48214,
+      "sha256": "d2003f222399548204131654751018f5cb91e48f8d593a9090d992fb8b2c24e9"
+    },
+    {
+      "path": "assets/lol/Galio.png",
+      "bytes": 24739,
+      "sha256": "25b4acea5a0d8d2b4de819e62fbf7e7bb4afdb94e0d18e8896cb28112a13dc3f"
+    },
+    {
+      "path": "assets/lol/Gangplank.jpg",
+      "bytes": 56812,
+      "sha256": "38dca8a9d0404aefc9a7aeb7713a6abde547fb18d05685bfc708845dd708ef52"
+    },
+    {
+      "path": "assets/lol/Gangplank.png",
+      "bytes": 28742,
+      "sha256": "f2bed51abb3d68897a161e152f03e9c9e0bc13039e6b709f551397a52e5aeb39"
+    },
+    {
+      "path": "assets/lol/Garen.jpg",
+      "bytes": 52371,
+      "sha256": "7f56df0642881e0aa582edc9d737e4dbb1120dcd9ea75f8314eba4c3a62ef37c"
+    },
+    {
+      "path": "assets/lol/Garen.png",
+      "bytes": 30705,
+      "sha256": "53018603962e1867b391071f159bb4c60d57919422585c33bfd36551e97f3752"
+    },
+    {
+      "path": "assets/lol/Gnar.jpg",
+      "bytes": 44424,
+      "sha256": "c5f0b093aefffe63cb6221a524e86fd1dbec0907a48d723929c8fb3aba9db347"
+    },
+    {
+      "path": "assets/lol/Gnar.png",
+      "bytes": 25845,
+      "sha256": "d566858ab7ae4a6887f3490cedcd9a7097f5b5214d78c0b7f1b631567f8d739e"
+    },
+    {
+      "path": "assets/lol/Gragas.jpg",
+      "bytes": 36742,
+      "sha256": "cd7ef4b99985b110ac0ee2964d75b4864632fa669a6e4ebaf691e056eb0493a1"
+    },
+    {
+      "path": "assets/lol/Gragas.png",
+      "bytes": 28755,
+      "sha256": "06599cb8a6b083a3250c3bcd701b1bab1c8f9dab6ea52c7709ac2c895431f4f6"
+    },
+    {
+      "path": "assets/lol/Graves.jpg",
+      "bytes": 39472,
+      "sha256": "f77455c7cf7ff82915dafb02d96616cd87d03afa28d27f19b155d12cc7dbead3"
+    },
+    {
+      "path": "assets/lol/Graves.png",
+      "bytes": 28267,
+      "sha256": "6f171c830d729e9b8b23c6a4d772f2bd44f90304101f1e6a299920b4ecda67d9"
+    },
+    {
+      "path": "assets/lol/Gwen.jpg",
+      "bytes": 52050,
+      "sha256": "f84b1ee980089f9ee952759ab1c0a996eab06e8b1f18aae0edb77c7ebd231b04"
+    },
+    {
+      "path": "assets/lol/Gwen.png",
+      "bytes": 31229,
+      "sha256": "a7bba2bc0970bc5098396a4578a2cb72908630125011502bd2c0ee183ceb29d9"
+    },
+    {
+      "path": "assets/lol/Hecarim.jpg",
+      "bytes": 52048,
+      "sha256": "e60333c8aeb49e85fe0d638f84ef5c1f3e343b628edbb921cae3285458af7efb"
+    },
+    {
+      "path": "assets/lol/Hecarim.png",
+      "bytes": 28985,
+      "sha256": "ba5b2d3fd406fdd81e52e359231024ef4877009bdcf61c9d7ca389916fe61509"
+    },
+    {
+      "path": "assets/lol/Heimerdinger.jpg",
+      "bytes": 62061,
+      "sha256": "d43eb8eeccb94f5ff426c4a789762b31c605c78ef6a6abd2f5edd00b152e615e"
+    },
+    {
+      "path": "assets/lol/Heimerdinger.png",
+      "bytes": 32532,
+      "sha256": "3e54bea65546474fa1154f9ac25c73bd51aff36db5c808377553b1e9f252c56d"
+    },
+    {
+      "path": "assets/lol/Hwei.jpg",
+      "bytes": 39921,
+      "sha256": "c40f59ccd8b6452ea3b884f9d4329754e0eef52a47a673db2ce4f7e961581302"
+    },
+    {
+      "path": "assets/lol/Hwei.png",
+      "bytes": 24613,
+      "sha256": "c8aeb272d4f4990ee87b7b7f857840d214e99f1707c9aebb6529ac6e0bc5f5ff"
+    },
+    {
+      "path": "assets/lol/Illaoi.jpg",
+      "bytes": 45207,
+      "sha256": "ba2a83dc42331a2d5ef8b0880738ee723721a864ecd2633205c2fa6c5e343674"
+    },
+    {
+      "path": "assets/lol/Illaoi.png",
+      "bytes": 25338,
+      "sha256": "1334b302ec0fb4895e15033351122427786cfc25c6c30b4f9b43e2a8212314c1"
+    },
+    {
+      "path": "assets/lol/Irelia.jpg",
+      "bytes": 48197,
+      "sha256": "4ade0aadc375b6fe3b2a1d4965c8fdbd2a5126d279c1c87b7f64ba0d15c2fbfa"
+    },
+    {
+      "path": "assets/lol/Irelia.png",
+      "bytes": 29037,
+      "sha256": "a8cd7e83c7b327516869d67eb9cd96499bcf720d799b814830373cb200a98c9c"
+    },
+    {
+      "path": "assets/lol/Ivern.jpg",
+      "bytes": 37214,
+      "sha256": "e49cd64eca7da4d7a312c8a72594b87a4e2b222da0c77b9fb808aceda3c7f658"
+    },
+    {
+      "path": "assets/lol/Ivern.png",
+      "bytes": 25942,
+      "sha256": "a79756ca23f8f93a882f47e4ce5d4228b70bf002a1ea320d5a69fa16491c5df4"
+    },
+    {
+      "path": "assets/lol/Janna.jpg",
+      "bytes": 47387,
+      "sha256": "4ba8b55b1e11b7642786829ba207f1c42a91de0156ed69196ab11b79c2693e84"
+    },
+    {
+      "path": "assets/lol/Janna.png",
+      "bytes": 28129,
+      "sha256": "d0a7b79a9d7673b429fc94bb2718a27bff8cdbbbafe9fac294f1cf0cc1982d83"
+    },
+    {
+      "path": "assets/lol/JarvanIV.jpg",
+      "bytes": 63154,
+      "sha256": "355bb4b142bda7193328eef117684fdf234220aafada451328d0b1179cc082d0"
+    },
+    {
+      "path": "assets/lol/JarvanIV.png",
+      "bytes": 28504,
+      "sha256": "9da74ae808585eff7f130f47ce4c6c3ddab0b302b1d39902e273ae0253592764"
+    },
+    {
+      "path": "assets/lol/Jax.jpg",
+      "bytes": 40380,
+      "sha256": "c69e6e15b5c2854565a2a971e7b1c8396bd963457ead7e26f83fef4573e4e682"
+    },
+    {
+      "path": "assets/lol/Jax.png",
+      "bytes": 27107,
+      "sha256": "441e8d865d461bc338a2d2d5a2a09f6151bbfdb4795ec8b59e66ee8654eebcca"
+    },
+    {
+      "path": "assets/lol/Jayce.jpg",
+      "bytes": 37161,
+      "sha256": "0dd5e5fa272d76df9f21cc3a051c8a2f58c29744db651c13980d48df9c47adcc"
+    },
+    {
+      "path": "assets/lol/Jayce.png",
+      "bytes": 23552,
+      "sha256": "81301e79adf1c92dd700defb5e1ee11cb8b7ef04b7034554aacb067c66256a38"
+    },
+    {
+      "path": "assets/lol/Jhin.jpg",
+      "bytes": 42516,
+      "sha256": "e08617483fc8fa29412733fa3456280bd651a47682917e5e92b68702042f8612"
+    },
+    {
+      "path": "assets/lol/Jhin.png",
+      "bytes": 25526,
+      "sha256": "dd24ce955ba61995956f1a48cb9b90b9b52936bb23bf05e0cb74cfc9c74a4b0c"
+    },
+    {
+      "path": "assets/lol/Jinx.jpg",
+      "bytes": 44163,
+      "sha256": "f1a77ca10a5c1235fc435f90ff3c5f0c7f45f0e190dc3f0a371243b353f41f4b"
+    },
+    {
+      "path": "assets/lol/Jinx.png",
+      "bytes": 27938,
+      "sha256": "2777d44345974b93f8af378430811670566d0451b6410b2caff2984e93797357"
+    },
+    {
+      "path": "assets/lol/KSante.jpg",
+      "bytes": 53247,
+      "sha256": "a4a6f1ac881896d210d26f26035065597782092c62ac9ce6a50936fd6633678d"
+    },
+    {
+      "path": "assets/lol/KSante.png",
+      "bytes": 25880,
+      "sha256": "d7d62b07df5b66497195c68e3e2bbdc8c3d6078066aa2ed170cfbcb0fc2f5ddf"
+    },
+    {
+      "path": "assets/lol/Kaisa.jpg",
+      "bytes": 45853,
+      "sha256": "2ba7aa061776e6e4f942e93080de6050668796f81bd20316142dfd7469f03272"
+    },
+    {
+      "path": "assets/lol/Kaisa.png",
+      "bytes": 26828,
+      "sha256": "e0e86ccb7143d20bcbd83f192530f9712bf4b1d6306ec07a06992d4b72676443"
+    },
+    {
+      "path": "assets/lol/Kalista.jpg",
+      "bytes": 39411,
+      "sha256": "a8e91691dd4ed5dadeb0e1760ef272a05baaa3d970c9268c2cf8172df9807001"
+    },
+    {
+      "path": "assets/lol/Kalista.png",
+      "bytes": 28603,
+      "sha256": "3809361a78dfb97d3660fd47345145287d48af10909426d353b451cf52dc093b"
+    },
+    {
+      "path": "assets/lol/Karma.jpg",
+      "bytes": 49169,
+      "sha256": "9a50fed92b8dfc7b8886b1b29166d17a97f5a3dd71b6e51283dbda12ef7c3bdd"
+    },
+    {
+      "path": "assets/lol/Karma.png",
+      "bytes": 30154,
+      "sha256": "e1df55d95c9a90445b59615db2984c3a8a9d8df3578faf968872bbe2e0075bc0"
+    },
+    {
+      "path": "assets/lol/Karthus.jpg",
+      "bytes": 34880,
+      "sha256": "0e5079ed13f211a2d03286a9216316fbe15c8bb864e51ea9d288cfbf5525076b"
+    },
+    {
+      "path": "assets/lol/Karthus.png",
+      "bytes": 28743,
+      "sha256": "2b7015e102317b52900f9c69adfe462426301ac0f62c54502fdeae518d30392e"
+    },
+    {
+      "path": "assets/lol/Kassadin.jpg",
+      "bytes": 47369,
+      "sha256": "de4c4e571ef13ac999948394c5fbc8e3bdca3836cba97d6f5b9f7a0b00166956"
+    },
+    {
+      "path": "assets/lol/Kassadin.png",
+      "bytes": 29874,
+      "sha256": "a7616e721346eef6a2af65470f98757e4ad184a53685d412edec583dd5989a15"
+    },
+    {
+      "path": "assets/lol/Katarina.jpg",
+      "bytes": 55234,
+      "sha256": "e6b341aa2e8910e28d10d11ba27892f7b9a255bc2ed9792c6f8b4f6a284e1c07"
+    },
+    {
+      "path": "assets/lol/Katarina.png",
+      "bytes": 26732,
+      "sha256": "998f3a479b5441f86f4031aace49bbd70bb83a76c05d39b0697288fe50ba029e"
+    },
+    {
+      "path": "assets/lol/Kayle.jpg",
+      "bytes": 42596,
+      "sha256": "40ff65e29596bd5e3e26d2232fbe13fa2d0c1e0a44c6f2f07c568c86327d193b"
+    },
+    {
+      "path": "assets/lol/Kayle.png",
+      "bytes": 24103,
+      "sha256": "63dd90ebddcf8fcda57aa20f6f6b490ceea0958a45f9411946d4b9bd0d1293c6"
+    },
+    {
+      "path": "assets/lol/Kayn.jpg",
+      "bytes": 34040,
+      "sha256": "3235a43dded897fcb523cdcad8b0c962753b4d49798a8fbd0a7c5b59aa7bc813"
+    },
+    {
+      "path": "assets/lol/Kayn.png",
+      "bytes": 25653,
+      "sha256": "7a7e6e8f8df01879296ed9de5710329a2f3c541418ae277c65175e1ba2212982"
+    },
+    {
+      "path": "assets/lol/Kennen.jpg",
+      "bytes": 36978,
+      "sha256": "c0862704536c5a54a8c59b665870dbf33332c4f6306c2e5c938ba4e6c4ea14ed"
+    },
+    {
+      "path": "assets/lol/Kennen.png",
+      "bytes": 26105,
+      "sha256": "71239ebd9236d5d0fdbccfb8741727e6f13dd007a4d6905e5aa82f6b36aceebd"
+    },
+    {
+      "path": "assets/lol/Khazix.jpg",
+      "bytes": 41422,
+      "sha256": "b6a5ba681b57a6d4fb25bed953fd7a2bea6301dd8b8a08ec36f96b6454369f74"
+    },
+    {
+      "path": "assets/lol/Khazix.png",
+      "bytes": 23545,
+      "sha256": "30007408b2c91e58a8036116f222f70b1d148699b994a109a30eacb4eff6bb63"
+    },
+    {
+      "path": "assets/lol/Kindred.jpg",
+      "bytes": 39890,
+      "sha256": "9134e244bfd46edfcccab50d991b905a6721fdf8b5c0d92f074b99818dfca75d"
+    },
+    {
+      "path": "assets/lol/Kindred.png",
+      "bytes": 29250,
+      "sha256": "a789f7340a9e390c8627be587cb4f236736f55907c8e36b792ca1f6221ade4ed"
+    },
+    {
+      "path": "assets/lol/Kled.jpg",
+      "bytes": 39174,
+      "sha256": "3e5b4428f83f63ba10d341899906323fcdbe8c00ba383fe4191d44ae43c96781"
+    },
+    {
+      "path": "assets/lol/Kled.png",
+      "bytes": 28478,
+      "sha256": "4d71421e5e0a4fd8092fc9b6d91cc10fb36a067fc8a74b5e2fce2e718d3f2566"
+    },
+    {
+      "path": "assets/lol/KogMaw.jpg",
+      "bytes": 37752,
+      "sha256": "12ce04cec7204761bd648dd260bafc4b8a9e0ef8aa379af7a19a22662365c0aa"
+    },
+    {
+      "path": "assets/lol/KogMaw.png",
+      "bytes": 29237,
+      "sha256": "a5836dd40801e9f6275c1b74de8ba6de2de09ab2d24ec2e9695f958917348f1a"
+    },
+    {
+      "path": "assets/lol/Leblanc.jpg",
+      "bytes": 52851,
+      "sha256": "50e733a8b26f398825622b8b0da34af1660f3806bbeec14f020dfee5f15bab87"
+    },
+    {
+      "path": "assets/lol/Leblanc.png",
+      "bytes": 36027,
+      "sha256": "e48b97ce2451c37d4e4a747b37663bd1095730b4182b2805f397f60fd12c7c5d"
+    },
+    {
+      "path": "assets/lol/LeeSin.jpg",
+      "bytes": 36736,
+      "sha256": "c16689dda60145af1849c8a4934d719de76cdede8d85afdf264e18255f113bf0"
+    },
+    {
+      "path": "assets/lol/LeeSin.png",
+      "bytes": 24979,
+      "sha256": "890f439dd16bfa686b3c6f06f9749eb5477e5b706a8ff85cb8161f91adcff9a8"
+    },
+    {
+      "path": "assets/lol/Leona.jpg",
+      "bytes": 56336,
+      "sha256": "612ee39a584a862502a0c314578d71c51cd05b593a7f79c984f65b2c12c5ee60"
+    },
+    {
+      "path": "assets/lol/Leona.png",
+      "bytes": 31573,
+      "sha256": "d7e170e1d5c37b243663e03d480a4befe727d86d0733e3e411b90297cb192461"
+    },
+    {
+      "path": "assets/lol/Lillia.jpg",
+      "bytes": 45589,
+      "sha256": "8f89a003e426e76a27811edeede14d1c524f51b195619ef47c1fc3e373ec1915"
+    },
+    {
+      "path": "assets/lol/Lillia.png",
+      "bytes": 28814,
+      "sha256": "b270de6af7ec29bb2fb91d6effec79f3c0b6d93811315dc54d101ee55f61fb31"
+    },
+    {
+      "path": "assets/lol/Lissandra.jpg",
+      "bytes": 40245,
+      "sha256": "200fe9da7be84b6c1cfad5c7a5a32bcf4b52e01257a42b63d1d3a7ec3f1ec563"
+    },
+    {
+      "path": "assets/lol/Lissandra.png",
+      "bytes": 28806,
+      "sha256": "ece7fc0269138d30380dbb0420ccf822e7ca95819d7d911a0e29f7d10cf7445d"
+    },
+    {
+      "path": "assets/lol/Locke.jpg",
+      "bytes": 43462,
+      "sha256": "371cf51366290ec9a1318de4095c3fd457158e5a0b24bdc3af4040fc9b2c9e57"
+    },
+    {
+      "path": "assets/lol/Locke.png",
+      "bytes": 36247,
+      "sha256": "f05b0779ef6873f798d42f0bff433d54a7ba761d487ef36dd3de0c32bdf98d28"
+    },
+    {
+      "path": "assets/lol/Lucian.jpg",
+      "bytes": 32009,
+      "sha256": "a4613dc480fd84c1dc582e146dccacd6eca5a1af54e3193214fc36e3ade024a3"
+    },
+    {
+      "path": "assets/lol/Lucian.png",
+      "bytes": 27998,
+      "sha256": "75e3de3e43f732f815293472167e0022118a0be55a627f10794bc8043e2602cb"
+    },
+    {
+      "path": "assets/lol/Lulu.jpg",
+      "bytes": 47923,
+      "sha256": "462c3f7af9a114f232164ad32a14b172fe4f37e96a96d2c0c16928c4447e8b96"
+    },
+    {
+      "path": "assets/lol/Lulu.png",
+      "bytes": 29539,
+      "sha256": "ca22c4a042d66085ef7794c8b351b57880739be454aa4128fbdd7506c02d1a50"
+    },
+    {
+      "path": "assets/lol/Lux.jpg",
+      "bytes": 59727,
+      "sha256": "182677d4716d3659197a3a1d7dfb406b11bb2dbb4dde50eed467934a276fc3d8"
+    },
+    {
+      "path": "assets/lol/Lux.png",
+      "bytes": 29188,
+      "sha256": "64639bea2aa7d622dd07287de7a7820950e567f0993c7dcc422e1e699fd743fd"
+    },
+    {
+      "path": "assets/lol/Malphite.jpg",
+      "bytes": 41383,
+      "sha256": "3d02c87148b81cec2d74e54a5607ffa3bd7a2caddc36ec3b3054d6769c2a5c72"
+    },
+    {
+      "path": "assets/lol/Malphite.png",
+      "bytes": 26063,
+      "sha256": "233005b989ae25fc6e5e22d1325291bce2d64e49767ebb83413c0f91e1b157c6"
+    },
+    {
+      "path": "assets/lol/Malzahar.jpg",
+      "bytes": 61902,
+      "sha256": "2c792dfb672442755eb27d5eeeb84647fefc52b329f9dc12414be559f4f191bf"
+    },
+    {
+      "path": "assets/lol/Malzahar.png",
+      "bytes": 27604,
+      "sha256": "c0f9eb031b22805d1bbed0cd0ee2a7f148541076c1655271665325e2dbf06911"
+    },
+    {
+      "path": "assets/lol/Maokai.jpg",
+      "bytes": 44815,
+      "sha256": "f84422fdfdbaeb9d18d02945dd1adfb37ebdcc06d66f814ea3fc6b76a8ff2801"
+    },
+    {
+      "path": "assets/lol/Maokai.png",
+      "bytes": 27854,
+      "sha256": "7e68c320efa332ba9126c6d2d6ccd3a51939d7d1f2b31785fbec8594a0e6f6b3"
+    },
+    {
+      "path": "assets/lol/MasterYi.jpg",
+      "bytes": 53949,
+      "sha256": "fed7b2a79e855405b8bd080370eefd90c4200720b0f47e2212886cda49235ca4"
+    },
+    {
+      "path": "assets/lol/MasterYi.png",
+      "bytes": 29421,
+      "sha256": "1c23534926a7956a260591fb3cee8f38cb6de3d9d4f064fe93fb88c8f76b1b66"
+    },
+    {
+      "path": "assets/lol/Mel.jpg",
+      "bytes": 47046,
+      "sha256": "46fda50705f2c2454fd7bb963b370175e9174c031d609891acf367b5edd1d340"
+    },
+    {
+      "path": "assets/lol/Mel.png",
+      "bytes": 29534,
+      "sha256": "e464fe1e53f45f3c603cdf1bab1cd182ce6a429840e008d30ed41411d4a68ea0"
+    },
+    {
+      "path": "assets/lol/Milio.jpg",
+      "bytes": 63430,
+      "sha256": "734527827bb6011e05b8ffc1df651aee29a86e133d2dbfc448acbd9dc2600426"
+    },
+    {
+      "path": "assets/lol/Milio.png",
+      "bytes": 27199,
+      "sha256": "86517cc10c6c5670dcd6821a2e5c7bbb9e16aac597cda5d04578933bd5861343"
+    },
+    {
+      "path": "assets/lol/MissFortune.jpg",
+      "bytes": 50953,
+      "sha256": "0194f63ecfd57061c9418cbf60ed69911bb129c4209972618939ce4ee22ee1c8"
+    },
+    {
+      "path": "assets/lol/MissFortune.png",
+      "bytes": 25963,
+      "sha256": "a8c3048bfb76b4e8b34e00193ed2febe69669918055ffda835ddb24905588733"
+    },
+    {
+      "path": "assets/lol/MonkeyKing.jpg",
+      "bytes": 55353,
+      "sha256": "36800c83f36d5807a87621e54c7d86040ce597da5288fc058ea476cdc759fa70"
+    },
+    {
+      "path": "assets/lol/MonkeyKing.png",
+      "bytes": 29161,
+      "sha256": "2264db1ffde08659aee3380c8ac5643771d872d95a9c9090951d7f2849e61353"
+    },
+    {
+      "path": "assets/lol/Mordekaiser.jpg",
+      "bytes": 29252,
+      "sha256": "725da4e10cd48eb6bed04541cd190e5d5813c2a7abde262698c82b705ee8ef16"
+    },
+    {
+      "path": "assets/lol/Mordekaiser.png",
+      "bytes": 26259,
+      "sha256": "3d3521dedf02d446ae2a506b8b5395a9fba690567dbf6be3cf4523e8c439d9b8"
+    },
+    {
+      "path": "assets/lol/Morgana.jpg",
+      "bytes": 44870,
+      "sha256": "025a0ff4d0255363ad675dcbc562773ec988a9e866b651ad5fdac0c30c63e262"
+    },
+    {
+      "path": "assets/lol/Morgana.png",
+      "bytes": 26025,
+      "sha256": "bd170027904c2e5a354e53dca0f5d50516a4f3d60a4fbb0c286c9eb32d8d8954"
+    },
+    {
+      "path": "assets/lol/Naafiri.jpg",
+      "bytes": 38017,
+      "sha256": "13efd338e6ef49ee85b6810d19abfac8a5f011887997bd29774d564ff770bbea"
+    },
+    {
+      "path": "assets/lol/Naafiri.png",
+      "bytes": 23851,
+      "sha256": "75a82287766d7bc333305390675eb5bd3a0b7522d0a69a46543e7bdc301a4ed7"
+    },
+    {
+      "path": "assets/lol/Nami.jpg",
+      "bytes": 49175,
+      "sha256": "da1a2afcba6822f085d34aef5ea6650d180e5b2dde7554d3767ae65f21bdafec"
+    },
+    {
+      "path": "assets/lol/Nami.png",
+      "bytes": 28176,
+      "sha256": "f43e652c61cd4998274e966a1e91e00fb3d51cc6202f7e53a5f2c7da160ddd23"
+    },
+    {
+      "path": "assets/lol/Nasus.jpg",
+      "bytes": 52979,
+      "sha256": "cac74e32c970b83dc3d5cc67a46d0a7eb0b5956f221e08e4e73fd26345cc9cb5"
+    },
+    {
+      "path": "assets/lol/Nasus.png",
+      "bytes": 29763,
+      "sha256": "80b838812e5f14b1e37900d1c14c54835b535d5bd36af6ace19fd23344989be3"
+    },
+    {
+      "path": "assets/lol/Nautilus.jpg",
+      "bytes": 43717,
+      "sha256": "fa0ddc946fa7402854521b644f82c26246e97542c62c7a383e592d433b35d7f7"
+    },
+    {
+      "path": "assets/lol/Nautilus.png",
+      "bytes": 28532,
+      "sha256": "6e8dfa2e6ba3d4564745fe69ace7c796898aa023a2af2727b0be127316712c2c"
+    },
+    {
+      "path": "assets/lol/Neeko.jpg",
+      "bytes": 59843,
+      "sha256": "d535718be001bdf798e2a54507a6a2711fbc424ebb5cfd2379bdf44f6fbe1fa8"
+    },
+    {
+      "path": "assets/lol/Neeko.png",
+      "bytes": 28615,
+      "sha256": "0fd600e0aeeca36f9245bcbc02ca666a2493b2b68a60ecd298a2ad26c33c8a92"
+    },
+    {
+      "path": "assets/lol/Nidalee.jpg",
+      "bytes": 40315,
+      "sha256": "e14a6579b8240340b6c7c8cb0db282fb8159030406e3d144b91ae2dc44110cda"
+    },
+    {
+      "path": "assets/lol/Nidalee.png",
+      "bytes": 26077,
+      "sha256": "f6291b72f4ea9ea1fa272f61443bc3580e3f61b870be31c0743824a1c25abf33"
+    },
+    {
+      "path": "assets/lol/Nilah.jpg",
+      "bytes": 51760,
+      "sha256": "29bf38431ed726b9530bc4606449c99e910633d8094b37a11973e6463bfa4ac6"
+    },
+    {
+      "path": "assets/lol/Nilah.png",
+      "bytes": 28372,
+      "sha256": "564103bc6f32863242ea0d39fc40eb39c70cf4a1f28297c756f83d44195048b2"
+    },
+    {
+      "path": "assets/lol/Nocturne.jpg",
+      "bytes": 32795,
+      "sha256": "79d5a37b4957162329f71936d3d2ab211ec23c6529313f4a0febde0065cba233"
+    },
+    {
+      "path": "assets/lol/Nocturne.png",
+      "bytes": 27356,
+      "sha256": "b9968b3e2bd60257ed23cede9e69b184ef78096bc196d157c1f6eff9b3d900d5"
+    },
+    {
+      "path": "assets/lol/Nunu.jpg",
+      "bytes": 44510,
+      "sha256": "e69ad942c045bdb2c3dfb27b6b32acd1bd8633107874c26c3d16e0d1c9e39618"
+    },
+    {
+      "path": "assets/lol/Nunu.png",
+      "bytes": 27502,
+      "sha256": "dab4f686598e93d0d430db32d824a98f34b5a0055331a654c84ea3759fe6ed6a"
+    },
+    {
+      "path": "assets/lol/Olaf.jpg",
+      "bytes": 49571,
+      "sha256": "e8a56828ecbdd08c26fe5a30a2caaabd47bcdab1d5d4a60fe22b3296836aacb6"
+    },
+    {
+      "path": "assets/lol/Olaf.png",
+      "bytes": 30509,
+      "sha256": "17d439590f461a2d4d5bdacd33d4d2c31009ea8f57b46a6a427b0db96f6bd0ab"
+    },
+    {
+      "path": "assets/lol/Orianna.jpg",
+      "bytes": 42018,
+      "sha256": "ad10ccf30009b10e45e216a5cc5adc778f0c9afc901437aaed7a0097b4e3ceb7"
+    },
+    {
+      "path": "assets/lol/Orianna.png",
+      "bytes": 21902,
+      "sha256": "7d70d8bcb2991de3f3512efb565c453a9d470dca78088c05aec3691d22dd7511"
+    },
+    {
+      "path": "assets/lol/Ornn.jpg",
+      "bytes": 47365,
+      "sha256": "99614ba0b62f61e10d0b1ad92fec36d995a2e3e0846283cf8d8f061c1afb0921"
+    },
+    {
+      "path": "assets/lol/Ornn.png",
+      "bytes": 25086,
+      "sha256": "91374f0919871a6490ac7b8ff9b073efb8b6a797f28302cc3751294c47c58d6e"
+    },
+    {
+      "path": "assets/lol/Pantheon.jpg",
+      "bytes": 42644,
+      "sha256": "10ae5514fc02db34b36db20ae054084368094240b8d627c640c42bbe0371215c"
+    },
+    {
+      "path": "assets/lol/Pantheon.png",
+      "bytes": 28793,
+      "sha256": "0ab8b436d5d7dd0a4163ec105a4977fc77abfd16757d46a9e958242f2d6858c1"
+    },
+    {
+      "path": "assets/lol/Poppy.jpg",
+      "bytes": 56845,
+      "sha256": "ba87b8aa6569964de66cfe9323a5df3c409aca42e0c2ed9e9f2fd50d72470aec"
+    },
+    {
+      "path": "assets/lol/Poppy.png",
+      "bytes": 31447,
+      "sha256": "c2cdd3a868b4b9ac5f1f3fef5ca77e930f32b0c98a5c3b83bcb099f75a4b6b7c"
+    },
+    {
+      "path": "assets/lol/Pyke.jpg",
+      "bytes": 46189,
+      "sha256": "6617052aab6a204298fd487f9486ef67b869780208a48cb9cda02c5fa37c1dc9"
+    },
+    {
+      "path": "assets/lol/Pyke.png",
+      "bytes": 29162,
+      "sha256": "384a69fbcbfed183b2ef591923e51cb56d5f55835a4dae2da716f858cd8a7a6f"
+    },
+    {
+      "path": "assets/lol/Qiyana.jpg",
+      "bytes": 50129,
+      "sha256": "00aafa1dd4f1b2b54c9f7bd8d71ae9330562cb98204fa6c65bf00aa471b81afa"
+    },
+    {
+      "path": "assets/lol/Qiyana.png",
+      "bytes": 30662,
+      "sha256": "b7bc7f2b7b4acd45b994005e87710c779c1c9bb89343e02f1fd1e98533a1f93f"
+    },
+    {
+      "path": "assets/lol/Quinn.jpg",
+      "bytes": 44618,
+      "sha256": "ce98c30e8f9123e79c80bc39c35d3723a475002dbc86b15dedab5819d16f00af"
+    },
+    {
+      "path": "assets/lol/Quinn.png",
+      "bytes": 30154,
+      "sha256": "69ac72c21c771fe80492a7a6316dbe7053c0f20f0bb35ecb59d43f6d916d90e4"
+    },
+    {
+      "path": "assets/lol/Rakan.jpg",
+      "bytes": 34481,
+      "sha256": "f81dd8d890f8c468c973e47cbee8be44772019d112a1958d50edeca991f9a586"
+    },
+    {
+      "path": "assets/lol/Rakan.png",
+      "bytes": 28472,
+      "sha256": "b0252249ed33b226421595e5cf4f7a6b4e4fbe9441140e65cee05f82463f87fd"
+    },
+    {
+      "path": "assets/lol/Rammus.jpg",
+      "bytes": 47452,
+      "sha256": "c7118b79e144f49993213a02c7ae162b711eaeba30951485b0073006a54745ab"
+    },
+    {
+      "path": "assets/lol/Rammus.png",
+      "bytes": 27369,
+      "sha256": "911faa8b6e8a2b5e018fa1c5f36617488036782e163faa8029d1475885cef6ab"
+    },
+    {
+      "path": "assets/lol/RekSai.jpg",
+      "bytes": 43753,
+      "sha256": "a9accaca3fd0f40bf8bc66ff9d573983de3088d1e89643579186f31317a48e24"
+    },
+    {
+      "path": "assets/lol/RekSai.png",
+      "bytes": 27922,
+      "sha256": "881fcd45ab0566be11312e358b9fe33f61656bbafe5b0ae4c95e5b3ca9cacfc3"
+    },
+    {
+      "path": "assets/lol/Rell.jpg",
+      "bytes": 47010,
+      "sha256": "0e604e1f3f24320014ab00e3eee104867e64e31976225d2a0bfa4589d0eaa479"
+    },
+    {
+      "path": "assets/lol/Rell.png",
+      "bytes": 29915,
+      "sha256": "47c0724d3b71c8b4d2ae4eed8d3b793550e1f4ef0e2bf3807696c6bf2ebaa91c"
+    },
+    {
+      "path": "assets/lol/Renata.jpg",
+      "bytes": 39725,
+      "sha256": "ed870d9a3e3f599cc4d1c6f5130b047b459742176036770ebef9961d011866d4"
+    },
+    {
+      "path": "assets/lol/Renata.png",
+      "bytes": 27669,
+      "sha256": "59f70a9f29de3a7740594e7f0a635e2d75f7e32b44c04f1d5b2576e91494baf0"
+    },
+    {
+      "path": "assets/lol/Renekton.jpg",
+      "bytes": 49955,
+      "sha256": "31fcd4865735bc1cba5cb840ff834a7893898198bc932767da88fa71216d7b0d"
+    },
+    {
+      "path": "assets/lol/Renekton.png",
+      "bytes": 29409,
+      "sha256": "a3b94121970f7649896ef8c695be265d31c617e33ff9c7c86cff56d1e19724fd"
+    },
+    {
+      "path": "assets/lol/Rengar.jpg",
+      "bytes": 43448,
+      "sha256": "f73d1fb3ed759e211c84ba1db368f0f5733c6a4f5e8d8a42f7d055a01dfa4808"
+    },
+    {
+      "path": "assets/lol/Rengar.png",
+      "bytes": 31091,
+      "sha256": "afc37ac7e29cbc58e31e3d127e26a9c1e09f05fcc489adbb512ad6710b63ff5e"
+    },
+    {
+      "path": "assets/lol/Riven.jpg",
+      "bytes": 45084,
+      "sha256": "3e810e3b81dc78dbf2dc6b7aa7857767998999b81eae7755d1e1dad83ee428ba"
+    },
+    {
+      "path": "assets/lol/Riven.png",
+      "bytes": 27993,
+      "sha256": "4527ba3804c0b78e0127608708b2a425d1c6eef5f95925c5dcfd707f5fa32139"
+    },
+    {
+      "path": "assets/lol/Rumble.jpg",
+      "bytes": 51729,
+      "sha256": "48252e3d68017507588063d63dad0827d50f2a1f847367bdfb69aa389c71dcaf"
+    },
+    {
+      "path": "assets/lol/Rumble.png",
+      "bytes": 29584,
+      "sha256": "e14a39464abbdb4aba3ac5827e8f717ff7ce5b13d9c6a932da3fc13caa783f36"
+    },
+    {
+      "path": "assets/lol/Ryze.jpg",
+      "bytes": 38630,
+      "sha256": "0e868e019f6c162606a62d9d73536f3419b83a5d9f354b145c788199afb713df"
+    },
+    {
+      "path": "assets/lol/Ryze.png",
+      "bytes": 25185,
+      "sha256": "abb747c8b8402625d4cc6b5b3c48950b192823216532c74f26d4b5ccf8851290"
+    },
+    {
+      "path": "assets/lol/SOURCES.md",
+      "bytes": 602,
+      "sha256": "59014c44e6713553637059ff6379a1dadaea76348454eac3bb44b3d78c6081ad"
+    },
+    {
+      "path": "assets/lol/Samira.jpg",
+      "bytes": 40937,
+      "sha256": "46ad14e32211bf31206852f7b89ace1793151f4e23d6aa2e6fb24dfb2e8a4913"
+    },
+    {
+      "path": "assets/lol/Samira.png",
+      "bytes": 24690,
+      "sha256": "0a30028f649d72534fddf5c66e713792511dc79cb4ce882b7b7828eeabe35aa7"
+    },
+    {
+      "path": "assets/lol/Sejuani.jpg",
+      "bytes": 49439,
+      "sha256": "637a21b72122acd0238d373b66eff40b903021c343b63630c76cdb5b8cca7a0b"
+    },
+    {
+      "path": "assets/lol/Sejuani.png",
+      "bytes": 31761,
+      "sha256": "a84f6106746dd2cc0c173e6a995d7310a2ee676c7a22630f041fa1869bc6ef86"
+    },
+    {
+      "path": "assets/lol/Senna.jpg",
+      "bytes": 39890,
+      "sha256": "79c169a3cd9ec42e4ac58e019a97a20b8a414687564db8e8f9c994a8192d087d"
+    },
+    {
+      "path": "assets/lol/Senna.png",
+      "bytes": 23661,
+      "sha256": "9ea2bd78c36f3c9b466a0f6df52154007663bb77cab7c07d87496885f0f86683"
+    },
+    {
+      "path": "assets/lol/Seraphine.jpg",
+      "bytes": 58091,
+      "sha256": "e8e70ab8305f8dda6de97df3e36b9dbfc6f8d40a38f4c2720a1c503b9344e3a5"
+    },
+    {
+      "path": "assets/lol/Seraphine.png",
+      "bytes": 27763,
+      "sha256": "87bfe49f6595aa4b3b002f9768487d5d410badf25dfbb0f7bb54de11b0d50254"
+    },
+    {
+      "path": "assets/lol/Sett.jpg",
+      "bytes": 41144,
+      "sha256": "b184d737e57d8195c0c450d0387dd0e148d851846ea719ef3d2a38d71d381d3f"
+    },
+    {
+      "path": "assets/lol/Sett.png",
+      "bytes": 26531,
+      "sha256": "95823a0688664a52d1d46ebb0392c3cc45e26ab7e7a2510292a4f36239d9eea0"
+    },
+    {
+      "path": "assets/lol/Shaco.jpg",
+      "bytes": 38037,
+      "sha256": "f94b95978071212b6e79c059cc6cde32ed1dd1c7026e0cc47b957058f281e55b"
+    },
+    {
+      "path": "assets/lol/Shaco.png",
+      "bytes": 28951,
+      "sha256": "83ad990c0196b9b33c06b6cdf672db2d1ab3025cde131961ba767ddfff9c7a8a"
+    },
+    {
+      "path": "assets/lol/Shen.jpg",
+      "bytes": 44277,
+      "sha256": "6c6c4fc529f2f669a00ca9d05bf863fd09face126b0570dc0839b4c29f5fa1e4"
+    },
+    {
+      "path": "assets/lol/Shen.png",
+      "bytes": 25298,
+      "sha256": "6570a91fb958ef079805dadd8c7a628da569d9601883b6b24610f0858bda8239"
+    },
+    {
+      "path": "assets/lol/Shyvana.jpg",
+      "bytes": 51358,
+      "sha256": "f040fe3e93de216d8b38526f377f5ced24e14921430440c73aa503549605e081"
+    },
+    {
+      "path": "assets/lol/Shyvana.png",
+      "bytes": 39720,
+      "sha256": "f65317e9ded51d97ea2e53293984b7a5c640242a7099df7fb3de0aad356594b0"
+    },
+    {
+      "path": "assets/lol/Singed.jpg",
+      "bytes": 45019,
+      "sha256": "88096c2fa74ed9b2f6021ef8607eecb3f8874b99d0d52df6c52e87642f334f9a"
+    },
+    {
+      "path": "assets/lol/Singed.png",
+      "bytes": 27610,
+      "sha256": "0429cad926e909454d99f3286b091a143780b87f67f867b54ab4ee152bdbec99"
+    },
+    {
+      "path": "assets/lol/Sion.jpg",
+      "bytes": 42177,
+      "sha256": "deb15fff9c136453ef8921f4c6fb29ee3302884e6bf66e67180e48131d84e895"
+    },
+    {
+      "path": "assets/lol/Sion.png",
+      "bytes": 26066,
+      "sha256": "4908e30a48ec3cbdb080de1667833e2d018ea03fb296e9760066a46793adb528"
+    },
+    {
+      "path": "assets/lol/Sivir.jpg",
+      "bytes": 50938,
+      "sha256": "c940ea49fcd460542910f8fce96e1e19c90c08179a0a5ae5f5c45ec1e3595a3b"
+    },
+    {
+      "path": "assets/lol/Sivir.png",
+      "bytes": 28166,
+      "sha256": "dd8642cd3fb6df0d85d1837dc94c7128e4292554a93451081a5537d0b888172b"
+    },
+    {
+      "path": "assets/lol/Skarner.jpg",
+      "bytes": 41309,
+      "sha256": "204628b29773717a1f51e52a388618bf32dff2c1cfb0e47b2375431fd5c22d06"
+    },
+    {
+      "path": "assets/lol/Skarner.png",
+      "bytes": 29500,
+      "sha256": "cefd97204e9634f6d46216b736279b988f5e0f3ce1ca49ed43a519effd6f05c9"
+    },
+    {
+      "path": "assets/lol/Smolder.jpg",
+      "bytes": 53083,
+      "sha256": "7554bafbbdb3119b6956e7a45ca3a60503aa75c8b90229fc85b10eda689eef41"
+    },
+    {
+      "path": "assets/lol/Smolder.png",
+      "bytes": 29635,
+      "sha256": "8a7ffc62f2fe7904aee014201fe75e138b2bf82710d2bc3a6cf34d50d171e076"
+    },
+    {
+      "path": "assets/lol/Sona.jpg",
+      "bytes": 49166,
+      "sha256": "9f5c1b987da0b26915bf373e04f547d9a6e52833220424eda4b028e54d8d5881"
+    },
+    {
+      "path": "assets/lol/Sona.png",
+      "bytes": 26340,
+      "sha256": "e77557069fdc32b412190e8218d2df235d89265100758f0fd8a3399e7b585548"
+    },
+    {
+      "path": "assets/lol/Soraka.jpg",
+      "bytes": 54463,
+      "sha256": "3b78f5a2b3162ee2923d4ca6ed109637a993726bb512ef26e1445f8a0684e18a"
+    },
+    {
+      "path": "assets/lol/Soraka.png",
+      "bytes": 31969,
+      "sha256": "ca2774023350198da7025b950c85be65e3506e2f40947ca4151f0e8df4a8be15"
+    },
+    {
+      "path": "assets/lol/Swain.jpg",
+      "bytes": 31653,
+      "sha256": "6d28493129686c59a9793e95dbe68c8b111adcf53a480f864976d6a447ed8926"
+    },
+    {
+      "path": "assets/lol/Swain.png",
+      "bytes": 24066,
+      "sha256": "9f4550dd903cf19ee587bd0870f630ce90d6f62fac2a2d07fe46bda153db8f9b"
+    },
+    {
+      "path": "assets/lol/Sylas.jpg",
+      "bytes": 51416,
+      "sha256": "b323dc1560b399acc3cc5fa2e3b94b626a5f6e6eafaf73061ea8ad2f8345b56b"
+    },
+    {
+      "path": "assets/lol/Sylas.png",
+      "bytes": 27292,
+      "sha256": "3e724fcd4fffd0b36ea3dd2a60d7d3ed9aeb20ebc5e2dec2e8019b31c3097647"
+    },
+    {
+      "path": "assets/lol/Syndra.jpg",
+      "bytes": 49648,
+      "sha256": "9b48c1135ac9bccb38bddd98566c3be67039b2de193339a5a820df3c204d06b2"
+    },
+    {
+      "path": "assets/lol/Syndra.png",
+      "bytes": 30524,
+      "sha256": "51424965682912746a4ac1a66c9c7d4e3d08333aaf8a59b9865725166580f7b3"
+    },
+    {
+      "path": "assets/lol/TahmKench.jpg",
+      "bytes": 31540,
+      "sha256": "f991f6a1f4c4c78acc2fb489545d137fc407e484e26a234ff00c42ebf1c7eb36"
+    },
+    {
+      "path": "assets/lol/TahmKench.png",
+      "bytes": 27628,
+      "sha256": "138eaa3abe89c804e7ef287f8d3bf69172be797965df958b259663c3d4389e42"
+    },
+    {
+      "path": "assets/lol/Taliyah.jpg",
+      "bytes": 40549,
+      "sha256": "bc478ff7b8005969b64029c2d104b5ebf74c19b433970a444ba3bc6ea902064d"
+    },
+    {
+      "path": "assets/lol/Taliyah.png",
+      "bytes": 24435,
+      "sha256": "436958c1d99411e473c7065bd969cec65ebdf61702d5b266db7e0720a3937c85"
+    },
+    {
+      "path": "assets/lol/Talon.jpg",
+      "bytes": 49535,
+      "sha256": "fd28ff1fa3ae0db028b6ecf9af85689ff3064664b49944d72d8779d5eee05857"
+    },
+    {
+      "path": "assets/lol/Talon.png",
+      "bytes": 26989,
+      "sha256": "fc05e5ae6e6d4705a9db3a842fdbce11f429bf333b278f8183caef1d669919d9"
+    },
+    {
+      "path": "assets/lol/Taric.jpg",
+      "bytes": 48375,
+      "sha256": "cef0c7364f4fc95b4558d4878925eeef01c05f2147964fe6b8d59ba0e58125c5"
+    },
+    {
+      "path": "assets/lol/Taric.png",
+      "bytes": 27875,
+      "sha256": "3a91b21a88d562717fb78ada18c95a0b7a077e0c3b941d34829ba5e4d7eceaed"
+    },
+    {
+      "path": "assets/lol/Teemo.jpg",
+      "bytes": 50982,
+      "sha256": "2aca909e3659302c216320265d29f4abaf64204c8f868c8df9ffa94970d9bfb4"
+    },
+    {
+      "path": "assets/lol/Teemo.png",
+      "bytes": 21456,
+      "sha256": "bbf4b7238b1f62dc02b39208db764588d18a712a7ea96205f5932730c08a62ee"
+    },
+    {
+      "path": "assets/lol/Thresh.jpg",
+      "bytes": 57037,
+      "sha256": "80d6f7c87f04f9af874b78f977125c34ddd7e8b5b4b12a36191214d096861622"
+    },
+    {
+      "path": "assets/lol/Thresh.png",
+      "bytes": 26720,
+      "sha256": "27f9bfc32eb28d9e17e42e29f8d555c91110e040991d56577f433ddc9eca6c7e"
+    },
+    {
+      "path": "assets/lol/Tristana.jpg",
+      "bytes": 42353,
+      "sha256": "6a8d791eac1f22f50e217077d1ca1ed13093a4da810d5702fcce12bd2607f850"
+    },
+    {
+      "path": "assets/lol/Tristana.png",
+      "bytes": 30313,
+      "sha256": "9f46e6dd9d49bf8fd2c6dc7397fa4badb35bf0f355334301782c7f9e13f00aa5"
+    },
+    {
+      "path": "assets/lol/Trundle.jpg",
+      "bytes": 42586,
+      "sha256": "9a256a62766aba3c555f4f8f2ef73aaac2493825108b419be642542c8a9d7f69"
+    },
+    {
+      "path": "assets/lol/Trundle.png",
+      "bytes": 28260,
+      "sha256": "e77d99af3ac328a80a247fafec728df7be4eda7200300a597b38f093fffe234e"
+    },
+    {
+      "path": "assets/lol/Tryndamere.jpg",
+      "bytes": 58086,
+      "sha256": "46b6e4f4dc66c027bb86f9ea507a33dc60588fc54a0bed3af70f000e21289340"
+    },
+    {
+      "path": "assets/lol/Tryndamere.png",
+      "bytes": 31840,
+      "sha256": "e715ed3a7eb5f3a0dcfb6da2a9c8ae05d9c197ef514f959d5a94bff38d4dff48"
+    },
+    {
+      "path": "assets/lol/TwistedFate.jpg",
+      "bytes": 34857,
+      "sha256": "ee3d7b1bcf8caeabc555506319ed5cd49bc3cfa64aa7be4a8b6cd04982cd76aa"
+    },
+    {
+      "path": "assets/lol/TwistedFate.png",
+      "bytes": 24949,
+      "sha256": "5f5944763b0d7c8fc68edad413a908799e2cfcae8a850a6ff746a16afc553670"
+    },
+    {
+      "path": "assets/lol/Twitch.jpg",
+      "bytes": 40896,
+      "sha256": "8a382ebb607072ae11358a1b22253737b75894ae5121fdcfadfe5ad72eca2db8"
+    },
+    {
+      "path": "assets/lol/Twitch.png",
+      "bytes": 28474,
+      "sha256": "823c7394b6cdc9fcc0b70f0e71578d8fbe1f06533e1010aa7785ebae4d1209ad"
+    },
+    {
+      "path": "assets/lol/Udyr.jpg",
+      "bytes": 38319,
+      "sha256": "1436f1bb8cbaf642ae8e058036846c265a72b5ab21a97912fa87f56d7ee4da35"
+    },
+    {
+      "path": "assets/lol/Udyr.png",
+      "bytes": 29169,
+      "sha256": "5fa439ae56b9b7a7bdc2ee35661caf8080c19bf2ef5fc0b87ad0315271ac9b93"
+    },
+    {
+      "path": "assets/lol/Urgot.jpg",
+      "bytes": 32936,
+      "sha256": "9131239b1a5dbdb62029bb8ef9a6bebc3aea05f83f7dd19c8d47afb4e10531f0"
+    },
+    {
+      "path": "assets/lol/Urgot.png",
+      "bytes": 25786,
+      "sha256": "35d3f774ca9b1430aa32fcacb9add8daa7cecb51411985a178e0d72d5571ec3d"
+    },
+    {
+      "path": "assets/lol/Varus.jpg",
+      "bytes": 50546,
+      "sha256": "9d7c9508e9d9b3f375ac2b5ea562aa55afc493fa720c533b6f88e09f1f6f06ee"
+    },
+    {
+      "path": "assets/lol/Varus.png",
+      "bytes": 28137,
+      "sha256": "1a300d007f9a3bc76342534a16cdf025ac111e733f69667bb4f065869a5ae9f4"
+    },
+    {
+      "path": "assets/lol/Vayne.jpg",
+      "bytes": 49806,
+      "sha256": "5d8639d22aa4f013bcd0491ec7529ccaadfcf7dd0bf9a93b383ea2991f35ae2f"
+    },
+    {
+      "path": "assets/lol/Vayne.png",
+      "bytes": 28367,
+      "sha256": "d9ea091b8d2eddbf7d08001866d7a0798f2649a7067c61dce15ac92fbc3cb723"
+    },
+    {
+      "path": "assets/lol/Veigar.jpg",
+      "bytes": 55277,
+      "sha256": "91b66e5b2424d5e7973b70e34370710e7833503346711227889a38a357979abf"
+    },
+    {
+      "path": "assets/lol/Veigar.png",
+      "bytes": 26807,
+      "sha256": "ace2c32c06d8a96b4de943228b01812f220adf3a4dfaa396e922f7c696221024"
+    },
+    {
+      "path": "assets/lol/Velkoz.jpg",
+      "bytes": 39853,
+      "sha256": "18780b71afa9fafef6776f9bd91bb4eb649e8998e24730cf35323a0749561231"
+    },
+    {
+      "path": "assets/lol/Velkoz.png",
+      "bytes": 29187,
+      "sha256": "263e174bec40da4a00656390621f4bb7e81677c39527ed98ad63ed12c52308ee"
+    },
+    {
+      "path": "assets/lol/Vex.jpg",
+      "bytes": 47541,
+      "sha256": "6b7703759f7e33c80b46a72a5c12275e8a8f91cd10ba6865af67dc19d3b91f4e"
+    },
+    {
+      "path": "assets/lol/Vex.png",
+      "bytes": 29332,
+      "sha256": "aaa93d7fab2d5d469778128ccdbe59bde00e601da065d17e3ae7bce4fe53c758"
+    },
+    {
+      "path": "assets/lol/Vi.jpg",
+      "bytes": 58792,
+      "sha256": "54ac244272ab1a78ee23617cdcfcdc098c51e82362599c594de18d5d17a9109b"
+    },
+    {
+      "path": "assets/lol/Vi.png",
+      "bytes": 33358,
+      "sha256": "282bd7a3e6a3bdd309f90eebf03b1fb7009a5357e6f53e158dd8c7df8103b4ab"
+    },
+    {
+      "path": "assets/lol/Viego.jpg",
+      "bytes": 54292,
+      "sha256": "a0e95efe9d270ba0a376a402fdd40eb73ae2bae8ed500d9d78b5df04713d9755"
+    },
+    {
+      "path": "assets/lol/Viego.png",
+      "bytes": 28601,
+      "sha256": "582fda91453e711bf45146e75ae7b0db0a2aa148499cffd4919050a1b96e9316"
+    },
+    {
+      "path": "assets/lol/Viktor.jpg",
+      "bytes": 47822,
+      "sha256": "90205b0626a5f9fed4348ac7356a7dd82aaecb9ecc779637dd0f39507cd154b4"
+    },
+    {
+      "path": "assets/lol/Viktor.png",
+      "bytes": 30530,
+      "sha256": "caf7df593c7713892aac575d1031e9693066c57b86c25ff19542f4ca98c2159a"
+    },
+    {
+      "path": "assets/lol/Vladimir.jpg",
+      "bytes": 50903,
+      "sha256": "2d6d78dc15cbf39b7f2563766699d21e591ad4130bcc61421974d5cf35288ad4"
+    },
+    {
+      "path": "assets/lol/Vladimir.png",
+      "bytes": 24626,
+      "sha256": "eebcd73ab4ba404c4c5b45b7665e5f31399515402b36d9ff8953bb02d4d4c0b3"
+    },
+    {
+      "path": "assets/lol/Volibear.jpg",
+      "bytes": 49148,
+      "sha256": "657afd598475fd8e5eea468b66cc0f6de36d876ce940841626b2b105a8286aa0"
+    },
+    {
+      "path": "assets/lol/Volibear.png",
+      "bytes": 29127,
+      "sha256": "36ab730707d6835a6a6fefe216ae3d8bf9d416970fc3223c857f109f404ee5ab"
+    },
+    {
+      "path": "assets/lol/Warwick.jpg",
+      "bytes": 42130,
+      "sha256": "c9293d4278e6db86d1e4fb6f5ba7a0c33ad29d609737df1b475d5deabe24a4cd"
+    },
+    {
+      "path": "assets/lol/Warwick.png",
+      "bytes": 24895,
+      "sha256": "f5df0cb82ea9fba63308254d04d68307c09d1b17b1a28426d1550da39d9c79b8"
+    },
+    {
+      "path": "assets/lol/Xayah.jpg",
+      "bytes": 37403,
+      "sha256": "5465fe9dbe53709853814a19c9f80d0c2032eea0b46eecc16a7dcbcc72f6b205"
+    },
+    {
+      "path": "assets/lol/Xayah.png",
+      "bytes": 26882,
+      "sha256": "4ecd1e37697ebc5ee54ca05f1914101ee49be334798287bb8a432f8dd42a5b3d"
+    },
+    {
+      "path": "assets/lol/Xerath.jpg",
+      "bytes": 63972,
+      "sha256": "7dd4624e5bfc9d3fd608e06c48e8bae6b01bceddd06c35117f8479b24c08ccf7"
+    },
+    {
+      "path": "assets/lol/Xerath.png",
+      "bytes": 24656,
+      "sha256": "b204c7007dfe3dd7203c36a65ac6798f39fd96ba10ab981fa82e488aa170ed38"
+    },
+    {
+      "path": "assets/lol/XinZhao.jpg",
+      "bytes": 45686,
+      "sha256": "7c706366da7edf5fa559d39cdabeb5b095172d7a948afd583716803a15065327"
+    },
+    {
+      "path": "assets/lol/XinZhao.png",
+      "bytes": 35410,
+      "sha256": "f70e9570c60a33328b4e0c0437bcb33cc2320056ba0724e0279e553436da5667"
+    },
+    {
+      "path": "assets/lol/Yasuo.jpg",
+      "bytes": 53646,
+      "sha256": "f67ba5172c73ed322344c5b1b2f35dfd2d9d162df3a82b34bebf8cd385ff323e"
+    },
+    {
+      "path": "assets/lol/Yasuo.png",
+      "bytes": 28213,
+      "sha256": "25a7597bfbd3198740b56d369734542f9e7b2100645d9f1199d969c7e1538ffb"
+    },
+    {
+      "path": "assets/lol/Yone.jpg",
+      "bytes": 48850,
+      "sha256": "9badc1accf28e330bf33de5af960d9a63cfe6741bb27bb4bd5767936f1682b69"
+    },
+    {
+      "path": "assets/lol/Yone.png",
+      "bytes": 26864,
+      "sha256": "cc02f91c39f7336562fb8fa5792eeaeeb1540517a54e7713f7c70732add51c6d"
+    },
+    {
+      "path": "assets/lol/Yorick.jpg",
+      "bytes": 34916,
+      "sha256": "c7ea9b808e75e51676f5dea5abcc9674b7ec49d1e4143d49afff5813b14ec506"
+    },
+    {
+      "path": "assets/lol/Yorick.png",
+      "bytes": 26344,
+      "sha256": "151b64e886222db394d6397734f5297862ddc4216fcc1db4a6ad5d33d5dc241a"
+    },
+    {
+      "path": "assets/lol/Yunara.jpg",
+      "bytes": 66745,
+      "sha256": "89a0e3cfa65f8d299ff4d68a8175661c65b36976c2abeb265b287bf08692614b"
+    },
+    {
+      "path": "assets/lol/Yunara.png",
+      "bytes": 39524,
+      "sha256": "1502b9641f838af84749a8b10db447942fa8f1661c1fc9c3d43330489427a9d5"
+    },
+    {
+      "path": "assets/lol/Yuumi.jpg",
+      "bytes": 49769,
+      "sha256": "ab7258dbfe3d3341ab9d45def1d97b595bd833af7fdd3fbfe8af421b87566b0c"
+    },
+    {
+      "path": "assets/lol/Yuumi.png",
+      "bytes": 28605,
+      "sha256": "63283c06c2b3a4873a83cb9d00b2ee5892f7bcd7cd009fd8b6ff893f92138b9e"
+    },
+    {
+      "path": "assets/lol/Zaahen.jpg",
+      "bytes": 48372,
+      "sha256": "f68acf3c25023bc6f8294fa6bb10a66b4aff5c71084df2e38397676c59a9733c"
+    },
+    {
+      "path": "assets/lol/Zaahen.png",
+      "bytes": 40550,
+      "sha256": "2028854176d35cf2f1f926044f071bcd0b7cc8eed839590296e64852bedd35d4"
+    },
+    {
+      "path": "assets/lol/Zac.jpg",
+      "bytes": 38865,
+      "sha256": "9663c33e31b1ec743236c8d45e287657c77d5c71081291c802ae5d9d302b2325"
+    },
+    {
+      "path": "assets/lol/Zac.png",
+      "bytes": 25794,
+      "sha256": "be2426155e937aa048cd22cab2342dd7ecbc591a90c5417d0bd3759ab5876aa6"
+    },
+    {
+      "path": "assets/lol/Zed.jpg",
+      "bytes": 44630,
+      "sha256": "56fc022040ecea301ad9433a8ac739387c806e0d3560fe7b974fcfa6cab68e20"
+    },
+    {
+      "path": "assets/lol/Zed.png",
+      "bytes": 28879,
+      "sha256": "3ad3e956e9ad5ca3127d8f685faf69d4251fb726e9b4f0be989764f0027e9c5f"
+    },
+    {
+      "path": "assets/lol/Zeri.jpg",
+      "bytes": 47203,
+      "sha256": "26106cb845a5bfa290b60f1d9606214fd7d52223e48a8554e5bdced5d76bf578"
+    },
+    {
+      "path": "assets/lol/Zeri.png",
+      "bytes": 28570,
+      "sha256": "5fc4e7ed3b8184495375ea0b8e35a625521cddc7d17d1d6e30e13b683b36100c"
+    },
+    {
+      "path": "assets/lol/Ziggs.jpg",
+      "bytes": 43296,
+      "sha256": "41b46d4a4a1b5f5ddaa04f49ffb18764ecd9156c7e31091a2593f77a7bfe7956"
+    },
+    {
+      "path": "assets/lol/Ziggs.png",
+      "bytes": 28542,
+      "sha256": "cc3ea57671db30642002b5c36c0a6c851aacb7b2d6a5af10069f9f00b00775a9"
+    },
+    {
+      "path": "assets/lol/Zilean.jpg",
+      "bytes": 52718,
+      "sha256": "20d829e240e6c8800e8289b97248ea76e983f90a9f616b198e6e14ae0ee2e0ea"
+    },
+    {
+      "path": "assets/lol/Zilean.png",
+      "bytes": 32671,
+      "sha256": "07c45f7285e5d741f17ebdc07889971c46c67f09846fdb9a3f0f0123aedd8850"
+    },
+    {
+      "path": "assets/lol/Zoe.jpg",
+      "bytes": 58500,
+      "sha256": "7228a79da07256f66d4d18cbeac1e81dc43ad47332d06bceaf5cc71f7dcab1a6"
+    },
+    {
+      "path": "assets/lol/Zoe.png",
+      "bytes": 27849,
+      "sha256": "2413cb98c5f863b8570a012e1927e4908ee78be0f7619ab3ce471e8c7da56bb2"
+    },
+    {
+      "path": "assets/lol/Zyra.jpg",
+      "bytes": 47966,
+      "sha256": "e87a8966282daf8668e48881d2e4fa03b388144630c5f0e95f0d02b42910bcde"
+    },
+    {
+      "path": "assets/lol/Zyra.png",
+      "bytes": 26347,
+      "sha256": "9993a6caf52f955ad41077e56b56f2472c07c1a589fb4d1c66097ddf775feda4"
     },
     {
       "path": "assets/players/SOURCES.md",
@@ -238,6 +1974,11 @@
       "path": "catalog/logo-catalog.json",
       "bytes": 384155,
       "sha256": "3de285adffa99025d8668cecd941b6931a54fea8dedb7dc006d7af248e232997"
+    },
+    {
+      "path": "catalog/lol-champions.json",
+      "bytes": 15552,
+      "sha256": "69b6f0723bdb3e07495f376f08bb38d7351c59330149ce5e1818a13dab862699"
     },
     {
       "path": "catalog/maps.json",
