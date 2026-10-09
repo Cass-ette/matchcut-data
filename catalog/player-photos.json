@@ -1,0 +1,182 @@
+[
+  {
+    "game": "cs2",
+    "playerId": "76561197963504595",
+    "name": "FASHR",
+    "artwork": "/assets/players/cs2-player-76561197963504595.png",
+    "source": {
+      "name": "FASHR",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/fashr/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/fashr.png"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561197999825422",
+    "name": "nexa",
+    "artwork": "/assets/players/cs2-player-76561197999825422.png",
+    "source": {
+      "name": "nexa",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/nexa/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/nexa.webp"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198040577200",
+    "name": "sdy",
+    "artwork": "/assets/players/cs2-player-76561198040577200.png",
+    "source": {
+      "name": "sdy",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/sdy/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/sdy.png"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198060483793",
+    "name": "br0",
+    "artwork": "/assets/players/cs2-player-76561198060483793.png",
+    "source": {
+      "name": "br0",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/br0/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/br0.png"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198098463229",
+    "name": "regali",
+    "artwork": "/assets/players/cs2-player-76561198098463229.png",
+    "source": {
+      "name": "regali",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/regali/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/regali.webp"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198126171426",
+    "name": "DemQQ",
+    "artwork": "/assets/players/cs2-player-76561198126171426.png",
+    "source": {
+      "name": "DemQQ",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/demqq/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/demqq.webp"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198182462587",
+    "name": "k1to",
+    "artwork": "/assets/players/cs2-player-76561198182462587.png",
+    "source": {
+      "name": "k1to",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/k1to/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/k1to.png"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198252434500",
+    "name": "F1KU",
+    "artwork": "/assets/players/cs2-player-76561198252434500.png",
+    "source": {
+      "name": "F1KU",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/f1ku/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/f1ku.webp"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198296417934",
+    "name": "kRaSnaL",
+    "artwork": "/assets/players/cs2-player-76561198296417934.png",
+    "source": {
+      "name": "kRaSnaL",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/krasnal/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/krasnal.png"
+    }
+  },
+  {
+    "game": "cs2",
+    "playerId": "76561198975452660",
+    "name": "Woro2k",
+    "artwork": "/assets/players/cs2-player-76561198975452660.png",
+    "source": {
+      "name": "Woro2k",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/woro2k/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/woro2k.webp"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:98dd15c330fb5abb4508347265a7f76",
+    "name": "Zeus",
+    "artwork": "/assets/players/lol-player-720b40a0997adb1f861d22da.png",
+    "source": {
+      "name": "Zeus",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/zeus/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/zeus.png"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:f8b68f268106124fc4bc1c946adc9b0",
+    "name": "Oner",
+    "artwork": "/assets/players/lol-player-5216d7166d6dbd0fcf74df3b.png",
+    "source": {
+      "name": "Oner",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/oner/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/oner.png"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:e1edfc5cea461399a63cb813cf795cc",
+    "name": "Faker",
+    "artwork": "/assets/players/lol-player-ab91de7435da148b8898a170.png",
+    "source": {
+      "name": "Faker",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/faker/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/faker.png"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:c7319736816efe935787b4381c6f321",
+    "name": "Gumayusi",
+    "artwork": "/assets/players/lol-player-b14cddea16981e38ca641710.png",
+    "source": {
+      "name": "Gumayusi",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/gumayusi/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/gumayusi.png"
+    }
+  },
+  {
+    "game": "lol",
+    "playerId": "oe:player:db79ce6ad35451c938fbe2995dabd37",
+    "name": "Keria",
+    "artwork": "/assets/players/lol-player-8efcfd087ca88f543948deb6.png",
+    "source": {
+      "name": "Keria",
+      "provider": "ProSettings",
+      "pageUrl": "https://prosettings.net/players/keria/",
+      "imageUrl": "https://prosettings.net/wp-content/uploads/keria.png"
+    }
+  }
+]

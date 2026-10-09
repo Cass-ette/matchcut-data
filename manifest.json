@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "coverageStatus": "verified-seed",
+  "counts": {
+    "teams": 17,
+    "players": 15,
+    "maps": 10,
+    "logoCatalog": 2105
+  },
+  "files": [
+    {
+      "path": "assets/cs/SOURCES.md",
+      "bytes": 423,
+      "sha256": "2fb100f11cfcb4d7d37ab818a0a1ccadc55ccf0ef0628db3132a166ed6104512"
+    },
+    {
+      "path": "assets/cs/maps/ancient.png",
+      "bytes": 63005,
+      "sha256": "d8e5b8a77767de096d5fa16f2eb84b777fc6495ba9bb3a097ad24a85f922ec36"
+    },
+    {
+      "path": "assets/cs/maps/anubis.png",
+      "bytes": 31707,
+      "sha256": "069d18108d399c74c96db376400374e3d89037a73dfaf527affb746344141487"
+    },
+    {
+      "path": "assets/cs/maps/cache.png",
+      "bytes": 28513,
+      "sha256": "3e849383a5df7ebd4dea3f24281f6e04dd0cc307b995de6d8ea50aa62687e5ff"
+    },
+    {
+      "path": "assets/cs/maps/dust2.png",
+      "bytes": 76474,
+      "sha256": "7630452bbd6c76033c8a1c30d408bafad7d13b5bedae22f76cb86a22f1183dd8"
+    },
+    {
+      "path": "assets/cs/maps/inferno.png",
+      "bytes": 45271,
+      "sha256": "7ef725e9adf86da2ec4134a57801119fc84ef34852d80a3baeb2751b6cf690c0"
+    },
+    {
+      "path": "assets/cs/maps/mirage.png",
+      "bytes": 33555,
+      "sha256": "bad6dd2114968e647209621d4baa1d47426b08d795ca4c815972378113c2107c"
+    },
+    {
+      "path": "assets/cs/maps/nuke.png",
+      "bytes": 49641,
+      "sha256": "ec5bed7d8959c4986c2c0d8d98392fb486ec1d97b940e2c4d9f3856b6ff6fa70"
+    },
+    {
+      "path": "assets/cs/maps/overpass.png",
+      "bytes": 36616,
+      "sha256": "ba416833f736d563d57508ef8967f74490a062cb28271e15b1f39ec355acb397"
+    },
+    {
+      "path": "assets/cs/maps/train.png",
+      "bytes": 19239,
+      "sha256": "7018a92292a654409de3d28b1f910c1467aa236979bd336af809df598bd4464d"
+    },
+    {
+      "path": "assets/cs/maps/vertigo.png",
+      "bytes": 29506,
+      "sha256": "8f2b4e07dfa1e8723d73c261e7dd87f64d3656c8fb463b41d5e270eed62befa5"
+    },
+    {
+      "path": "assets/players/SOURCES.md",
+      "bytes": 810,
+      "sha256": "df4c6217dc1f87fcc53ea55fec723b6b91d47b41ba24b8293e8f83d627fb3c34"
+    },
+    {
+      "path": "assets/players/cs2-player-76561197963504595.png",
+      "bytes": 178118,
+      "sha256": "5bcbffd46588d094aa1ff7c6943e626c6f46f9aaf54536f33d9182efed2c89f1"
+    },
+    {
+      "path": "assets/players/cs2-player-76561197999825422.png",
+      "bytes": 161296,
+      "sha256": "fd81200a42485c716bbf35f2dea44c665846c45c137c52e3c5e6db8f82215d19"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198040577200.png",
+      "bytes": 213764,
+      "sha256": "8514ba14df1b2ff03098805cac01efeabdcd0676bdd86b284576be992f4c6ce0"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198060483793.png",
+      "bytes": 165913,
+      "sha256": "6e7e8bdc3120c0a59b6c4e1f4ae65625071e69b4bac5c5593dfdcc14ede1ef7e"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198098463229.png",
+      "bytes": 178224,
+      "sha256": "24c21f728875c700441a13f2542775f20f5fca8b06655ce6e5e78be49c2194fa"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198126171426.png",
+      "bytes": 135760,
+      "sha256": "3e5b64460ccedb67d0cd56ad38f4a56ca1340ee227ae52cf1a770e37ab3f2cd2"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198182462587.png",
+      "bytes": 187919,
+      "sha256": "6fc1e07588c44e8761ac67a36f9ae9764659030ba4bf74d0f8d362713ef6f30f"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198252434500.png",
+      "bytes": 154757,
+      "sha256": "12310affea2b7a0358dba8c89e5d33290b2e62197f475b3ff2c390437631608a"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198296417934.png",
+      "bytes": 163380,
+      "sha256": "3a3d42775006d231685aee6041dd643142cd52d52b2c73cc321c8f96aa493b97"
+    },
+    {
+      "path": "assets/players/cs2-player-76561198975452660.png",
+      "bytes": 123077,
+      "sha256": "85dd098269399b1f1e58a383c57a3a72f99d9564df3277b254ee3aa7448160fa"
+    },
+    {
+      "path": "assets/players/lol-player-5216d7166d6dbd0fcf74df3b.png",
+      "bytes": 207435,
+      "sha256": "c62d709b72e759a68c9e78e917595a992a989e0c7157af990c5357a4735a20ed"
+    },
+    {
+      "path": "assets/players/lol-player-720b40a0997adb1f861d22da.png",
+      "bytes": 154374,
+      "sha256": "4b9ce3c360cb0b216a9ea933e96f77461ae866c3847df978a80ac2176a586825"
+    },
+    {
+      "path": "assets/players/lol-player-8efcfd087ca88f543948deb6.png",
+      "bytes": 211689,
+      "sha256": "059aaa89873c57770796fea1814e524ba7115178b62a7d84b95efbc4c98a0c82"
+    },
+    {
+      "path": "assets/players/lol-player-ab91de7435da148b8898a170.png",
+      "bytes": 200362,
+      "sha256": "dd2bc90f899d15b2f481b6c9103de741d298bc14ad60273a4b04f23118a88911"
+    },
+    {
+      "path": "assets/players/lol-player-b14cddea16981e38ca641710.png",
+      "bytes": 183132,
+      "sha256": "fc01c88083fe6b6b9616408895735f3fd81f62e551391f71f7d0a563a2a8e57c"
+    },
+    {
+      "path": "assets/teams/SOURCES.md",
+      "bytes": 714,
+      "sha256": "7cfc45a1619390e46fed2496533e7a99708c1f34d64b2d8666a35382db24780a"
+    },
+    {
+      "path": "assets/teams/cs2-monte.png",
+      "bytes": 720034,
+      "sha256": "2fd41f548a8a35bfadaaf088ff8b28e0e3d3eca7034dd8b878e2dbfa1c9b97de"
+    },
+    {
+      "path": "assets/teams/cs2-og.png",
+      "bytes": 13619,
+      "sha256": "d965415c7492b4fa2f6ea3497012c524aec7d37b67c56dc711a70cca98bbefa5"
+    },
+    {
+      "path": "assets/teams/dota-1win.png",
+      "bytes": 2338,
+      "sha256": "1840fa3bf100117f7c62ebd8955812485f06bfea980b5250d384b5677d6abd4a"
+    },
+    {
+      "path": "assets/teams/dota-aurora.png",
+      "bytes": 28256,
+      "sha256": "71c50230ceee82eb65df32fdd21d3726a7b2237faf043045a9ea8dde25814a85"
+    },
+    {
+      "path": "assets/teams/dota-liquid.png",
+      "bytes": 73086,
+      "sha256": "30e1bfbeff350e906f71388990ee4126591d72a1f95197706fb06a17e931a96a"
+    },
+    {
+      "path": "assets/teams/dota-navi.png",
+      "bytes": 67783,
+      "sha256": "2d8e7b65fcbd2aa9249d3aaf49b2fb394400c8d4a367017c20b8ccde150cfb0c"
+    },
+    {
+      "path": "assets/teams/dota-spirit.png",
+      "bytes": 29867,
+      "sha256": "796a6026fbd0dd59bcdede8853b9262af3b461f8477ed1d664713457171da88e"
+    },
+    {
+      "path": "assets/teams/lol-blg.png",
+      "bytes": 53584,
+      "sha256": "79962a032f1aa23001e5a169b19d72f5ca33a6cac4357ec8e567669c3f30c2c0"
+    },
+    {
+      "path": "assets/teams/lol-flyquest.png",
+      "bytes": 6788,
+      "sha256": "add8f56c290e7acb39f6a3c194732f0988e12ebb824196bc8ab3083617e6add8"
+    },
+    {
+      "path": "assets/teams/lol-fnatic.png",
+      "bytes": 24355,
+      "sha256": "d072faad7e152d399d848098ca8a2535376c0de0ec46d1bfeb311f689c46f05f"
+    },
+    {
+      "path": "assets/teams/lol-g2.png",
+      "bytes": 46229,
+      "sha256": "c1878a471a16de03cb79fad6b0d8a10329b6d9509a459aedb1cbce7d3d356d57"
+    },
+    {
+      "path": "assets/teams/lol-gen-g.png",
+      "bytes": 25004,
+      "sha256": "15c4e453a50e4825ec8b33f337ae178a2dbbaca55f351240191dbd203e901dc2"
+    },
+    {
+      "path": "assets/teams/lol-hle.png",
+      "bytes": 131840,
+      "sha256": "161bd74633f290e588317b607f09d76505a1ffa9b5e211f09ab69c14a74252fb"
+    },
+    {
+      "path": "assets/teams/lol-jdg.png",
+      "bytes": 10788,
+      "sha256": "108c7b257950bfe007622ef25ebb1cb00f474db29d4fbdf96676f491220ff5ed"
+    },
+    {
+      "path": "assets/teams/lol-t1.png",
+      "bytes": 9922,
+      "sha256": "aa8302a17cd5f88c8e9ad9d0f179c5a88cf9a53f6409dc3a423a41e262d1f397"
+    },
+    {
+      "path": "assets/teams/lol-tes.png",
+      "bytes": 8620,
+      "sha256": "50cf53e76dc3d5f48e7f41891f72b5985f35bb23d6fa87571735f77d149fcb61"
+    },
+    {
+      "path": "assets/teams/lol-wbg.png",
+      "bytes": 57396,
+      "sha256": "8501bd6a44d49b01bb6dba383c1fedb1ca144931f02add85d26891e2837642fa"
+    },
+    {
+      "path": "catalog/logo-catalog.json",
+      "bytes": 384155,
+      "sha256": "3de285adffa99025d8668cecd941b6931a54fea8dedb7dc006d7af248e232997"
+    },
+    {
+      "path": "catalog/maps.json",
+      "bytes": 2253,
+      "sha256": "afb83eae53b6151ca1c5b373c4fe8e9489ad065def23785f311643c83a3b3b92"
+    },
+    {
+      "path": "catalog/player-photos.json",
+      "bytes": 5600,
+      "sha256": "2d0478edf672352287a9d89a4c58269dcf02283e31b47a670030f07a65eae578"
+    },
+    {
+      "path": "catalog/scope.json",
+      "bytes": 693,
+      "sha256": "791849bbac7d92dc209b1b512b78ea3b54169e81ae825cc791021059d5078aa1"
+    },
+    {
+      "path": "catalog/team-logos.json",
+      "bytes": 3309,
+      "sha256": "6a2f4a5294914bf3e98f0eba274a81d1e88d32995c0d9b1c9af7c31b9f90a152"
+    }
+  ]
+}

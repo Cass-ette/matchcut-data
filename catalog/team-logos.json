@@ -1,0 +1,153 @@
+[
+  {
+    "game": "lol",
+    "name": "Gen.G",
+    "aliases": [
+      "Gen.G Esports",
+      "GEN"
+    ],
+    "logo": "/assets/teams/lol-gen-g.png",
+    "source": "league-of-legends/gen.g/gen.g-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "T1",
+    "aliases": [],
+    "logo": "/assets/teams/lol-t1.png",
+    "source": "league-of-legends/t1/t1-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "Bilibili Gaming",
+    "aliases": [
+      "BLG"
+    ],
+    "logo": "/assets/teams/lol-blg.png",
+    "source": "league-of-legends/bilibili-gaming/bilibili-gaming-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "Hanwha Life Esports",
+    "aliases": [
+      "HLE"
+    ],
+    "logo": "/assets/teams/lol-hle.png",
+    "source": "league-of-legends/hanwha-life-esports/hanwha-life-esports-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "Top Esports",
+    "aliases": [
+      "TES"
+    ],
+    "logo": "/assets/teams/lol-tes.png",
+    "source": "league-of-legends/top-esports/top-esports-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "JD Gaming",
+    "aliases": [
+      "JDG"
+    ],
+    "logo": "/assets/teams/lol-jdg.png",
+    "source": "league-of-legends/jd-gaming/jd-gaming-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "Weibo Gaming",
+    "aliases": [
+      "WBG"
+    ],
+    "logo": "/assets/teams/lol-wbg.png",
+    "source": "league-of-legends/weibo-gaming/weibo-gaming-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "G2 Esports",
+    "aliases": [
+      "G2"
+    ],
+    "logo": "/assets/teams/lol-g2.png",
+    "source": "league-of-legends/g2-esports/g2-esports-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "Fnatic",
+    "aliases": [
+      "FNC"
+    ],
+    "logo": "/assets/teams/lol-fnatic.png",
+    "source": "league-of-legends/fnatic/fnatic-logo.png"
+  },
+  {
+    "game": "lol",
+    "name": "FlyQuest",
+    "aliases": [
+      "FLY"
+    ],
+    "logo": "/assets/teams/lol-flyquest.png",
+    "source": "league-of-legends/flyquest/flyquest-logo.png"
+  },
+  {
+    "game": "dota2",
+    "name": "Aurora Gaming",
+    "aliases": [
+      "Aurora"
+    ],
+    "logo": "/assets/teams/dota-aurora.png",
+    "source": "dota-2/aurora/aurora-logo.png"
+  },
+  {
+    "game": "dota2",
+    "name": "1win",
+    "aliases": [
+      "1win Team"
+    ],
+    "logo": "/assets/teams/dota-1win.png",
+    "source": "https://cdn.steamusercontent.com/ugc/10678669599334676082/E48827F4A163D4D02F817EA3C32166D5F1D5FC98/"
+  },
+  {
+    "game": "dota2",
+    "name": "Natus Vincere",
+    "aliases": [
+      "NAVI",
+      "Na`Vi"
+    ],
+    "logo": "/assets/teams/dota-navi.png",
+    "source": "dota-2/natus-vincere/natus-vincere-logo.png"
+  },
+  {
+    "game": "dota2",
+    "name": "Team Liquid",
+    "aliases": [
+      "Liquid"
+    ],
+    "logo": "/assets/teams/dota-liquid.png",
+    "source": "dota-2/liquid/liquid-logo.png"
+  },
+  {
+    "game": "dota2",
+    "name": "Team Spirit",
+    "aliases": [
+      "Spirit"
+    ],
+    "logo": "/assets/teams/dota-spirit.png",
+    "source": "dota-2/spirit/spirit-logo.png"
+  },
+  {
+    "game": "cs2",
+    "name": "OG Esports",
+    "aliases": [
+      "OG"
+    ],
+    "logo": "/assets/teams/cs2-og.png",
+    "source": "cs/og/og-logo.png"
+  },
+  {
+    "game": "cs2",
+    "name": "Monte",
+    "aliases": [],
+    "logo": "/assets/teams/cs2-monte.png",
+    "source": "cs/monte/monte-logo.png"
+  }
+]

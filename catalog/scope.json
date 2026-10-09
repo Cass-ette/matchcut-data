@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "coverageStatus": "verified-seed",
+  "targets": {
+    "cs2": {
+      "teams": 50,
+      "rankingSource": null,
+      "rankingDate": null,
+      "include": ["active-players", "substitutes", "team-logos", "player-photos"],
+      "status": "planned"
+    },
+    "lol": {
+      "allTeamsIn": ["LPL", "LCK"],
+      "otherWorldsRegionsTopTeams": 5,
+      "includeAllWorldsParticipants": true,
+      "season": null,
+      "status": "planned"
+    },
+    "dota2": { "status": "on-demand" }
+  },
+  "manualReview": ["ambiguous-identities", "conflicting-sources", "historical-jerseys", "cs-player-roles"],
+  "identityPolicy": "provider-id-first",
+  "localOverrides": "preserve"
+}

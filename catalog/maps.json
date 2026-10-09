@@ -1,0 +1,72 @@
+[
+  {
+    "game": "cs2",
+    "id": "ancient",
+    "image": "/assets/cs/maps/ancient.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_ancient.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "anubis",
+    "image": "/assets/cs/maps/anubis.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_anubis.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "cache",
+    "image": "/assets/cs/maps/cache.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_cache.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "dust2",
+    "image": "/assets/cs/maps/dust2.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_dust2.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "inferno",
+    "image": "/assets/cs/maps/inferno.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_inferno.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "mirage",
+    "image": "/assets/cs/maps/mirage.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_mirage.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "nuke",
+    "image": "/assets/cs/maps/nuke.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_nuke.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "overpass",
+    "image": "/assets/cs/maps/overpass.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_overpass.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "train",
+    "image": "/assets/cs/maps/train.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_train.png",
+    "fetchedAt": "2026-10-09"
+  },
+  {
+    "game": "cs2",
+    "id": "vertigo",
+    "image": "/assets/cs/maps/vertigo.png",
+    "source": "https://github.com/vgalisson/csgo-map-icons/blob/master/256x256/map_icon_de_vertigo.png",
+    "fetchedAt": "2026-10-09"
+  }
+]
