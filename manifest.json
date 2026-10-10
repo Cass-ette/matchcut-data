@@ -13,7 +13,7 @@
     "dotaItems": 501,
     "dotaItemImages": 40,
     "lolItemCatalogs": 2,
-    "lolItemImages": 128,
+    "lolItemImages": 129,
     "lolLoadoutCatalogs": 2,
     "lolLoadoutImages": 173
   },
@@ -2209,6 +2209,11 @@
       "sha256": "5ea24a0c84edd95af45f55f25c2f4c7656239736026bbbf1268ed3e8644a303d"
     },
     {
+      "path": "assets/lol/items/14.6.1/3869.png",
+      "bytes": 6686,
+      "sha256": "d2453a8c4b88a7cc0cf7af1afcf55779c8980a367d9eddc4ad04296665db041d"
+    },
+    {
       "path": "assets/lol/items/14.6.1/6610.png",
       "bytes": 7081,
       "sha256": "01e91cbbc8d8fd28c531c6c1b1563fda3941f78e9424cf486e3ba28a0a6fdbae"
@@ -2251,7 +2256,7 @@
     {
       "path": "assets/lol/items/14.6.1/SOURCES.md",
       "bytes": 435,
-      "sha256": "c7c6620ef898d560af66abac5852474fc397fb35213917cae0f596f050949da9"
+      "sha256": "aa81827d9e6cd2bb236486d7de09ebc2b583e42b191f50184aa58a3324a4d2ff"
     },
     {
       "path": "assets/lol/items/16.18.1/1004.png",
@@ -4525,8 +4530,8 @@
     },
     {
       "path": "catalog/lol-items/14.6.json",
-      "bytes": 26778,
-      "sha256": "e48145c3843e330bd46202dc8fb703fed015dd837c24cbad0435a899b832435b"
+      "bytes": 26788,
+      "sha256": "bf972ab83d1a56cd2aa03b5a6ba134b8b1f3297ca46c7c4d98e9a2461eb9280c"
     },
     {
       "path": "catalog/lol-items/16.18.json",

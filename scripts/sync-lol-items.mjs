@@ -1,9 +1,11 @@
 import assert from "node:assert/strict";
+import { randomUUID } from "node:crypto";
 import {
   copyFile,
   mkdir,
   mkdtemp,
   readFile,
+  rename,
   rm,
   writeFile,
 } from "node:fs/promises";
@@ -77,10 +79,15 @@ try {
 } catch (error) {
   if (error.code !== "ENOENT") throw error;
 }
-// Quest markers have only the Lane tag. Actual support items/boots also use
-// Lane alongside equipment tags, and must remain bundled.
+// These are the known role quest states added in 16.x. Tags alone cannot
+// identify them: older final support upgrades, such as 14.6's 3869, also have
+// the Lane tag and must stay in the final inventory.
+const roleQuestMarkers = new Set([
+  1090, 1091, 1092, 1093, 1094, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207,
+  1208, 1209, 1210, 1211, 1220, 1221, 1222,
+]);
 const questMarker = (id) =>
-  raw.data[id]?.tags?.length === 1 && raw.data[id].tags[0] === "Lane";
+  Number(version.split(".")[0]) >= 16 && roleQuestMarkers.has(id);
 const bundledIds = [
   ...new Set([...existingIds, ...ids].filter((id) => !questMarker(id))),
 ].sort((a, b) => a - b);
@@ -143,7 +150,13 @@ try {
   );
   const catalogs = path.join(root, "catalog/lol-items");
   await mkdir(catalogs, { recursive: true });
-  await writeFile(catalogFile, JSON.stringify(catalog, null, 2) + "\n");
+  const temporary = `${catalogFile}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(temporary, JSON.stringify(catalog, null, 2) + "\n");
+    await rename(temporary, catalogFile);
+  } finally {
+    await rm(temporary, { force: true });
+  }
   console.log(
     `Saved LoL ${version}: ${Object.keys(catalog.items).length} items, ${bundledIds.length} images.`,
   );

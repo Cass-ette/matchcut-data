@@ -3,7 +3,7 @@
   "version": "14.6.1",
   "source": {
     "catalogUrl": "https://ddragon.leagueoflegends.com/cdn/14.6.1/data/zh_CN/item.json",
-    "fetchedAt": "2026-10-10T12:03:22.077Z"
+    "fetchedAt": "2026-10-10T12:16:03.136Z"
   },
   "items": {
     "1001": {
@@ -1538,6 +1538,7 @@
     3364,
     3508,
     3814,
+    3869,
     6610,
     6653,
     6673,

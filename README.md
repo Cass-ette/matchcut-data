@@ -4,7 +4,7 @@
 
 v0.4.0 新增 OpenDota 的 501 项 Dota 装备 ID / 名称 / Valve 图标目录，以及示例单局的 40 张主装备、中立物品与附魔图标。应用仅按实际比赛缓存额外图标，背包数据与主栏分开保留。运行 `npm run sync:dota-items` 更新目录与现有内置图标；首次按指定原始比赛补齐图标可用 `npm run sync:dota-items -- --snapshot ../matchcut/data/fixtures/9035078952.json`。图标外观以获取时间为准。
 
-LoL Data Dragon 装备目录按比赛补丁独立存放，避免用当前版本替换历史装备。v0.5.1 补充 16.18.1 中文目录及暂停局、正常局使用的辅助装和升级鞋等图标，并补齐 14.6.1 样例终局出装。应用通过 Games of Legends 终局页面核对实际出装；本资料库只维护装备目录与素材。同步脚本支持新版终局快照，仅过滤只有 `Lane` 标签的位置任务状态，保留既有示例图标。同步示例：`npm run sync:lol-items -- 14.6.1 ../matchcut/data/cache/lol/inventories/LOLTMNT02_76144.json`，然后执行 `npm run manifest` 与 `npm run export -- ../matchcut`。
+LoL Data Dragon 装备目录按比赛补丁独立存放，避免用当前版本替换历史装备。v0.5.1 补充 16.18.1 中文目录及暂停局、正常局使用的辅助装和升级鞋等图标，并补齐 14.6.1 样例终局出装。应用通过 Games of Legends 终局页面核对实际出装；本资料库只维护装备目录与素材。同步脚本支持新版终局快照，仅过滤已知的位置任务 ID，保留历史辅助装、鞋子、饰品和真眼。同步示例：`npm run sync:lol-items -- 14.6.1 ../matchcut/data/cache/lol/inventories/LOLTMNT02_76144.json`，然后执行 `npm run manifest` 与 `npm run export -- ../matchcut`。
 
 当前收录 **17 支战队的本地队标、173 名选手的照片（LoL 163、CS 10）、10 张 CS 地图徽标**，另含可搜索的上游队标目录快照。LoL 有 164 份独立身份档案，GAM 的 tiphat 暂缺照片：Riot / LPL 来源均为默认剪影，已标记缺图并排除占位图片。照片队服不代表历史比赛当时的所属战队。
 

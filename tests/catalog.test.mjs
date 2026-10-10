@@ -142,6 +142,7 @@ test("exports compatible defaults while preserving user media, preferences and c
     await readFile(path.join(app, "data/fixtures/lol/item-catalogs/14.6.json")),
   );
   assert.equal(lolItems.version, "14.6.1");
+  assert.ok(lolItems.bundledIds.includes(3869));
   for (const id of lolItems.bundledIds)
     assert.ok(
       (
