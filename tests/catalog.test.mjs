@@ -89,10 +89,17 @@ test("exports compatible defaults while preserving user media, preferences and c
     assert.ok(
       (await readFile(path.join(app, "public", player.artwork))).length > 0,
     );
-  for (const version of ["14.6","16.18"]) {
-    const loadout=JSON.parse(await readFile(path.join(app,`data/fixtures/lol/loadout-catalogs/${version}.json`)));
-    assert.equal(loadout.spells.length,9);
-    for (const icon of [...loadout.spells,...loadout.runes]) assert.ok((await readFile(path.join(app,"public",icon.image))).length>0);
+  for (const version of ["14.6", "16.18"]) {
+    const loadout = JSON.parse(
+      await readFile(
+        path.join(app, `data/fixtures/lol/loadout-catalogs/${version}.json`),
+      ),
+    );
+    assert.equal(loadout.spells.length, 9);
+    for (const icon of [...loadout.spells, ...loadout.runes])
+      assert.ok(
+        (await readFile(path.join(app, "public", icon.image))).length > 0,
+      );
   }
   const champions = JSON.parse(
     await readFile(path.join(app, "data/fixtures/lol/champions.json")),
@@ -135,6 +142,7 @@ test("exports compatible defaults while preserving user media, preferences and c
     await readFile(path.join(app, "data/fixtures/lol/item-catalogs/14.6.json")),
   );
   assert.equal(lolItems.version, "14.6.1");
+  assert.ok(lolItems.bundledIds.includes(3869));
   for (const id of lolItems.bundledIds)
     assert.ok(
       (
@@ -143,6 +151,23 @@ test("exports compatible defaults while preserving user media, preferences and c
         )
       ).length > 0,
     );
+  const currentItems = JSON.parse(
+    await readFile(
+      path.join(app, "data/fixtures/lol/item-catalogs/16.18.json"),
+    ),
+  );
+  assert.equal(currentItems.version, "16.18.1");
+  for (const id of [3869, 3870, 3170, 3173, 2055]) {
+    assert.ok(currentItems.bundledIds.includes(id));
+    assert.ok(
+      (
+        await readFile(
+          path.join(app, `public/assets/lol/items/16.18.1/${id}.png`),
+        )
+      ).length > 0,
+    );
+  }
+  assert.ok(currentItems.bundledIds.every((id) => id < 1200 || id > 1222));
   assert.deepEqual(
     exported,
     JSON.parse(await readFile(path.join(dir, "manifest.json"))),
@@ -173,6 +198,8 @@ test("release bundle includes usable app paths and matching SHA256", async (t) =
   assert.match(stdout, /public\/assets\/dota\/items\/116.png/);
   assert.match(stdout, /data\/fixtures\/lol\/item-catalogs\/14.6.json/);
   assert.match(stdout, /public\/assets\/lol\/items\/14.6.1\/3157.png/);
+  assert.match(stdout, /data\/fixtures\/lol\/item-catalogs\/16.18.json/);
+  assert.match(stdout, /public\/assets\/lol\/items\/16.18.1\/3870.png/);
   assert.doesNotMatch(
     stdout,
     /(?:media-library|preferences|node_modules|\.dem|\.mp4)/,

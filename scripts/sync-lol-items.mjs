@@ -1,9 +1,11 @@
 import assert from "node:assert/strict";
+import { randomUUID } from "node:crypto";
 import {
   copyFile,
   mkdir,
   mkdtemp,
   readFile,
+  rename,
   rm,
   writeFile,
 } from "node:fs/promises";
@@ -20,21 +22,35 @@ assert.match(
 );
 assert.ok(snapshotFile, "请指定已核实的 LoL 装备快照");
 const snapshot = JSON.parse(await readFile(snapshotFile, "utf8"));
-assert.equal(snapshot.schemaVersion, 1);
-assert.equal(snapshot.window.gameState, "finished");
-assert.equal(snapshot.window.rfc460Timestamp, snapshot.details.rfc460Timestamp);
+let participants, patchVersion;
+if (snapshot.schemaVersion === 2) {
+  assert.equal(snapshot.source, "games-of-legends");
+  assert.match(
+    snapshot.sourceUrl,
+    /^https:\/\/gol\.gg\/game\/stats\/\d+\/page-game\/$/,
+  );
+  assert.equal(snapshot.quantityMode, "occupied-slots");
+  participants = snapshot.players;
+  patchVersion = snapshot.patchVersion;
+} else {
+  assert.equal(snapshot.schemaVersion, 1);
+  assert.ok(!snapshot.counterReset, "不能使用断档装备快照");
+  assert.equal(snapshot.window.gameState, "finished");
+  assert.equal(
+    snapshot.window.rfc460Timestamp,
+    snapshot.details.rfc460Timestamp,
+  );
+  participants = snapshot.details.participants;
+  patchVersion = snapshot.metadata.patchVersion;
+}
 assert.equal(
-  snapshot.metadata.patchVersion.split(".").slice(0, 2).join("."),
+  patchVersion.split(".").slice(0, 2).join("."),
   version.split(".").slice(0, 2).join("."),
 );
-assert.equal(snapshot.details.participants.length, 10);
-const bundledIds = [
-  ...new Set(snapshot.details.participants.flatMap((p) => p.items)),
-].sort((a, b) => a - b);
-assert.ok(
-  bundledIds.length &&
-    bundledIds.every((id) => Number.isSafeInteger(id) && id > 0),
-);
+assert.equal(participants.length, 10);
+assert.ok(participants.every((p) => Array.isArray(p.items)));
+const ids = participants.flatMap((p) => p.items);
+assert.ok(ids.length && ids.every((id) => Number.isSafeInteger(id) && id > 0));
 const base = "https://ddragon.leagueoflegends.com";
 async function download(url) {
   const response = await fetch(url, {
@@ -49,6 +65,32 @@ async function download(url) {
 const catalogUrl = `${base}/cdn/${version}/data/zh_CN/item.json`;
 const raw = JSON.parse((await download(catalogUrl)).toString());
 assert.equal(raw.version, version);
+const catalogFile = path.join(
+  root,
+  "catalog/lol-items",
+  version.split(".").slice(0, 2).join(".") + ".json",
+);
+let existingIds = [];
+try {
+  const existing = JSON.parse(await readFile(catalogFile, "utf8"));
+  assert.equal(existing.version, version);
+  existingIds = existing.bundledIds;
+  assert.ok(Array.isArray(existingIds));
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
+// These are the known role quest states added in 16.x. Tags alone cannot
+// identify them: older final support upgrades, such as 14.6's 3869, also have
+// the Lane tag and must stay in the final inventory.
+const roleQuestMarkers = new Set([
+  1090, 1091, 1092, 1093, 1094, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207,
+  1208, 1209, 1210, 1211, 1220, 1221, 1222,
+]);
+const questMarker = (id) =>
+  Number(version.split(".")[0]) >= 16 && roleQuestMarkers.has(id);
+const bundledIds = [
+  ...new Set([...existingIds, ...ids].filter((id) => !questMarker(id))),
+].sort((a, b) => a - b);
 const catalog = {
   schemaVersion: 1,
   version,
@@ -56,8 +98,8 @@ const catalog = {
   items: Object.fromEntries(
     Object.entries(raw.data).map(([id, item]) => {
       assert.match(id, /^\d+$/);
-      assert.ok(typeof item.name === "string" && item.name.trim());
-      return [id, { name: item.name }];
+      assert.equal(typeof item.name, "string");
+      return [id, { name: item.name.trim() || `未知装备 #${id}` }];
     }),
   ),
   bundledIds,
@@ -108,10 +150,13 @@ try {
   );
   const catalogs = path.join(root, "catalog/lol-items");
   await mkdir(catalogs, { recursive: true });
-  await writeFile(
-    path.join(catalogs, version.split(".").slice(0, 2).join(".") + ".json"),
-    JSON.stringify(catalog, null, 2) + "\n",
-  );
+  const temporary = `${catalogFile}.${randomUUID()}.tmp`;
+  try {
+    await writeFile(temporary, JSON.stringify(catalog, null, 2) + "\n");
+    await rename(temporary, catalogFile);
+  } finally {
+    await rm(temporary, { force: true });
+  }
   console.log(
     `Saved LoL ${version}: ${Object.keys(catalog.items).length} items, ${bundledIds.length} images.`,
   );
