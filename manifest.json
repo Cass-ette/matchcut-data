@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "coverageStatus": "verified-seed-and-event-players",
   "counts": {
     "teams": 17,
@@ -9,7 +9,11 @@
     "logoCatalog": 2105,
     "lolChampions": 173,
     "lolPlayers": 164,
-    "lolEvents": 2
+    "lolEvents": 2,
+    "dotaItems": 501,
+    "dotaItemImages": 40,
+    "lolItemCatalogs": 1,
+    "lolItemImages": 43
   },
   "files": [
     {
@@ -66,6 +70,211 @@
       "path": "assets/cs/maps/vertigo.png",
       "bytes": 29506,
       "sha256": "8f2b4e07dfa1e8723d73c261e7dd87f64d3656c8fb463b41d5e270eed62befa5"
+    },
+    {
+      "path": "assets/dota/items/1.png",
+      "bytes": 12674,
+      "sha256": "bc6401dfb8b64e07f4e450a351751755e154f5554f0bb9d14b96a3117092b5ac"
+    },
+    {
+      "path": "assets/dota/items/100.png",
+      "bytes": 12289,
+      "sha256": "79d5c8b82b02b678634008e5fd10ae8bc848610bf10601936f666c4844eb3d19"
+    },
+    {
+      "path": "assets/dota/items/102.png",
+      "bytes": 11151,
+      "sha256": "0e0fcb80acae16b970576611f6609f7700e61b29e550814c117fe4117e4c5766"
+    },
+    {
+      "path": "assets/dota/items/108.png",
+      "bytes": 11813,
+      "sha256": "a2e37040d90d987932686105567dd963f18caedd498f03ae26f0f10f9e20634f"
+    },
+    {
+      "path": "assets/dota/items/1097.png",
+      "bytes": 2006046,
+      "sha256": "5c74c15cfba5666c916013f0f152f272d2196c6d6e3e4e1ef02cba876c6dcb0b"
+    },
+    {
+      "path": "assets/dota/items/110.png",
+      "bytes": 11147,
+      "sha256": "a16da11b821f6fd2a9f89b364ef6caa47f10e6ac1b3bdd302c9ca2bfcdb7eab9"
+    },
+    {
+      "path": "assets/dota/items/116.png",
+      "bytes": 12480,
+      "sha256": "09c7e6cbdaf3c2dff83fbfa04e038e7fc96e71e875eae8fe114e0c3bfe0ee8a6"
+    },
+    {
+      "path": "assets/dota/items/1168.png",
+      "bytes": 15441,
+      "sha256": "4a3cd94ffb7280b27ed56b87f99286ee24d15e3e2deabffa68f393f490ccdee7"
+    },
+    {
+      "path": "assets/dota/items/119.png",
+      "bytes": 14131,
+      "sha256": "efe5cb009d650da58a041c5f35dbe6a4bd2be035876f254c82a115b5010631a6"
+    },
+    {
+      "path": "assets/dota/items/121.png",
+      "bytes": 9157,
+      "sha256": "2d27d3bae27e961bea0025a9553151d6512c06dd3d0bc1648972e30136066ee3"
+    },
+    {
+      "path": "assets/dota/items/141.png",
+      "bytes": 11349,
+      "sha256": "b594acd3d2197d8175d0521edc068e0bb9ed190eb117f0f9d48f7684d146424e"
+    },
+    {
+      "path": "assets/dota/items/145.png",
+      "bytes": 12027,
+      "sha256": "d495e668565b981156357645bb4c091eead7c9e38221e96adb2a4e10fe7916f2"
+    },
+    {
+      "path": "assets/dota/items/152.png",
+      "bytes": 11506,
+      "sha256": "fcb53a9f4c7624a4846b672139901666f837d3513659bfe91242ea01fa1d61e8"
+    },
+    {
+      "path": "assets/dota/items/1575.png",
+      "bytes": 9943,
+      "sha256": "0aad87976193ed6143514469c6fc91adfe20dbc1d3d5be2fb2a56fdc7647482e"
+    },
+    {
+      "path": "assets/dota/items/1577.png",
+      "bytes": 20387,
+      "sha256": "3d6bdc4106557eceee16f0cf81388580c9ea7673788b48bf079cae51fc7d8eaa"
+    },
+    {
+      "path": "assets/dota/items/1584.png",
+      "bytes": 19473,
+      "sha256": "34d73a56494d76d2762426d1664ae3599dfc743a3d118ee8ecafbe7e9486ee49"
+    },
+    {
+      "path": "assets/dota/items/1592.png",
+      "bytes": 7208,
+      "sha256": "cb2420af3ec8d4168f2e707f361f0027e3f3f6807652a74b93b726171a9f8cd3"
+    },
+    {
+      "path": "assets/dota/items/1593.png",
+      "bytes": 10845,
+      "sha256": "5106d11a8c2c857dece1b639017e39e1840e18f899ea2b57f4776624aec770d1"
+    },
+    {
+      "path": "assets/dota/items/168.png",
+      "bytes": 12691,
+      "sha256": "675bc48d69f10632ac4de059bcd6de4f9abed6a940211738b43c806d2222be44"
+    },
+    {
+      "path": "assets/dota/items/1720.png",
+      "bytes": 14338,
+      "sha256": "9095541ac7a5bf6692fe2acc7319298dc8b9e287918be5c88748b244fc30e61d"
+    },
+    {
+      "path": "assets/dota/items/180.png",
+      "bytes": 10288,
+      "sha256": "d40fdf6281fc31a0086246aa3e31dd3f82a1c6abd54609fb51414ac5d2ae3b6b"
+    },
+    {
+      "path": "assets/dota/items/1852.png",
+      "bytes": 12716,
+      "sha256": "7f7f6108f9a2f404fb10008c345896353d7f27105dfa92734e2dc8a2ecca9f46"
+    },
+    {
+      "path": "assets/dota/items/1854.png",
+      "bytes": 16920,
+      "sha256": "ec18d42fccb121aa323e582e22bd8c5a05a054fa6197f3a2961f0cdaaa0239b3"
+    },
+    {
+      "path": "assets/dota/items/1860.png",
+      "bytes": 16083,
+      "sha256": "fcfcc0a21ef71f02acab1d7c5f524df72c923b28b9d7cf02cb19fd095e2084ac"
+    },
+    {
+      "path": "assets/dota/items/1864.png",
+      "bytes": 13731,
+      "sha256": "0b23f54ec838a3c1f32a515f2597a7dfacbb488016c639ae31e393d7b9c8a3bc"
+    },
+    {
+      "path": "assets/dota/items/208.png",
+      "bytes": 11975,
+      "sha256": "c56be982369a6251e0dc1c89b76c1bd14fb6324071541d781d458f20ede5a47a"
+    },
+    {
+      "path": "assets/dota/items/218.png",
+      "bytes": 14252,
+      "sha256": "8e8e13eacce45b167c1956d2ea790fc0f52e9cb06b0e22d0fa76766c887df9bf"
+    },
+    {
+      "path": "assets/dota/items/225.png",
+      "bytes": 14784,
+      "sha256": "d6f7fbcb1729af45555310a5a4b81483d31b02d848f1251131a05e901e3c0619"
+    },
+    {
+      "path": "assets/dota/items/273.png",
+      "bytes": 13848,
+      "sha256": "000a507427702e92afb4af6d0561515d7f62e21b4d2c7a6eabd1804fb17a3d84"
+    },
+    {
+      "path": "assets/dota/items/29.png",
+      "bytes": 9504,
+      "sha256": "bc4d051758ce1ef1deccce71932b3dfe0e406690d5ad9ab0e1b8c12c4ca8fd99"
+    },
+    {
+      "path": "assets/dota/items/36.png",
+      "bytes": 9417,
+      "sha256": "4109e25e9991c11bb4c5ae543330c2000a0c2d7b44982320408b3b9ba1b873aa"
+    },
+    {
+      "path": "assets/dota/items/48.png",
+      "bytes": 11712,
+      "sha256": "051716f4d23494aa0f259cc77ee1e0b19c0511c00923889844d711dc53930e03"
+    },
+    {
+      "path": "assets/dota/items/50.png",
+      "bytes": 11585,
+      "sha256": "f194592b0300a80abadcc15e0793ba6c9c85c391b9360d36b39570ca900d55d7"
+    },
+    {
+      "path": "assets/dota/items/585.png",
+      "bytes": 15499,
+      "sha256": "7e6608042ec93135626002d8190f35c20ccb658949d29079c43859a9babe0506"
+    },
+    {
+      "path": "assets/dota/items/598.png",
+      "bytes": 14555,
+      "sha256": "fe68b2411555af306e365d6c42a351730b238d2cc413b328eab454ebd3a6eaac"
+    },
+    {
+      "path": "assets/dota/items/603.png",
+      "bytes": 14816,
+      "sha256": "e46087006d607c06a049edd24ed7aceb08aa2c9cf52e40407c72a427154d4384"
+    },
+    {
+      "path": "assets/dota/items/610.png",
+      "bytes": 14983,
+      "sha256": "b2077e07d959a74ca66fe92b7832469f21e749cb82a2ac8129979df6f3c0b85f"
+    },
+    {
+      "path": "assets/dota/items/63.png",
+      "bytes": 11637,
+      "sha256": "ff73d7df1b889a463b9e771c4fbbfa6f875123e3c7480bf4869ff86f99d9ea7f"
+    },
+    {
+      "path": "assets/dota/items/81.png",
+      "bytes": 11815,
+      "sha256": "749ec25bc12f5cd3ea12f59b530203611ff8d66acc0a89c3e4cc057ad7b2e239"
+    },
+    {
+      "path": "assets/dota/items/840.png",
+      "bytes": 15495,
+      "sha256": "5da8634613eb059097f331c913c6a8a65ab0fe5e48ab05491ebd7f06e868e3ce"
+    },
+    {
+      "path": "assets/dota/items/SOURCES.md",
+      "bytes": 516,
+      "sha256": "ab294302072e6446c7cca947ba4f2ff157b87ee25ef54be5c158d4767436802e"
     },
     {
       "path": "assets/lol/Aatrox.jpg",
@@ -1803,6 +2012,226 @@
       "sha256": "9993a6caf52f955ad41077e56b56f2472c07c1a589fb4d1c66097ddf775feda4"
     },
     {
+      "path": "assets/lol/items/14.6.1/1058.png",
+      "bytes": 5943,
+      "sha256": "8a942c70b61d633074a237f6858742585e35146a8f6618ae3d8e07c8091063f4"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/2019.png",
+      "bytes": 6523,
+      "sha256": "4c84471bfb7d5daeaedc44f027e1e2fcfd32edc50778d52eba902cbaaaa959c3"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/2055.png",
+      "bytes": 5616,
+      "sha256": "2a6b005ac7fef2f8715b10e648c1a8b8dfaeac6e79e12e020fd2cca818e9348a"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/2138.png",
+      "bytes": 7064,
+      "sha256": "342f386ac56842ade24e8a3b44ca89c1d69bd6479121b6ff4c73346346ef1ff4"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/2139.png",
+      "bytes": 6507,
+      "sha256": "612f3bcf76bba7ebf86a1ec08a118d095fb42fe533b6b6f1dd440a5ac99237bc"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/2140.png",
+      "bytes": 6281,
+      "sha256": "e58952c339cec2243484faf8b1435ca35f3d566b63a1fdec0521076b906a9137"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/2422.png",
+      "bytes": 4155,
+      "sha256": "c7c7a63e22c0f66c03317434fac78ab8977e33bf29fb830f26da309e00ee8c03"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3009.png",
+      "bytes": 6537,
+      "sha256": "f516b21820cc1e18b2de09c375602fa2fd4b7f9cad2df99b3286bf3651b37f7f"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3020.png",
+      "bytes": 6091,
+      "sha256": "0204f61a81aa9c3ef318dd27ed272e8c83e12009ce37a23d7c6193f9d991261b"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3026.png",
+      "bytes": 6600,
+      "sha256": "2b0333182d1b97b1b7717b2f7b999dc7147722159605887cf6c1216a55df1743"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3031.png",
+      "bytes": 7104,
+      "sha256": "39382e1bef39a48d14e6d37e52e9d02068df9153ca60c2bcca033dd276fae5df"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3036.png",
+      "bytes": 6844,
+      "sha256": "f98e1b868adc0fd6c1a6875ac4536d7217d9f584b56704e3a5f4b541577faa17"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3047.png",
+      "bytes": 6073,
+      "sha256": "22bc8d6451e5a100d06dd80b1c97600e991db20a2f9fd1eb8da151afc23881a1"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3065.png",
+      "bytes": 7502,
+      "sha256": "2e42844fe60ba038f5a3402abb4d1e42578acb032ad934c6e5cf883a7df92421"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3067.png",
+      "bytes": 6255,
+      "sha256": "a0f2d23087b2777dbfd91ca48193457aac4b05bc29de6a311479ef4cb223bfa7"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3068.png",
+      "bytes": 5400,
+      "sha256": "58468a9b834718c2081c267cfc07db7ca039d3e5b6306cb3682747ea477f0f56"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3076.png",
+      "bytes": 7197,
+      "sha256": "e5bad621f9035b7cd2f8263955fb2a807df0a7e7ce78ca1b18dface9fe8aff6d"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3089.png",
+      "bytes": 6981,
+      "sha256": "ad77331bb9a325db9536f5614f3ca3516e24279406123f2892eb33ee419d369b"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3094.png",
+      "bytes": 6629,
+      "sha256": "3dfdf53bfe8ae4158aeffc37f55926d5bc030a5091f6dd259659a070a18e9495"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3102.png",
+      "bytes": 6471,
+      "sha256": "bc16dd00557e1cfbdca45e8531a2c1d3e0cd924a2f0cd7f866725feebf4d3ce7"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3109.png",
+      "bytes": 6981,
+      "sha256": "3b7dd8a37b86c923e7ebc8a1530982a8e7be218c95f93ebd05460914de56f109"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3111.png",
+      "bytes": 6769,
+      "sha256": "ce2d494abe20df23461fad8509e4d260ffb5909f56f459610348bbc0bff8688a"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3115.png",
+      "bytes": 6492,
+      "sha256": "65e508502ed720f39416fbf2dd71aaddda9bf1fd2252da7bf99ea94503582385"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3118.png",
+      "bytes": 6310,
+      "sha256": "df7498e07b347ac1a3256bbba5ba0d4ee1cd25ae6e405bf41403564250844e90"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3135.png",
+      "bytes": 6465,
+      "sha256": "86f541cb0cbbca43574e9f79119e8d958ab225201c64a59cb95f8e3652de2688"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3137.png",
+      "bytes": 6866,
+      "sha256": "2afa6d8305d989a42b90a36f05f423cacfd813a2c95a641833435cf9b886f3bd"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3152.png",
+      "bytes": 7523,
+      "sha256": "0f2f2c9c9c9cff96fc4e663ecd844a5ecd71cfea235731e986f8b8b8d91387ec"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3156.png",
+      "bytes": 6736,
+      "sha256": "54eb3c587ce27a2f864c9bc1f2884ab74283171a63f5246e6182518ec924a927"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3157.png",
+      "bytes": 7290,
+      "sha256": "fc0908ad8621e96ad635b5bac67e09f663ec80735efd732b10f07d8c498443aa"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3161.png",
+      "bytes": 6148,
+      "sha256": "7a772149749e4ccea18d557d8efa22a9eb7500547acaac271729e6c75cd16cae"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3190.png",
+      "bytes": 7266,
+      "sha256": "c4db34bc5eac5723f688b2830c45fe0a1c23249bb865a6782634639ae3fd9401"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3211.png",
+      "bytes": 6014,
+      "sha256": "4135b0c27adf0dc4e9b0df2c138a5b8d06c1e3c85ffa959b6663936bcd19ccf6"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3363.png",
+      "bytes": 6164,
+      "sha256": "b6a5c5c4734269116b9325dff2aab9ef9b711f85d815883b69494471911e35e3"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3364.png",
+      "bytes": 5368,
+      "sha256": "e4361d1e905557df0b4eebc224665f3fab43ac6106f4ec3536bd785d593b26ec"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3508.png",
+      "bytes": 6111,
+      "sha256": "6648a9367e07b71c37395817c76ad81f738fc6529b1179c3e68bbbebef62ca39"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/3814.png",
+      "bytes": 6687,
+      "sha256": "5ea24a0c84edd95af45f55f25c2f4c7656239736026bbbf1268ed3e8644a303d"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/6653.png",
+      "bytes": 6343,
+      "sha256": "ee67ae7a25f9e1d31d6d2c9e2f4360e061f52ac001bfe4cddc8a353b01d9de8e"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/6673.png",
+      "bytes": 6885,
+      "sha256": "d35f6fe229db6ed47fcb29bb5d84ade96fac8695a5b2e81340a55eae7440ccb6"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/6694.png",
+      "bytes": 6382,
+      "sha256": "7cb272a3832e4933377ea9d6bf47c29a75177f6e7a7f04d2bfb6f526604db68a"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/6696.png",
+      "bytes": 6343,
+      "sha256": "386143abbbb1e6f6b06ee6ef1608d2722e3878319d62c0663f779fcc01387595"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/6698.png",
+      "bytes": 7357,
+      "sha256": "a1875209dadbae4f311dcf89a9c1ef35fef4167008cd62d206596259a9255213"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/6701.png",
+      "bytes": 6028,
+      "sha256": "6ebca8b3b6c059ec8bb85872896aa0dd3d42341075496fe5288309fcce090688"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/8020.png",
+      "bytes": 6830,
+      "sha256": "40037938de2dd163890f9b78d51f3a137150fdd0f359473ceb9f5d024704950a"
+    },
+    {
+      "path": "assets/lol/items/14.6.1/SOURCES.md",
+      "bytes": 435,
+      "sha256": "73d1e99cee78e2c2cef2362565cad134442b68a8cd78e5c2411ae3756a0f2764"
+    },
+    {
       "path": "assets/placeholders/SOURCES.md",
       "bytes": 847,
       "sha256": "8a039777cfa09472030dc7afbab0f3e98bf64de62f6853944802e34437705e5a"
@@ -2773,6 +3202,11 @@
       "sha256": "8501bd6a44d49b01bb6dba383c1fedb1ca144931f02add85d26891e2837642fa"
     },
     {
+      "path": "catalog/dota-items.json",
+      "bytes": 97094,
+      "sha256": "311e76851efc58cd92c68255e63f6ff33d66211ddfaaa4a5f17e5aec7523c30a"
+    },
+    {
       "path": "catalog/logo-catalog.json",
       "bytes": 384155,
       "sha256": "3de285adffa99025d8668cecd941b6931a54fea8dedb7dc006d7af248e232997"
@@ -2786,6 +3220,11 @@
       "path": "catalog/lol-events.json",
       "bytes": 51594,
       "sha256": "2e4a37c2abd8e110488770e991fb5f9b8cce1b2e346e6813b8db57bb5da11e62"
+    },
+    {
+      "path": "catalog/lol-items/14.6.json",
+      "bytes": 26739,
+      "sha256": "6e888fb5235a1d715697f9a675482de602c466877019e13ffbddddd8b98812f8"
     },
     {
       "path": "catalog/lol-players.json",

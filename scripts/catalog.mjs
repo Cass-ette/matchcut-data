@@ -72,6 +72,7 @@ async function inspect() {
   const profiles = await readJson("catalog/lol-players.json");
   const events = await readJson("catalog/lol-events.json");
   const scope = await readJson("catalog/scope.json");
+  const dotaItems = await readJson("catalog/dota-items.json");
   assert.equal(scope.schemaVersion, 1);
   assert.ok(text(scope.coverageStatus));
   const assets = await collect("assets");
@@ -222,6 +223,55 @@ async function inspect() {
     );
   }
   await png("assets/placeholders/player.png");
+  assert.equal(dotaItems.schemaVersion, 1);
+  assert.equal(
+    dotaItems.source.catalogUrl,
+    "https://api.opendota.com/api/constants/items",
+  );
+  assert.ok(!Number.isNaN(Date.parse(dotaItems.source.fetchedAt)));
+  for (const [id, item] of Object.entries(dotaItems.items)) {
+    assert.match(id, /^[1-9][0-9]*$/);
+    assert.match(item.key, /^[a-z0-9_]+$/);
+    assert.ok(text(item.name));
+    assert.match(
+      item.imageUrl,
+      /^https:\/\/cdn\.cloudflare\.steamstatic\.com\/apps\/dota2\/images\/dota_react\/items\/[a-z0-9_]+\.png$/,
+    );
+  }
+  assert.ok(dotaItems.bundledIds.length > 0);
+  assert.equal(new Set(dotaItems.bundledIds).size, dotaItems.bundledIds.length);
+  for (const id of dotaItems.bundledIds) {
+    assert.ok(dotaItems.items[id], `未知装备: ${id}`);
+    await png(`assets/dota/items/${id}.png`);
+  }
+  let lolItemImages = 0;
+  const lolItemCatalogs = await collect("catalog/lol-items");
+  for (const file of lolItemCatalogs) {
+    assert.match(file, /^catalog\/lol-items\/\d+\.\d+\.json$/);
+    const catalog = await readJson(file);
+    assert.equal(catalog.schemaVersion, 1);
+    assert.match(catalog.version, /^\d+\.\d+\.\d+$/);
+    assert.equal(
+      path.basename(file, ".json"),
+      catalog.version.split(".").slice(0, 2).join("."),
+    );
+    assert.equal(
+      catalog.source.catalogUrl,
+      `https://ddragon.leagueoflegends.com/cdn/${catalog.version}/data/zh_CN/item.json`,
+    );
+    assert.ok(!Number.isNaN(Date.parse(catalog.source.fetchedAt)));
+    for (const [id, item] of Object.entries(catalog.items)) {
+      assert.match(id, /^[1-9][0-9]*$/);
+      assert.ok(text(item.name));
+    }
+    assert.ok(catalog.bundledIds.length > 0);
+    assert.equal(new Set(catalog.bundledIds).size, catalog.bundledIds.length);
+    for (const id of catalog.bundledIds) {
+      assert.ok(catalog.items[id]);
+      await png(`assets/lol/items/${catalog.version}/${id}.png`);
+      lolItemImages++;
+    }
+  }
   for (const file of assets)
     assert.ok(
       expected.has(file) || /\/SOURCES\.md$/.test(file),
@@ -244,6 +294,10 @@ async function inspect() {
       lolChampions: championCount,
       lolPlayers: profiles.players.length,
       lolEvents: events.events.length,
+      dotaItems: Object.keys(dotaItems.items).length,
+      dotaItemImages: dotaItems.bundledIds.length,
+      lolItemCatalogs: lolItemCatalogs.length,
+      lolItemImages,
     },
     files: entries,
   };
@@ -271,6 +325,16 @@ async function copyInto(destination, manifest) {
     ["catalog/lol-champions.json", "data/fixtures/lol/champions.json"],
     ["catalog/lol-players.json", "data/fixtures/lol/players.json"],
     ["catalog/lol-events.json", "data/fixtures/lol/events.json"],
+    ["catalog/dota-items.json", "data/fixtures/dota-items.json"],
+    ...manifest.files
+      .filter((entry) => entry.path.startsWith("catalog/lol-items/"))
+      .map((entry) => [
+        entry.path,
+        entry.path.replace(
+          "catalog/lol-items/",
+          "data/fixtures/lol/item-catalogs/",
+        ),
+      ]),
     ["manifest.json", "data/fixtures/media-catalog-version.json"],
     ...manifest.files
       .filter((entry) => entry.path.startsWith("assets/"))

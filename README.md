@@ -2,6 +2,10 @@
 
 [Matchcut](https://github.com/Cass-ette/matchcut) 的独立资料库，维护选手身份、战队别名、队标、选手照片、地图图标、LoL 英雄图片与素材出处。
 
+v0.4.0 新增 OpenDota 的 501 项 Dota 装备 ID / 名称 / Valve 图标目录，以及示例单局的 40 张主装备、中立物品与附魔图标。应用仅按实际比赛缓存额外图标，背包数据与主栏分开保留。运行 `npm run sync:dota-items` 更新目录与现有内置图标；首次按指定原始比赛补齐图标可用 `npm run sync:dota-items -- --snapshot ../matchcut/data/fixtures/9035078952.json`。图标外观以获取时间为准。
+
+同版新增 LoL Data Dragon **14.6.1 的 497 项中文装备目录、43 张示例装备 / 饰品 / 消耗品图标**。目录按比赛补丁独立存放，避免用当前版本替换历史装备。应用中的比赛快照经官方赛事终局记录核实；本资料库只维护装备目录与素材。同步示例：`npm run sync:lol-items -- 14.6.1 ../matchcut/data/fixtures/lol/inventories/LOLTMNT02_76144.json`，然后执行 `npm run manifest` 与 `npm run export -- ../matchcut`。
+
 当前收录 **17 支战队的本地队标、173 名选手的照片（LoL 163、CS 10）、10 张 CS 地图徽标**，另含可搜索的上游队标目录快照。LoL 有 164 份独立身份档案，GAM 的 tiphat 暂缺照片：Riot / LPL 来源均为默认剪影，已标记缺图并排除占位图片。照片队服不代表历史比赛当时的所属战队。
 
 v0.3.0 补充 2026 德玛西亚杯全球邀请赛（DCGI）12 支已出场队伍的 60 名选手，以及 Riot 公布的 2026 S 赛 19 支参赛队赛前最近阵容的 95 名选手，另收录 9 名核实过的本赛季选手。**赛事最终报名表和完整替补名单尚未核实**；赛前出场阵容不能当作正式报名名单。数据截至 2026-10-09，S 赛参赛队来源为 [Riot 官方赛事指南](https://lolesports.com/en-US/news/worlds-2026-primer)。
@@ -22,18 +26,18 @@ v0.2.0 新增 Riot Data Dragon **16.20.1 的全部 173 个 LoL 英雄**，每个
 
 ## 文件
 
-| 路径 | 内容 |
-| --- | --- |
-| `catalog/team-logos.json` | 队名、别名、本地队标、上游来源 |
-| `catalog/player-photos.json` | 游戏、提供方选手 ID、昵称、照片与资料页来源 |
-| `catalog/logo-catalog.json` | 上游队标搜索目录，图片按需获取 |
-| `catalog/maps.json` | CS 地图标识、图片及来源 |
-| `catalog/lol-champions.json` | Riot 版本、完整英雄 ID 与名称、图片来源模板与获取时间 |
-| `catalog/lol-players.json` | 独立选手档案、别名、跨提供方 ID、照片状态与身份核对证据 |
-| `catalog/lol-events.json` | 赛事参赛队、个人 ID 引用、出场证据及报名核实状态 |
-| `catalog/scope.json` | 计划覆盖范围与人工确认规则 |
-| `assets/` | 已核实的初始素材与出处说明 |
-| `manifest.json` | 数据版本、收录数量、各文件大小与 SHA256 |
+| 路径                         | 内容                                                    |
+| ---------------------------- | ------------------------------------------------------- |
+| `catalog/team-logos.json`    | 队名、别名、本地队标、上游来源                          |
+| `catalog/player-photos.json` | 游戏、提供方选手 ID、昵称、照片与资料页来源             |
+| `catalog/logo-catalog.json`  | 上游队标搜索目录，图片按需获取                          |
+| `catalog/maps.json`          | CS 地图标识、图片及来源                                 |
+| `catalog/lol-champions.json` | Riot 版本、完整英雄 ID 与名称、图片来源模板与获取时间   |
+| `catalog/lol-players.json`   | 独立选手档案、别名、跨提供方 ID、照片状态与身份核对证据 |
+| `catalog/lol-events.json`    | 赛事参赛队、个人 ID 引用、出场证据及报名核实状态        |
+| `catalog/scope.json`         | 计划覆盖范围与人工确认规则                              |
+| `assets/`                    | 已核实的初始素材与出处说明                              |
+| `manifest.json`              | 数据版本、收录数量、各文件大小与 SHA256                 |
 
 CS `playerId` 为完整 SteamID 字符串，LoL 为 Oracle’s Elixir 的 `playerid`。不要把 SteamID 转成 JavaScript 数字，也不要在昵称变化时更换稳定 ID。上游新 ID 的映射须有来源依据。
 
