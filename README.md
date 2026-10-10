@@ -93,3 +93,5 @@ npm run export -- ../matchcut
 队标来自 [esport-team-logos](https://github.com/lootmarket/esport-team-logos) 及样例 OpenDota 的 Steam 队标地址；选手照片来自 [Riot LoL Esports](https://lolesports.com/)、[LPL](https://lpl.qq.com/) 与 [ProSettings](https://prosettings.net/)；地图来自 [csgo-map-icons](https://github.com/vgalisson/csgo-map-icons)。逐项链接保存在目录 JSON 与 `assets/**/SOURCES.md`。
 
 游戏美术、照片和战队商标的权利属于各自权利人。本仓库的收录不代表获得这些素材的著作权或商标授权。
+
+LoL 技能与符文目录位于 `catalog/lol-loadouts/`，内置 14.6、16.18 的主副系、符文、属性碎片及九种峡谷召唤师技能，共 173 张图标。目录记录版本和来源 URL，素材来源见 `assets/lol/loadouts/SOURCES.md`。验证器检查编号、路径、PNG 和 SHA256，导出为应用的 `data/fixtures/lol/loadout-catalogs/`。比赛中的实际技能选择与符文快照保存在应用按局缓存中，不作为选手常驻资料，也不跟战队绑定。

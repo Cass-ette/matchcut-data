@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "coverageStatus": "verified-seed-and-event-players",
   "counts": {
     "teams": 17,
@@ -13,7 +13,9 @@
     "dotaItems": 501,
     "dotaItemImages": 40,
     "lolItemCatalogs": 1,
-    "lolItemImages": 43
+    "lolItemImages": 43,
+    "lolLoadoutCatalogs": 2,
+    "lolLoadoutImages": 173
   },
   "files": [
     {
@@ -2232,6 +2234,876 @@
       "sha256": "73d1e99cee78e2c2cef2362565cad134442b68a8cd78e5c2411ae3756a0f2764"
     },
     {
+      "path": "assets/lol/loadouts/14.6/runes-5001.png",
+      "bytes": 295,
+      "sha256": "3b7c1ff871f096d275f6d7e1faeba16496e96ab7fe8e642a477f47d4ef8ab4dd"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5002.png",
+      "bytes": 712,
+      "sha256": "e2f4eb688acfe363408b51974987a4e0e64cae8904daa7ae4baaf39577ce8e2f"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5003.png",
+      "bytes": 1000,
+      "sha256": "10e2a3803d5ae79b3da58c39b1056a5a15380147dce42fdbed9a2b33d274c6e9"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5005.png",
+      "bytes": 485,
+      "sha256": "83f2463bda6a33f53039c6384a26ea14eb9db9c93c84ac0af298ed7b41934c97"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5007.png",
+      "bytes": 852,
+      "sha256": "4a758393d1672041993edcd8c4a33eb3f1dce1609598b3ac4fdda99301b80538"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5008.png",
+      "bytes": 707,
+      "sha256": "08e3079f1c8cbae3b57b9a692a32078711bc96f93991a2847b8da04d03fa80bc"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5010.png",
+      "bytes": 802,
+      "sha256": "f80e8066c7f25a7905458ccaa8f1237209fd1bbd3bfd13847fc32ef03e315bbf"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5011.png",
+      "bytes": 632,
+      "sha256": "77bc6f44d75f8d70566bc753bc4f23b391c64ffdec3ca082f45c4c75ff162c8f"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5012.png",
+      "bytes": 912,
+      "sha256": "ed93f0b0728b089190fdbcb78fb14c95e720a95a5a19485144bafd7a05daa5fe"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-5013.png",
+      "bytes": 331,
+      "sha256": "8039c4bd7c1287ea123773f24e21bf763784da466338f4cda22562e5d26e2b75"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8000.png",
+      "bytes": 1398,
+      "sha256": "3ee3abe2826ba9f0f1b9fb7d8358818443880ccb3ebea965348837aa5c898e57"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8005.png",
+      "bytes": 101210,
+      "sha256": "f9322ca20bfa3aa60d0d1b33ace65905127e81a81ed90cd2e96366c7237dacaf"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8008.png",
+      "bytes": 55298,
+      "sha256": "e698b64c52b039fa65393eb91effccf316577415fe0f6a4f8befae05fb12fc90"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8009.png",
+      "bytes": 4806,
+      "sha256": "7fddaa3fb9f5261613779957a08b3dc1f957ebddc28d47c85c1d4a38be150b98"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8010.png",
+      "bytes": 51100,
+      "sha256": "2b6c32a35a7df8cf9f0fe1f7c5d931ddb37307c1bafd66bac7e8979ad6fa0b86"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8014.png",
+      "bytes": 4762,
+      "sha256": "941db8d8b5e93b81c6f5ec8da2e23baee933cb6a61ecbe5847b1fa26ed05f436"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8017.png",
+      "bytes": 4940,
+      "sha256": "8539600426b04cb518cdfadaf4db207f37223e27b943d916a08789851539dd8b"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8021.png",
+      "bytes": 88296,
+      "sha256": "bf5d0434dc61ed443b42d46d6152d5fd60b4abec3179fdb1e42309b9096cea07"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8100.png",
+      "bytes": 1424,
+      "sha256": "5982e902c9049bd357e18fa4914290906468a554645735aa2c10b8f36c87868c"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8105.png",
+      "bytes": 5208,
+      "sha256": "22dc1799cc07e5c62b221614963eb0aa6bd80f4521026279e6514e181d3899b9"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8106.png",
+      "bytes": 14739,
+      "sha256": "208f95819b2aa65d1f2a8aa38498b13d495464f1ed622e7ce39c3709d7ac63be"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8112.png",
+      "bytes": 58055,
+      "sha256": "6e900ec70646a691dd71806938cfcef5d55c2a59fe1acca68475ca35c73636d3"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8120.png",
+      "bytes": 5025,
+      "sha256": "672e73ffd7d791cc976021de9c1892f6739bb6d999db53431abd2a5fd80d72bd"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8124.png",
+      "bytes": 82752,
+      "sha256": "42bb5cb205caa3c95e12cdbfc97ff2068eb7ba21eb628664818a340092384e63"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8126.png",
+      "bytes": 5943,
+      "sha256": "f39d286e4256d3c13259600a044f1ee242b4febb05675e786a5145fa14c38974"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8128.png",
+      "bytes": 51567,
+      "sha256": "bf3a0943bf6af128ce579463862cebca81e97d948b5b92afb9d1427a2fabc1fa"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8134.png",
+      "bytes": 4122,
+      "sha256": "b1484f54d190915a5981a49f74b1767fe2c6f9c31d6bfee0c7fac53ecb862f85"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8135.png",
+      "bytes": 5206,
+      "sha256": "8def01263d23ea7f7601eaa0bfa0f56a83247c9dd94d1b57b3805299b076a482"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8136.png",
+      "bytes": 5677,
+      "sha256": "6b804f0037a5efa23f0ec519fcdc6413adc610709187f2712c74d444f7199c28"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8138.png",
+      "bytes": 4723,
+      "sha256": "2866a9b6e771d9e64e4094c0145ccfcce5b0de8a7e849e2d2ccf7f3a023d6682"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8139.png",
+      "bytes": 5000,
+      "sha256": "0a8ee6585ba4c5ef6200d77189e98bd123c195de49f615a6d10ae5436b545b8e"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8143.png",
+      "bytes": 4800,
+      "sha256": "2fc29e67ce07d5bbf17824714c01b0cc8cf058d597cb79bfa03c4c08ce039afe"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8200.png",
+      "bytes": 1159,
+      "sha256": "ab4f310160bd7e435ead08fa44025d857ce4a884cc9533664f056ab5e148103e"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8210.png",
+      "bytes": 5942,
+      "sha256": "ffbb3543992f1be83edde9b2a560c069fdeaa64cc7ac4c8f5e136d70ad540293"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8214.png",
+      "bytes": 49583,
+      "sha256": "89fd9b48da8848cea8524976af25e46d7c76fed6323b1a43f486368ba9fda2a9"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8224.png",
+      "bytes": 5430,
+      "sha256": "b4d1475620d75715def9c6a19b8eaa2776ab5cfaa7545ef06aeaecb02d623393"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8226.png",
+      "bytes": 5767,
+      "sha256": "de2144f32ec12ef688405eabffb7d9b59ac6b0b8e14e46bb57cdd1d6b6af638d"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8229.png",
+      "bytes": 45377,
+      "sha256": "24443adb6051ff8c548a7fd530bdedf1e7e64d6e8f2f7f0d1356f1b3d3235097"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8230.png",
+      "bytes": 61266,
+      "sha256": "cf5d0749ac95f8bbe6a1358d8d5195a2028efffd70deab7475f46c5e98341ed9"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8232.png",
+      "bytes": 4590,
+      "sha256": "c3d4d56136a22fc51b42c906f90fe3cffd44468fd12013d26dfc72124426b6a8"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8233.png",
+      "bytes": 4688,
+      "sha256": "9a5d5939216069427bcc33dcfe3879be8563c9a2ae6c40b248717520dd06f324"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8234.png",
+      "bytes": 6068,
+      "sha256": "3f2315b7b004b95aab34c34412ea38ffd3bd251c0c18bb3d3687fa38566989e9"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8236.png",
+      "bytes": 4910,
+      "sha256": "71c085cb595b6d1f0dc86852cfcbc0d0f75df8f4ea497d502044fb1346a0b939"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8237.png",
+      "bytes": 5029,
+      "sha256": "dde12ae30ce293999142d8ee205f3611d2726741f7b05563257e0030eea37dc4"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8242.png",
+      "bytes": 4609,
+      "sha256": "40bf08364e770a28376cab28ee35be062d767ddab85e51af0b5ee656f592940a"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8275.png",
+      "bytes": 14057,
+      "sha256": "5cd5b64e4e75a865bedf6260eb9a64be84cde34b570c0cb075f4241a2a565727"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8299.png",
+      "bytes": 4902,
+      "sha256": "c80a20a544645f99aa95c488a939221ce658e3d9486632b1f5aceb10d7ef4711"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8300.png",
+      "bytes": 2022,
+      "sha256": "0fe0ea987bdad4aa595bded9d04716c5b77c00b0002177975158253146aed733"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8304.png",
+      "bytes": 5073,
+      "sha256": "b80bf9bab38d6cb2a8d04fa7d409f402b3ea6a2313394e0f846f8dc464b1a218"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8306.png",
+      "bytes": 5183,
+      "sha256": "67ffb6f6ea4ab64526c7ba4e5410a52e4b662a47ccff566d4a1b78b69abba51f"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8313.png",
+      "bytes": 5953,
+      "sha256": "6314fb6a869a78622e9082267ca3f7731a2d13c020748f89bebca9ec1d19a7ac"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8316.png",
+      "bytes": 4958,
+      "sha256": "cb2cb934651215f68c6470088a729bec7fc3543bf1ecd47f57d9e2d7d62bca38"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8321.png",
+      "bytes": 4582,
+      "sha256": "bd9afcd30473ae078a2931e16b21bb6789154767a29065e7516a75dd69415b59"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8345.png",
+      "bytes": 4921,
+      "sha256": "4f4c70536a85455ac082b4d9b89643c670c0a083c52f8c68072b20332992ab19"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8347.png",
+      "bytes": 4771,
+      "sha256": "c95f312f1c4d1293b9d60db0ac8d1a31895d9a9c8add7fd9a9de6c7825eee0ef"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8351.png",
+      "bytes": 73350,
+      "sha256": "5e82f4855c198ccdfa58ebc56d0aaec0d654423d8289521632580cf24597a98e"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8352.png",
+      "bytes": 14341,
+      "sha256": "e2266a1337c494d7270005b248be116ae61e5ee018234cce51485dfa9e205386"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8360.png",
+      "bytes": 72267,
+      "sha256": "db2edc2719a68639c40955593975fc8fcc36ada206d9348ccb9db0b566a6f226"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8369.png",
+      "bytes": 51271,
+      "sha256": "1f901df7b83c4ad0c3456d605d83e5ecaa0072a0640bf9ea2749323169f9580d"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8400.png",
+      "bytes": 1069,
+      "sha256": "7251816d3438504452594b6a38f54440bc92092312dc9c036ad2b0c7ee73d375"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8401.png",
+      "bytes": 5568,
+      "sha256": "1100a37f9f068262949181539af8ec552a4b16cfa6548118636e55fd7fbbbd2a"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8410.png",
+      "bytes": 5054,
+      "sha256": "838bcdb70b0543e072001df66639af3da0d9194eee1678a88ddf18be411f489c"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8429.png",
+      "bytes": 5300,
+      "sha256": "0fd7b4847b03f627c50300b71d951406af0421b5991ddf2cbdf3d322ed8ad7d6"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8437.png",
+      "bytes": 78682,
+      "sha256": "d419555c07c18276a319e9fe580e10290db3c9bcd112148d579ddc039cdc6315"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8439.png",
+      "bytes": 63340,
+      "sha256": "c48202b105b8bd083d382290f763a4654ab7e10a95cd815491f24a301cf8864c"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8444.png",
+      "bytes": 4077,
+      "sha256": "5395ee0d28a2a5a40895db8904447e16558e49c2c687a2d87fb3aaf8ebb09590"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8446.png",
+      "bytes": 5106,
+      "sha256": "90602a87ef14442b3bddae24872709634e2e1f109bc82844b31a892682cf95fd"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8451.png",
+      "bytes": 5741,
+      "sha256": "9d31e45e21bd99d6fdb62ea6b13581f27641a1bfe761f9bfea7d5582529585dd"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8453.png",
+      "bytes": 4880,
+      "sha256": "eeb104e95034ae3ba2e8d0b9f89bbe80e2a7a40bfbb6650bcdc9b3f9f083f2f6"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8463.png",
+      "bytes": 4429,
+      "sha256": "66715a5cf3dc00c60ca81bec6defe5b201beefa2b9d2394f8bae46a1c5b59f80"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8465.png",
+      "bytes": 73504,
+      "sha256": "19316a3ff79b6aa67a5c9eb4a00dab2656be0ebe4fa7ba7010e2b00f6b439561"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-8473.png",
+      "bytes": 14860,
+      "sha256": "90e9d37bf2d67d78f8ebe1d295f37d365b053480d4cabff69c024ba18649093e"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-9101.png",
+      "bytes": 4956,
+      "sha256": "91cde8bf56eb5e14620956ad7a5e3a0bf381cd3b8077149dde2a6b513830cfdd"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-9103.png",
+      "bytes": 4587,
+      "sha256": "cb34a410310c5e71b2cac2d41f4b1e0bf3e3e363e0d4be1ef0d9f91d971fb099"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-9104.png",
+      "bytes": 5128,
+      "sha256": "a987e2c2ef3d38c306b9c7d59bb94c1bc7ef2a3408b9c0bfcec5cc156e26ab62"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-9105.png",
+      "bytes": 5484,
+      "sha256": "1c0378a53d7dfe9d9c46a7a98cca0f30bed919c8a2121c4126e00ecbe1128a24"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-9111.png",
+      "bytes": 4200,
+      "sha256": "75d54c361b70cebcc62b1a5447d729fa12879e449d52b5bf2fe83be291cbbfa2"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/runes-9923.png",
+      "bytes": 60768,
+      "sha256": "279c2ad940f3b5a33cd6f08b1718cdfe73e2c3ea3117f3361fd02df6f26fdd13"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-1.png",
+      "bytes": 6498,
+      "sha256": "9498d4983effb29f0c11a0fa605f39f6381f9708150a111cb2156b0287c80702"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-11.png",
+      "bytes": 6221,
+      "sha256": "f07e92e0ded6fae182b1d66191a62dcaf5fcf207a0d9622105e00c39c27a0a28"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-12.png",
+      "bytes": 6131,
+      "sha256": "9b86d0c879504d7ad22815084efb0c59521a40edf5bc6bf85031db9f5e2e976f"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-14.png",
+      "bytes": 5799,
+      "sha256": "958db3407c83a9499a5e464c2e37df59c6544590dcd3d822965a83740303b9af"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-21.png",
+      "bytes": 6401,
+      "sha256": "a0cf7b08cdd6d852d325bc9124e05f0e2c55aac340e50665c385755dfa86fbc0"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-3.png",
+      "bytes": 6078,
+      "sha256": "ad513e510391d7c8fc604d16e239f430f1a10dde563ae7cf237eb87b1f0de722"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-4.png",
+      "bytes": 6403,
+      "sha256": "1272fe7b3275c0afc872a6aaa6b65e27d41572d57f9ce19b9ed81b79aa5eb2aa"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-6.png",
+      "bytes": 5066,
+      "sha256": "9ce3605a1480f16453ff8230fa61e87cedca91e8a5c6217445c82eaf53884484"
+    },
+    {
+      "path": "assets/lol/loadouts/14.6/spells-7.png",
+      "bytes": 5673,
+      "sha256": "ccebc4b0554572a041b2b5014f25a84d7265c371e97448a516765aaad651dc55"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5001.png",
+      "bytes": 295,
+      "sha256": "3b7c1ff871f096d275f6d7e1faeba16496e96ab7fe8e642a477f47d4ef8ab4dd"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5002.png",
+      "bytes": 712,
+      "sha256": "e2f4eb688acfe363408b51974987a4e0e64cae8904daa7ae4baaf39577ce8e2f"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5003.png",
+      "bytes": 1000,
+      "sha256": "10e2a3803d5ae79b3da58c39b1056a5a15380147dce42fdbed9a2b33d274c6e9"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5005.png",
+      "bytes": 485,
+      "sha256": "83f2463bda6a33f53039c6384a26ea14eb9db9c93c84ac0af298ed7b41934c97"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5007.png",
+      "bytes": 852,
+      "sha256": "4a758393d1672041993edcd8c4a33eb3f1dce1609598b3ac4fdda99301b80538"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5008.png",
+      "bytes": 707,
+      "sha256": "08e3079f1c8cbae3b57b9a692a32078711bc96f93991a2847b8da04d03fa80bc"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5010.png",
+      "bytes": 802,
+      "sha256": "f80e8066c7f25a7905458ccaa8f1237209fd1bbd3bfd13847fc32ef03e315bbf"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5011.png",
+      "bytes": 632,
+      "sha256": "77bc6f44d75f8d70566bc753bc4f23b391c64ffdec3ca082f45c4c75ff162c8f"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5012.png",
+      "bytes": 912,
+      "sha256": "ed93f0b0728b089190fdbcb78fb14c95e720a95a5a19485144bafd7a05daa5fe"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-5013.png",
+      "bytes": 331,
+      "sha256": "8039c4bd7c1287ea123773f24e21bf763784da466338f4cda22562e5d26e2b75"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8000.png",
+      "bytes": 1398,
+      "sha256": "3ee3abe2826ba9f0f1b9fb7d8358818443880ccb3ebea965348837aa5c898e57"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8005.png",
+      "bytes": 101210,
+      "sha256": "f9322ca20bfa3aa60d0d1b33ace65905127e81a81ed90cd2e96366c7237dacaf"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8008.png",
+      "bytes": 55298,
+      "sha256": "e698b64c52b039fa65393eb91effccf316577415fe0f6a4f8befae05fb12fc90"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8009.png",
+      "bytes": 4806,
+      "sha256": "7fddaa3fb9f5261613779957a08b3dc1f957ebddc28d47c85c1d4a38be150b98"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8010.png",
+      "bytes": 51100,
+      "sha256": "2b6c32a35a7df8cf9f0fe1f7c5d931ddb37307c1bafd66bac7e8979ad6fa0b86"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8014.png",
+      "bytes": 4762,
+      "sha256": "941db8d8b5e93b81c6f5ec8da2e23baee933cb6a61ecbe5847b1fa26ed05f436"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8017.png",
+      "bytes": 4940,
+      "sha256": "8539600426b04cb518cdfadaf4db207f37223e27b943d916a08789851539dd8b"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8021.png",
+      "bytes": 88296,
+      "sha256": "bf5d0434dc61ed443b42d46d6152d5fd60b4abec3179fdb1e42309b9096cea07"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8100.png",
+      "bytes": 1424,
+      "sha256": "5982e902c9049bd357e18fa4914290906468a554645735aa2c10b8f36c87868c"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8105.png",
+      "bytes": 5208,
+      "sha256": "22dc1799cc07e5c62b221614963eb0aa6bd80f4521026279e6514e181d3899b9"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8106.png",
+      "bytes": 14739,
+      "sha256": "208f95819b2aa65d1f2a8aa38498b13d495464f1ed622e7ce39c3709d7ac63be"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8112.png",
+      "bytes": 58055,
+      "sha256": "6e900ec70646a691dd71806938cfcef5d55c2a59fe1acca68475ca35c73636d3"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8126.png",
+      "bytes": 5943,
+      "sha256": "f39d286e4256d3c13259600a044f1ee242b4febb05675e786a5145fa14c38974"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8128.png",
+      "bytes": 51567,
+      "sha256": "bf3a0943bf6af128ce579463862cebca81e97d948b5b92afb9d1427a2fabc1fa"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8135.png",
+      "bytes": 5206,
+      "sha256": "8def01263d23ea7f7601eaa0bfa0f56a83247c9dd94d1b57b3805299b076a482"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8137.png",
+      "bytes": 5091,
+      "sha256": "26ed90469d05e8b69ba91568e6d9242db3777f94f2bde5ad160811f09217ac1d"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8139.png",
+      "bytes": 5000,
+      "sha256": "0a8ee6585ba4c5ef6200d77189e98bd123c195de49f615a6d10ae5436b545b8e"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8140.png",
+      "bytes": 5337,
+      "sha256": "86b3e368755f32dbec2f0208d1c6325d88085e1f5f50c4342cba89461d64ed20"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8141.png",
+      "bytes": 5288,
+      "sha256": "8de75a8b5ce0417ddba0ef1fd4143cf6bff912199811b3eeced1f70f03fe06f4"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8143.png",
+      "bytes": 4800,
+      "sha256": "2fc29e67ce07d5bbf17824714c01b0cc8cf058d597cb79bfa03c4c08ce039afe"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8200.png",
+      "bytes": 1159,
+      "sha256": "ab4f310160bd7e435ead08fa44025d857ce4a884cc9533664f056ab5e148103e"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8210.png",
+      "bytes": 5942,
+      "sha256": "ffbb3543992f1be83edde9b2a560c069fdeaa64cc7ac4c8f5e136d70ad540293"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8214.png",
+      "bytes": 49583,
+      "sha256": "89fd9b48da8848cea8524976af25e46d7c76fed6323b1a43f486368ba9fda2a9"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8224.png",
+      "bytes": 6109,
+      "sha256": "356b584530c9046da23fc0b6e212522b61182d5561b868c5732ef88e90f4cf7c"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8226.png",
+      "bytes": 5767,
+      "sha256": "de2144f32ec12ef688405eabffb7d9b59ac6b0b8e14e46bb57cdd1d6b6af638d"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8229.png",
+      "bytes": 45377,
+      "sha256": "24443adb6051ff8c548a7fd530bdedf1e7e64d6e8f2f7f0d1356f1b3d3235097"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8230.png",
+      "bytes": 363282,
+      "sha256": "42af8143c90fd7d5568a762829a6e406b33ec84e8a9de681124cf8d4b1acf68b"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8232.png",
+      "bytes": 4590,
+      "sha256": "c3d4d56136a22fc51b42c906f90fe3cffd44468fd12013d26dfc72124426b6a8"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8233.png",
+      "bytes": 4688,
+      "sha256": "9a5d5939216069427bcc33dcfe3879be8563c9a2ae6c40b248717520dd06f324"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8234.png",
+      "bytes": 6068,
+      "sha256": "3f2315b7b004b95aab34c34412ea38ffd3bd251c0c18bb3d3687fa38566989e9"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8236.png",
+      "bytes": 4910,
+      "sha256": "71c085cb595b6d1f0dc86852cfcbc0d0f75df8f4ea497d502044fb1346a0b939"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8237.png",
+      "bytes": 5029,
+      "sha256": "dde12ae30ce293999142d8ee205f3611d2726741f7b05563257e0030eea37dc4"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8242.png",
+      "bytes": 4609,
+      "sha256": "40bf08364e770a28376cab28ee35be062d767ddab85e51af0b5ee656f592940a"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8275.png",
+      "bytes": 14057,
+      "sha256": "5cd5b64e4e75a865bedf6260eb9a64be84cde34b570c0cb075f4241a2a565727"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8299.png",
+      "bytes": 4902,
+      "sha256": "c80a20a544645f99aa95c488a939221ce658e3d9486632b1f5aceb10d7ef4711"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8300.png",
+      "bytes": 2022,
+      "sha256": "0fe0ea987bdad4aa595bded9d04716c5b77c00b0002177975158253146aed733"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8304.png",
+      "bytes": 5073,
+      "sha256": "b80bf9bab38d6cb2a8d04fa7d409f402b3ea6a2313394e0f846f8dc464b1a218"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8306.png",
+      "bytes": 5183,
+      "sha256": "67ffb6f6ea4ab64526c7ba4e5410a52e4b662a47ccff566d4a1b78b69abba51f"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8313.png",
+      "bytes": 5953,
+      "sha256": "6314fb6a869a78622e9082267ca3f7731a2d13c020748f89bebca9ec1d19a7ac"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8316.png",
+      "bytes": 7010,
+      "sha256": "0c23f4ed12284097be7e40272dee1fb82d59eead8defc21ba16578fb1d6dbafb"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8321.png",
+      "bytes": 7796,
+      "sha256": "f2451db21e9a1b8acfb7c7f58eeb17edb7286be451f26766e5fdbdfc898ad1d9"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8345.png",
+      "bytes": 4921,
+      "sha256": "4f4c70536a85455ac082b4d9b89643c670c0a083c52f8c68072b20332992ab19"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8347.png",
+      "bytes": 4771,
+      "sha256": "c95f312f1c4d1293b9d60db0ac8d1a31895d9a9c8add7fd9a9de6c7825eee0ef"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8351.png",
+      "bytes": 73350,
+      "sha256": "5e82f4855c198ccdfa58ebc56d0aaec0d654423d8289521632580cf24597a98e"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8352.png",
+      "bytes": 14341,
+      "sha256": "e2266a1337c494d7270005b248be116ae61e5ee018234cce51485dfa9e205386"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8360.png",
+      "bytes": 72267,
+      "sha256": "db2edc2719a68639c40955593975fc8fcc36ada206d9348ccb9db0b566a6f226"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8369.png",
+      "bytes": 51271,
+      "sha256": "1f901df7b83c4ad0c3456d605d83e5ecaa0072a0640bf9ea2749323169f9580d"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8400.png",
+      "bytes": 1069,
+      "sha256": "7251816d3438504452594b6a38f54440bc92092312dc9c036ad2b0c7ee73d375"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8401.png",
+      "bytes": 5568,
+      "sha256": "1100a37f9f068262949181539af8ec552a4b16cfa6548118636e55fd7fbbbd2a"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8410.png",
+      "bytes": 5054,
+      "sha256": "838bcdb70b0543e072001df66639af3da0d9194eee1678a88ddf18be411f489c"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8429.png",
+      "bytes": 5300,
+      "sha256": "0fd7b4847b03f627c50300b71d951406af0421b5991ddf2cbdf3d322ed8ad7d6"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8437.png",
+      "bytes": 78682,
+      "sha256": "d419555c07c18276a319e9fe580e10290db3c9bcd112148d579ddc039cdc6315"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8439.png",
+      "bytes": 63340,
+      "sha256": "c48202b105b8bd083d382290f763a4654ab7e10a95cd815491f24a301cf8864c"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8444.png",
+      "bytes": 4077,
+      "sha256": "5395ee0d28a2a5a40895db8904447e16558e49c2c687a2d87fb3aaf8ebb09590"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8446.png",
+      "bytes": 5106,
+      "sha256": "90602a87ef14442b3bddae24872709634e2e1f109bc82844b31a892682cf95fd"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8451.png",
+      "bytes": 5741,
+      "sha256": "9d31e45e21bd99d6fdb62ea6b13581f27641a1bfe761f9bfea7d5582529585dd"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8453.png",
+      "bytes": 4880,
+      "sha256": "eeb104e95034ae3ba2e8d0b9f89bbe80e2a7a40bfbb6650bcdc9b3f9f083f2f6"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8463.png",
+      "bytes": 4429,
+      "sha256": "66715a5cf3dc00c60ca81bec6defe5b201beefa2b9d2394f8bae46a1c5b59f80"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8465.png",
+      "bytes": 73504,
+      "sha256": "19316a3ff79b6aa67a5c9eb4a00dab2656be0ebe4fa7ba7010e2b00f6b439561"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8473.png",
+      "bytes": 14860,
+      "sha256": "90e9d37bf2d67d78f8ebe1d295f37d365b053480d4cabff69c024ba18649093e"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-8992.png",
+      "bytes": 365963,
+      "sha256": "7b59da6fd79c622546bca0e341433f1a0b5b5c63adb899299be5c0f21afde729"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-9101.png",
+      "bytes": 7132,
+      "sha256": "2e172ffa8bfb07551dfd61ab076087623d11b0d47791f4babd783dc586e257a7"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-9103.png",
+      "bytes": 4587,
+      "sha256": "cb34a410310c5e71b2cac2d41f4b1e0bf3e3e363e0d4be1ef0d9f91d971fb099"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-9104.png",
+      "bytes": 5128,
+      "sha256": "a987e2c2ef3d38c306b9c7d59bb94c1bc7ef2a3408b9c0bfcec5cc156e26ab62"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-9105.png",
+      "bytes": 6696,
+      "sha256": "ef9f01c039daed279015d67a02f2954c99d5077a7aadad5cbfa66d95d5b91088"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-9111.png",
+      "bytes": 4200,
+      "sha256": "75d54c361b70cebcc62b1a5447d729fa12879e449d52b5bf2fe83be291cbbfa2"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/runes-9923.png",
+      "bytes": 60768,
+      "sha256": "279c2ad940f3b5a33cd6f08b1718cdfe73e2c3ea3117f3361fd02df6f26fdd13"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-1.png",
+      "bytes": 6498,
+      "sha256": "9498d4983effb29f0c11a0fa605f39f6381f9708150a111cb2156b0287c80702"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-11.png",
+      "bytes": 6221,
+      "sha256": "f07e92e0ded6fae182b1d66191a62dcaf5fcf207a0d9622105e00c39c27a0a28"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-12.png",
+      "bytes": 6131,
+      "sha256": "9b86d0c879504d7ad22815084efb0c59521a40edf5bc6bf85031db9f5e2e976f"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-14.png",
+      "bytes": 5799,
+      "sha256": "958db3407c83a9499a5e464c2e37df59c6544590dcd3d822965a83740303b9af"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-21.png",
+      "bytes": 6401,
+      "sha256": "a0cf7b08cdd6d852d325bc9124e05f0e2c55aac340e50665c385755dfa86fbc0"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-3.png",
+      "bytes": 6078,
+      "sha256": "ad513e510391d7c8fc604d16e239f430f1a10dde563ae7cf237eb87b1f0de722"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-4.png",
+      "bytes": 6403,
+      "sha256": "1272fe7b3275c0afc872a6aaa6b65e27d41572d57f9ce19b9ed81b79aa5eb2aa"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-6.png",
+      "bytes": 5066,
+      "sha256": "9ce3605a1480f16453ff8230fa61e87cedca91e8a5c6217445c82eaf53884484"
+    },
+    {
+      "path": "assets/lol/loadouts/16.18/spells-7.png",
+      "bytes": 5673,
+      "sha256": "ccebc4b0554572a041b2b5014f25a84d7265c371e97448a516765aaad651dc55"
+    },
+    {
+      "path": "assets/lol/loadouts/SOURCES.md",
+      "bytes": 976,
+      "sha256": "32c0112071810812bd1051a34260a32cac1e9db0332e6cd570c450fdc7dcb781"
+    },
+    {
       "path": "assets/placeholders/SOURCES.md",
       "bytes": 847,
       "sha256": "8a039777cfa09472030dc7afbab0f3e98bf64de62f6853944802e34437705e5a"
@@ -3225,6 +4097,16 @@
       "path": "catalog/lol-items/14.6.json",
       "bytes": 26739,
       "sha256": "6e888fb5235a1d715697f9a675482de602c466877019e13ffbddddd8b98812f8"
+    },
+    {
+      "path": "catalog/lol-loadouts/14.6.json",
+      "bytes": 10650,
+      "sha256": "abdcf4d06c2ddf963780a99f8214786b4db72e775b1a7e1e3206011dee420892"
+    },
+    {
+      "path": "catalog/lol-loadouts/16.18.json",
+      "bytes": 10617,
+      "sha256": "63e9a64182789c57f90fea868b18e5feb5d1e9d8165d7110cea46cc85c4b9676"
     },
     {
       "path": "catalog/lol-players.json",

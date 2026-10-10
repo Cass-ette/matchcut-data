@@ -1,0 +1,449 @@
+{
+  "version": "14.6.1",
+  "spells": [
+    {
+      "id": 21,
+      "name": "屏障",
+      "image": "/assets/lol/loadouts/14.6/spells-21.png"
+    },
+    {
+      "id": 1,
+      "name": "净化",
+      "image": "/assets/lol/loadouts/14.6/spells-1.png"
+    },
+    {
+      "id": 14,
+      "name": "引燃",
+      "image": "/assets/lol/loadouts/14.6/spells-14.png"
+    },
+    {
+      "id": 3,
+      "name": "虚弱",
+      "image": "/assets/lol/loadouts/14.6/spells-3.png"
+    },
+    {
+      "id": 4,
+      "name": "闪现",
+      "image": "/assets/lol/loadouts/14.6/spells-4.png"
+    },
+    {
+      "id": 6,
+      "name": "幽灵疾步",
+      "image": "/assets/lol/loadouts/14.6/spells-6.png"
+    },
+    {
+      "id": 7,
+      "name": "治疗术",
+      "image": "/assets/lol/loadouts/14.6/spells-7.png"
+    },
+    {
+      "id": 11,
+      "name": "惩戒",
+      "image": "/assets/lol/loadouts/14.6/spells-11.png"
+    },
+    {
+      "id": 12,
+      "name": "传送",
+      "image": "/assets/lol/loadouts/14.6/spells-12.png"
+    }
+  ],
+  "runes": [
+    {
+      "id": 8100,
+      "name": "主宰",
+      "image": "/assets/lol/loadouts/14.6/runes-8100.png"
+    },
+    {
+      "id": 8112,
+      "name": "电刑",
+      "image": "/assets/lol/loadouts/14.6/runes-8112.png"
+    },
+    {
+      "id": 8124,
+      "name": "掠食者",
+      "image": "/assets/lol/loadouts/14.6/runes-8124.png"
+    },
+    {
+      "id": 8128,
+      "name": "黑暗收割",
+      "image": "/assets/lol/loadouts/14.6/runes-8128.png"
+    },
+    {
+      "id": 9923,
+      "name": "丛刃",
+      "image": "/assets/lol/loadouts/14.6/runes-9923.png"
+    },
+    {
+      "id": 8126,
+      "name": "恶意中伤",
+      "image": "/assets/lol/loadouts/14.6/runes-8126.png"
+    },
+    {
+      "id": 8139,
+      "name": "血之滋味",
+      "image": "/assets/lol/loadouts/14.6/runes-8139.png"
+    },
+    {
+      "id": 8143,
+      "name": "猛然冲击",
+      "image": "/assets/lol/loadouts/14.6/runes-8143.png"
+    },
+    {
+      "id": 8136,
+      "name": "僵尸守卫",
+      "image": "/assets/lol/loadouts/14.6/runes-8136.png"
+    },
+    {
+      "id": 8120,
+      "name": "幽灵魄罗",
+      "image": "/assets/lol/loadouts/14.6/runes-8120.png"
+    },
+    {
+      "id": 8138,
+      "name": "眼球收集器",
+      "image": "/assets/lol/loadouts/14.6/runes-8138.png"
+    },
+    {
+      "id": 8135,
+      "name": "寻宝猎人",
+      "image": "/assets/lol/loadouts/14.6/runes-8135.png"
+    },
+    {
+      "id": 8134,
+      "name": "灵性猎手",
+      "image": "/assets/lol/loadouts/14.6/runes-8134.png"
+    },
+    {
+      "id": 8105,
+      "name": "无情猎手",
+      "image": "/assets/lol/loadouts/14.6/runes-8105.png"
+    },
+    {
+      "id": 8106,
+      "name": "终极猎人",
+      "image": "/assets/lol/loadouts/14.6/runes-8106.png"
+    },
+    {
+      "id": 8300,
+      "name": "启迪",
+      "image": "/assets/lol/loadouts/14.6/runes-8300.png"
+    },
+    {
+      "id": 8351,
+      "name": "冰川增幅",
+      "image": "/assets/lol/loadouts/14.6/runes-8351.png"
+    },
+    {
+      "id": 8360,
+      "name": "启封的秘籍",
+      "image": "/assets/lol/loadouts/14.6/runes-8360.png"
+    },
+    {
+      "id": 8369,
+      "name": "先攻",
+      "image": "/assets/lol/loadouts/14.6/runes-8369.png"
+    },
+    {
+      "id": 8306,
+      "name": "海克斯科技闪现罗网",
+      "image": "/assets/lol/loadouts/14.6/runes-8306.png"
+    },
+    {
+      "id": 8304,
+      "name": "神奇之鞋",
+      "image": "/assets/lol/loadouts/14.6/runes-8304.png"
+    },
+    {
+      "id": 8313,
+      "name": "三重补药",
+      "image": "/assets/lol/loadouts/14.6/runes-8313.png"
+    },
+    {
+      "id": 8321,
+      "name": "未来市场",
+      "image": "/assets/lol/loadouts/14.6/runes-8321.png"
+    },
+    {
+      "id": 8316,
+      "name": "小兵去质器",
+      "image": "/assets/lol/loadouts/14.6/runes-8316.png"
+    },
+    {
+      "id": 8345,
+      "name": "饼干配送",
+      "image": "/assets/lol/loadouts/14.6/runes-8345.png"
+    },
+    {
+      "id": 8347,
+      "name": "星界洞悉",
+      "image": "/assets/lol/loadouts/14.6/runes-8347.png"
+    },
+    {
+      "id": 8410,
+      "name": "行近速率",
+      "image": "/assets/lol/loadouts/14.6/runes-8410.png"
+    },
+    {
+      "id": 8352,
+      "name": "时间扭曲补药",
+      "image": "/assets/lol/loadouts/14.6/runes-8352.png"
+    },
+    {
+      "id": 8000,
+      "name": "精密",
+      "image": "/assets/lol/loadouts/14.6/runes-8000.png"
+    },
+    {
+      "id": 8005,
+      "name": "强攻",
+      "image": "/assets/lol/loadouts/14.6/runes-8005.png"
+    },
+    {
+      "id": 8008,
+      "name": "致命节奏",
+      "image": "/assets/lol/loadouts/14.6/runes-8008.png"
+    },
+    {
+      "id": 8021,
+      "name": "迅捷步法",
+      "image": "/assets/lol/loadouts/14.6/runes-8021.png"
+    },
+    {
+      "id": 8010,
+      "name": "征服者",
+      "image": "/assets/lol/loadouts/14.6/runes-8010.png"
+    },
+    {
+      "id": 9101,
+      "name": "过量治疗",
+      "image": "/assets/lol/loadouts/14.6/runes-9101.png"
+    },
+    {
+      "id": 9111,
+      "name": "凯旋",
+      "image": "/assets/lol/loadouts/14.6/runes-9111.png"
+    },
+    {
+      "id": 8009,
+      "name": "气定神闲",
+      "image": "/assets/lol/loadouts/14.6/runes-8009.png"
+    },
+    {
+      "id": 9104,
+      "name": "传说：欢欣",
+      "image": "/assets/lol/loadouts/14.6/runes-9104.png"
+    },
+    {
+      "id": 9105,
+      "name": "传说：韧性",
+      "image": "/assets/lol/loadouts/14.6/runes-9105.png"
+    },
+    {
+      "id": 9103,
+      "name": "传说：血统",
+      "image": "/assets/lol/loadouts/14.6/runes-9103.png"
+    },
+    {
+      "id": 8014,
+      "name": "致命一击",
+      "image": "/assets/lol/loadouts/14.6/runes-8014.png"
+    },
+    {
+      "id": 8017,
+      "name": "砍倒",
+      "image": "/assets/lol/loadouts/14.6/runes-8017.png"
+    },
+    {
+      "id": 8299,
+      "name": "坚毅不倒",
+      "image": "/assets/lol/loadouts/14.6/runes-8299.png"
+    },
+    {
+      "id": 8400,
+      "name": "坚决",
+      "image": "/assets/lol/loadouts/14.6/runes-8400.png"
+    },
+    {
+      "id": 8437,
+      "name": "不灭之握",
+      "image": "/assets/lol/loadouts/14.6/runes-8437.png"
+    },
+    {
+      "id": 8439,
+      "name": "余震",
+      "image": "/assets/lol/loadouts/14.6/runes-8439.png"
+    },
+    {
+      "id": 8465,
+      "name": "守护者",
+      "image": "/assets/lol/loadouts/14.6/runes-8465.png"
+    },
+    {
+      "id": 8446,
+      "name": "爆破",
+      "image": "/assets/lol/loadouts/14.6/runes-8446.png"
+    },
+    {
+      "id": 8463,
+      "name": "生命源泉",
+      "image": "/assets/lol/loadouts/14.6/runes-8463.png"
+    },
+    {
+      "id": 8401,
+      "name": "护盾猛击",
+      "image": "/assets/lol/loadouts/14.6/runes-8401.png"
+    },
+    {
+      "id": 8429,
+      "name": "调节",
+      "image": "/assets/lol/loadouts/14.6/runes-8429.png"
+    },
+    {
+      "id": 8444,
+      "name": "复苏之风",
+      "image": "/assets/lol/loadouts/14.6/runes-8444.png"
+    },
+    {
+      "id": 8473,
+      "name": "骸骨镀层",
+      "image": "/assets/lol/loadouts/14.6/runes-8473.png"
+    },
+    {
+      "id": 8451,
+      "name": "过度生长",
+      "image": "/assets/lol/loadouts/14.6/runes-8451.png"
+    },
+    {
+      "id": 8453,
+      "name": "复苏",
+      "image": "/assets/lol/loadouts/14.6/runes-8453.png"
+    },
+    {
+      "id": 8242,
+      "name": "坚定",
+      "image": "/assets/lol/loadouts/14.6/runes-8242.png"
+    },
+    {
+      "id": 8200,
+      "name": "巫术",
+      "image": "/assets/lol/loadouts/14.6/runes-8200.png"
+    },
+    {
+      "id": 8214,
+      "name": "召唤：艾黎",
+      "image": "/assets/lol/loadouts/14.6/runes-8214.png"
+    },
+    {
+      "id": 8229,
+      "name": "奥术彗星",
+      "image": "/assets/lol/loadouts/14.6/runes-8229.png"
+    },
+    {
+      "id": 8230,
+      "name": "相位猛冲",
+      "image": "/assets/lol/loadouts/14.6/runes-8230.png"
+    },
+    {
+      "id": 8224,
+      "name": "无效化之法球",
+      "image": "/assets/lol/loadouts/14.6/runes-8224.png"
+    },
+    {
+      "id": 8226,
+      "name": "法力流系带",
+      "image": "/assets/lol/loadouts/14.6/runes-8226.png"
+    },
+    {
+      "id": 8275,
+      "name": "灵光披风",
+      "image": "/assets/lol/loadouts/14.6/runes-8275.png"
+    },
+    {
+      "id": 8210,
+      "name": "超然",
+      "image": "/assets/lol/loadouts/14.6/runes-8210.png"
+    },
+    {
+      "id": 8234,
+      "name": "迅捷",
+      "image": "/assets/lol/loadouts/14.6/runes-8234.png"
+    },
+    {
+      "id": 8233,
+      "name": "绝对专注",
+      "image": "/assets/lol/loadouts/14.6/runes-8233.png"
+    },
+    {
+      "id": 8237,
+      "name": "焦灼",
+      "image": "/assets/lol/loadouts/14.6/runes-8237.png"
+    },
+    {
+      "id": 8232,
+      "name": "水上行走",
+      "image": "/assets/lol/loadouts/14.6/runes-8232.png"
+    },
+    {
+      "id": 8236,
+      "name": "风暴聚集",
+      "image": "/assets/lol/loadouts/14.6/runes-8236.png"
+    },
+    {
+      "id": 5003,
+      "name": "魔法抗性",
+      "image": "/assets/lol/loadouts/14.6/runes-5003.png"
+    },
+    {
+      "id": 5012,
+      "name": "抗性成长",
+      "image": "/assets/lol/loadouts/14.6/runes-5012.png"
+    },
+    {
+      "id": 5002,
+      "name": "护甲",
+      "image": "/assets/lol/loadouts/14.6/runes-5002.png"
+    },
+    {
+      "id": 5011,
+      "name": "生命值",
+      "image": "/assets/lol/loadouts/14.6/runes-5011.png"
+    },
+    {
+      "id": 5013,
+      "name": "韧性和减速抗性",
+      "image": "/assets/lol/loadouts/14.6/runes-5013.png"
+    },
+    {
+      "id": 5008,
+      "name": "适应之力",
+      "image": "/assets/lol/loadouts/14.6/runes-5008.png"
+    },
+    {
+      "id": 5001,
+      "name": "成长生命值",
+      "image": "/assets/lol/loadouts/14.6/runes-5001.png"
+    },
+    {
+      "id": 5007,
+      "name": "技能急速",
+      "image": "/assets/lol/loadouts/14.6/runes-5007.png"
+    },
+    {
+      "id": 5005,
+      "name": "攻击速度",
+      "image": "/assets/lol/loadouts/14.6/runes-5005.png"
+    },
+    {
+      "id": 5010,
+      "name": "移动速度",
+      "image": "/assets/lol/loadouts/14.6/runes-5010.png"
+    }
+  ],
+  "schemaVersion": 1,
+  "source": {
+    "runesUrl": "https://ddragon.leagueoflegends.com/cdn/14.6.1/data/zh_CN/runesReforged.json",
+    "spellsUrl": "https://ddragon.leagueoflegends.com/cdn/16.18.1/data/zh_CN/summoner.json",
+    "shardsUrl": "https://raw.communitydragon.org/14.6/plugins/rcp-be-lol-game-data/global/zh_cn/v1/perks.json",
+    "fetchedAt": "2026-10-10T09:37:30.076Z"
+  }
+}

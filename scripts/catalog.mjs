@@ -272,6 +272,29 @@ async function inspect() {
       lolItemImages++;
     }
   }
+  let lolLoadoutImages = 0;
+  const loadoutCatalogs = await collect("catalog/lol-loadouts");
+  for (const file of loadoutCatalogs) {
+    assert.match(file, /^catalog\/lol-loadouts\/\d+\.\d+\.json$/);
+    const catalog = await readJson(file);
+    assert.equal(catalog.schemaVersion,1);
+    assert.match(catalog.version, /^\d+\.\d+\.\d+$/);
+    const prefix=catalog.version.split(".").slice(0,2).join(".");
+    assert.equal(path.basename(file,".json"),prefix);
+    for (const key of ["runesUrl","spellsUrl","shardsUrl"]) httpsUrl(catalog.source[key]);
+    assert.ok(Number.isFinite(Date.parse(catalog.source.fetchedAt)));
+    for (const kind of ["spells","runes"]) {
+      const icons=catalog[kind];
+      assert.ok(icons.length > 0);
+      assert.equal(new Set(icons.map((i) => i.id)).size,icons.length);
+      for (const icon of icons) {
+        assert.ok(Number.isSafeInteger(icon.id) && icon.id > 0 && text(icon.name));
+        assert.equal(icon.image,`/assets/lol/loadouts/${prefix}/${kind}-${icon.id}.png`);
+        await png(icon.image.slice(1));
+        lolLoadoutImages++;
+      }
+    }
+  }
   for (const file of assets)
     assert.ok(
       expected.has(file) || /\/SOURCES\.md$/.test(file),
@@ -298,6 +321,8 @@ async function inspect() {
       dotaItemImages: dotaItems.bundledIds.length,
       lolItemCatalogs: lolItemCatalogs.length,
       lolItemImages,
+      lolLoadoutCatalogs: loadoutCatalogs.length,
+      lolLoadoutImages,
     },
     files: entries,
   };
@@ -335,6 +360,8 @@ async function copyInto(destination, manifest) {
           "data/fixtures/lol/item-catalogs/",
         ),
       ]),
+    ...manifest.files.filter((entry) => entry.path.startsWith("catalog/lol-loadouts/"))
+      .map((entry) => [entry.path,entry.path.replace("catalog/lol-loadouts/","data/fixtures/lol/loadout-catalogs/")]),
     ["manifest.json", "data/fixtures/media-catalog-version.json"],
     ...manifest.files
       .filter((entry) => entry.path.startsWith("assets/"))

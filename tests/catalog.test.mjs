@@ -89,6 +89,11 @@ test("exports compatible defaults while preserving user media, preferences and c
     assert.ok(
       (await readFile(path.join(app, "public", player.artwork))).length > 0,
     );
+  for (const version of ["14.6","16.18"]) {
+    const loadout=JSON.parse(await readFile(path.join(app,`data/fixtures/lol/loadout-catalogs/${version}.json`)));
+    assert.equal(loadout.spells.length,9);
+    for (const icon of [...loadout.spells,...loadout.runes]) assert.ok((await readFile(path.join(app,"public",icon.image))).length>0);
+  }
   const champions = JSON.parse(
     await readFile(path.join(app, "data/fixtures/lol/champions.json")),
   );
