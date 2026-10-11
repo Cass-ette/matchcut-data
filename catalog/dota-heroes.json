@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "heroes": [
+    {
+      "id": 105,
+      "name": "Techies",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/techies.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/techies.png"
+      },
+      "portrait": "/assets/heroes/105.png",
+      "artwork": "/assets/renders/105.png"
+    },
+    {
+      "id": 106,
+      "name": "Ember Spirit",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ember_spirit.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ember_spirit.png"
+      },
+      "portrait": "/assets/heroes/106.png",
+      "artwork": "/assets/renders/106.png"
+    },
+    {
+      "id": 107,
+      "name": "Earth Spirit",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/earth_spirit.png"
+      },
+      "portrait": "/assets/heroes/107.png",
+      "artwork": "/assets/renders/107.png"
+    },
+    {
+      "id": 123,
+      "name": "Hoodwink",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/hoodwink.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/hoodwink.png"
+      },
+      "portrait": "/assets/heroes/123.png",
+      "artwork": "/assets/renders/123.png"
+    },
+    {
+      "id": 145,
+      "name": "Kez",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kez.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/kez.png"
+      },
+      "portrait": "/assets/heroes/145.png",
+      "artwork": "/assets/renders/145.png"
+    },
+    {
+      "id": 18,
+      "name": "Sven",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/sven.png"
+      },
+      "portrait": "/assets/heroes/18.png"
+    },
+    {
+      "id": 21,
+      "name": "Windranger",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/windrunner.png"
+      },
+      "portrait": "/assets/heroes/21.png"
+    },
+    {
+      "id": 30,
+      "name": "Witch Doctor",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/witch_doctor.png"
+      },
+      "portrait": "/assets/heroes/30.png"
+    },
+    {
+      "id": 33,
+      "name": "Enigma",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/enigma.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/enigma.png"
+      },
+      "portrait": "/assets/heroes/33.png",
+      "artwork": "/assets/renders/33.png"
+    },
+    {
+      "id": 37,
+      "name": "Warlock",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/warlock.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/warlock.png"
+      },
+      "portrait": "/assets/heroes/37.png",
+      "artwork": "/assets/renders/37.png"
+    },
+    {
+      "id": 60,
+      "name": "Night Stalker",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/night_stalker.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/night_stalker.png"
+      },
+      "portrait": "/assets/heroes/60.png",
+      "artwork": "/assets/renders/60.png"
+    },
+    {
+      "id": 70,
+      "name": "Ursa",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/ursa.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/ursa.png"
+      },
+      "portrait": "/assets/heroes/70.png",
+      "artwork": "/assets/renders/70.png"
+    },
+    {
+      "id": 71,
+      "name": "Spirit Breaker",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spirit_breaker.png"
+      },
+      "portrait": "/assets/heroes/71.png"
+    },
+    {
+      "id": 78,
+      "name": "Brewmaster",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/brewmaster.png"
+      },
+      "portrait": "/assets/heroes/78.png"
+    },
+    {
+      "id": 86,
+      "name": "Rubick",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rubick.png"
+      },
+      "portrait": "/assets/heroes/86.png"
+    },
+    {
+      "id": 88,
+      "name": "Nyx Assassin",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/nyx_assassin.png",
+        "artworkUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/videos/dota_react/heroes/renders/nyx_assassin.png"
+      },
+      "portrait": "/assets/heroes/88.png",
+      "artwork": "/assets/renders/88.png"
+    },
+    {
+      "id": 9,
+      "name": "Mirana",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png"
+      },
+      "portrait": "/assets/heroes/9.png"
+    },
+    {
+      "id": 93,
+      "name": "Slark",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slark.png"
+      },
+      "portrait": "/assets/heroes/93.png"
+    },
+    {
+      "id": 96,
+      "name": "Centaur Warrunner",
+      "source": {
+        "provider": "Valve / OpenDota",
+        "portraitUrl": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/centaur.png"
+      },
+      "portrait": "/assets/heroes/96.png"
+    }
+  ]
+}

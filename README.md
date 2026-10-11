@@ -84,7 +84,7 @@ npm run validate
 npm run export -- ../matchcut
 ```
 
-导出前会校验整套资料，只更新应用内置的队标、选手照片、地图、LoL 英雄图片与目录快照，并写入 `data/fixtures/media-catalog-version.json` 记录版本。不会写入应用的 `data/matchcut.sqlite`、旧版 `data/media-library.json`、偏好、用户上传或比赛缓存。共享资料保持 JSON 与图片格式；SQLite 用于应用本机的查询索引和个人绑定，不随本仓库发布。导出完成后重启 Matchcut，以重新载入目录并更新素材查询索引；这是本机显式同步，应用暂未后台自动下载 Release。
+导出前会校验整套资料，只更新应用内置的队标、选手照片、地图、LoL 英雄图片与目录快照，并写入 `data/fixtures/media-catalog-version.json` 记录版本。不会写入应用的 `data/matchcut.sqlite`、旧版 `data/media-library.json`、偏好、用户上传或比赛缓存。共享资料保持 JSON 与图片格式；SQLite 用于应用本机的查询索引和个人绑定，不随本仓库发布。导出完成后重启 Matchcut，以重新载入目录并更新素材查询索引；应用的“游戏管理”也可以从 Release 独立下载各游戏的素材包；目录与比赛解析适配器随应用更新。
 
 应用仓库保留一份可离线运行的内置快照；共享资料以本仓库为维护入口，导出后可在应用仓库审阅快照差异。
 
@@ -95,3 +95,9 @@ npm run export -- ../matchcut
 游戏美术、照片和战队商标的权利属于各自权利人。本仓库的收录不代表获得这些素材的著作权或商标授权。
 
 LoL 技能与符文目录位于 `catalog/lol-loadouts/`，内置 14.6、16.18 的主副系、符文、属性碎片及九种峡谷召唤师技能，共 173 张图标。目录记录版本和来源 URL，素材来源见 `assets/lol/loadouts/SOURCES.md`。验证器检查编号、路径、PNG 和 SHA256，导出为应用的 `data/fixtures/lol/loadout-catalogs/`。比赛中的实际技能选择与符文快照保存在应用按局缓存中，不作为选手常驻资料，也不跟战队绑定。
+
+## 独立游戏素材包
+
+v0.6.0 起，`npm run build` 还生成 `dist/modules.json` 和三个 `matchcut-<游戏>-<版本>.pack.gz`，发布时一并上传到 Release。Dota 包包含内置英雄头像和立绘、装备、队标；LoL 包包含英雄、选手、队标、装备、技能和符文；CS 包包含地图、选手和队标。共用字体和占位图继续由应用提供。
+
+每个包是 gzip 压缩的 JSONL：首行为游戏和版本，后续每行包含一个素材的应用路径、字节数、SHA256 和 Base64。应用先校验完整下载，再逐文件解压校验，以单个素材为单位控制内存；包内仅允许对应游戏的素材路径，不包含个人资料或比赛文件。新增游戏需增加比赛解析适配器、登记素材路径归属，并增加独立包定义。

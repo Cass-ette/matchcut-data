@@ -22,6 +22,7 @@ import {
 } from "./lol-catalog.mjs";
 
 const exec = promisify(execFile);
+import { buildModulePacks } from "./module-packs.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const readJson = async (file) =>
   JSON.parse(await readFile(path.join(root, file), "utf8"));
@@ -73,6 +74,7 @@ async function inspect() {
   const events = await readJson("catalog/lol-events.json");
   const scope = await readJson("catalog/scope.json");
   const dotaItems = await readJson("catalog/dota-items.json");
+  const dotaHeroes = await readJson("catalog/dota-heroes.json");
   assert.equal(scope.schemaVersion, 1);
   assert.ok(text(scope.coverageStatus));
   const assets = await collect("assets");
@@ -92,6 +94,19 @@ async function inspect() {
     const keys = rows.map(key);
     assert.equal(new Set(keys).size, keys.length, "目录出现重复身份");
   };
+  assert.equal(dotaHeroes.schemaVersion, 1);
+  unique(dotaHeroes.heroes, hero => hero.id);
+  for (const hero of dotaHeroes.heroes) {
+    assert.ok(Number.isInteger(hero.id) && hero.id > 0 && text(hero.name));
+    assert.equal(hero.portrait, `/assets/heroes/${hero.id}.png`);
+    httpsUrl(hero.source.portraitUrl);
+    await png(hero.portrait.slice(1));
+    if (hero.artwork) {
+      assert.equal(hero.artwork, `/assets/renders/${hero.id}.png`);
+      httpsUrl(hero.source.artworkUrl);
+      await png(hero.artwork.slice(1));
+    }
+  }
   unique(teams, (t) => `${t.game}:${t.name?.toLowerCase()}`);
   for (const team of teams) {
     assert.ok(
@@ -318,6 +333,7 @@ async function inspect() {
       lolPlayers: profiles.players.length,
       lolEvents: events.events.length,
       dotaItems: Object.keys(dotaItems.items).length,
+      dotaHeroes: dotaHeroes.heroes.length,
       dotaItemImages: dotaItems.bundledIds.length,
       lolItemCatalogs: lolItemCatalogs.length,
       lolItemImages,
@@ -399,6 +415,7 @@ async function build() {
       `${digest(await readFile(archive))}  ${path.basename(archive)}\n`,
     );
     console.log(`Built ${path.relative(root, archive)} and SHA256.`);
+    await buildModulePacks(root, manifest);
   } finally {
     await rm(staging, { recursive: true, force: true });
   }
